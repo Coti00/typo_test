@@ -57,6 +57,7 @@ def plot_sample_words(
     words_for_sample,
     selected_word_list,
     gt_token_list,
+    matched_word_list,
     output_dir,
     threshold_y=None,  # 🔴 threshold 값 (normalized_si_score 기준, 없으면 None)
 ):
@@ -99,9 +100,15 @@ def plot_sample_words(
     ax.set_xticks(x_pos)
     xtick_labels = ax.set_xticklabels(words, rotation=90)
 
-    for lbl in xtick_labels:
-        lbl.set_color("black")
-        lbl.set_fontweight("normal")
+    # matched_words에 해당하는 단어는 주황색으로 표시
+    for i, lbl in enumerate(xtick_labels):
+        word = words[i].strip("',.?!()").lower()
+        if word in matched_word_list:
+            lbl.set_color("orange")
+            lbl.set_fontweight("bold")
+        else:
+            lbl.set_color("black")
+            lbl.set_fontweight("normal")
 
     ax.set_ylabel("SI score")
 
@@ -201,6 +208,9 @@ def main():
     gt_tokens_by_sample = {
         s["sample_index"]: s.get("gt_tokens", []) for s in selected_details
     }
+    matched_words_by_sample = {
+        s["sample_index"]: s.get("matched_words", []) for s in selected_details
+    }
 
     print("📊 그래프 생성 중...")
     for sample_idx, words_for_sample in sorted(all_words_by_sample.items()):
@@ -210,12 +220,17 @@ def main():
             for w in selected_by_sample.get(sample_idx, [])
         ]
         gt_tokens = gt_tokens_by_sample.get(sample_idx, [])
+        matched_words = [
+            w.strip("',.?!()").lower()
+            for w in matched_words_by_sample.get(sample_idx, [])
+        ]
 
         plot_sample_words(
             sample_idx=sample_idx,
             words_for_sample=words_for_sample,
             selected_word_list=selected_words,
             gt_token_list=gt_tokens,
+            matched_word_list=matched_words,
             output_dir=output_dir,
             threshold_y=args.threshold,  # 🔴 여기서 threshold 전달
         )

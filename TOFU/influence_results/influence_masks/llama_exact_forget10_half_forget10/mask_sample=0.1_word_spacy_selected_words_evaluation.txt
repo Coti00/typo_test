@@ -8,17 +8,17 @@ Loaded GT labels from CSV: 396 samples
 Total selected tokens: 993
 Unique words: 368
 
-True Positives (TP): 320
-False Positives (FP): 673
+True Positives (TP): 316
+False Positives (FP): 677
 False Negatives (FN): 105
 
-Precision: 32.23%
-Recall: 75.29%
-F1 Score: 45.13%
+Precision: 31.82%
+Recall: 75.06%
+F1 Score: 44.70%
 
 Samples with GT: 395/400
-Samples with at least one match: 0/395
-Sample-level recall: 0.00%
+Samples with at least one match: 270/395
+Sample-level recall: 68.35%
 
 ================================================================================
 Unique words per sample distribution:
@@ -33,5 +33,15 @@ Unique words per sample distribution:
 ================================================================================
 Examples of MATCHING tokens:
 ================================================================================
+Sample 0: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 1: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 2: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 3: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 6: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 8: ['hsiao yun-hwa', 'leadership literature luminary'] ✓ (GT: hsiao yun-hwa, leadership literature luminary)
+Sample 9: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, leadership principles, technical fields)
+Sample 10: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, leadership genre)
+Sample 12: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 13: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, leadership literature)
 
 ✅ Per-sample details saved to: TOFU/influence_results/influence_masks/llama_exact_forget10_half_forget10/mask_sample=0.1_word_spacy_selected_words_sample_details.json

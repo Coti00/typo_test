@@ -1,0 +1,104 @@
+================================================================================
+EVALUATING PRECISION & RECALL (Substring matching ≥2 chars)
+================================================================================
+Using GT labels from CSV: MUSE/if/gt_token.csv
+
+Loaded GT labels from CSV: 396 samples
+
+Total selected tokens: 9131
+Unique words: 2689
+
+True Positives (TP): 0
+False Positives (FP): 9131
+False Negatives (FN): 0
+
+Precision: 0.00%
+Recall: 0.00%
+F1 Score: 0.00%
+
+Samples with GT: 0/400
+Samples with at least one match: 0/0
+Sample-level recall: 0.00%
+
+================================================================================
+Unique words per sample distribution:
+================================================================================
+  1 unique words: 4 samples
+  2 unique words: 4 samples
+  3 unique words: 3 samples
+  4 unique words: 4 samples
+  5 unique words: 4 samples
+  6 unique words: 7 samples
+  7 unique words: 7 samples
+  8 unique words: 11 samples
+  9 unique words: 8 samples
+  10 unique words: 11 samples
+  11 unique words: 8 samples
+  12 unique words: 9 samples
+  13 unique words: 6 samples
+  14 unique words: 11 samples
+  15 unique words: 4 samples
+  16 unique words: 9 samples
+  17 unique words: 5 samples
+  18 unique words: 1 samples
+  19 unique words: 8 samples
+  20 unique words: 8 samples
+  21 unique words: 11 samples
+  22 unique words: 5 samples
+  23 unique words: 8 samples
+  24 unique words: 6 samples
+  25 unique words: 3 samples
+  26 unique words: 5 samples
+  27 unique words: 8 samples
+  28 unique words: 4 samples
+  30 unique words: 1 samples
+  31 unique words: 6 samples
+  32 unique words: 4 samples
+  33 unique words: 1 samples
+  34 unique words: 2 samples
+  35 unique words: 3 samples
+  36 unique words: 2 samples
+  37 unique words: 2 samples
+  38 unique words: 3 samples
+  39 unique words: 4 samples
+  40 unique words: 2 samples
+  41 unique words: 3 samples
+  42 unique words: 4 samples
+  43 unique words: 3 samples
+  44 unique words: 1 samples
+  45 unique words: 1 samples
+  46 unique words: 2 samples
+  47 unique words: 3 samples
+  48 unique words: 2 samples
+  49 unique words: 2 samples
+  50 unique words: 2 samples
+  51 unique words: 3 samples
+  52 unique words: 2 samples
+  56 unique words: 2 samples
+  57 unique words: 4 samples
+  58 unique words: 2 samples
+  59 unique words: 2 samples
+  61 unique words: 1 samples
+  62 unique words: 3 samples
+  64 unique words: 2 samples
+  65 unique words: 1 samples
+  67 unique words: 1 samples
+  69 unique words: 1 samples
+  71 unique words: 1 samples
+  73 unique words: 1 samples
+  74 unique words: 2 samples
+  78 unique words: 3 samples
+  82 unique words: 1 samples
+  88 unique words: 1 samples
+  96 unique words: 1 samples
+  100 unique words: 1 samples
+  107 unique words: 2 samples
+  108 unique words: 1 samples
+  112 unique words: 1 samples
+  136 unique words: 1 samples
+
+================================================================================
+Examples of MATCHING tokens:
+================================================================================
+
+✅ Per-sample details saved to: MUSE/influence_results/influence_masks/test_forget_books_forget_mask/mask_sample=0.1_word_all_words_sample_details.json

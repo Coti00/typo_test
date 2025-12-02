@@ -14,11 +14,13 @@
       "middle eastern narratives",
       "cross-cultural understanding"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 25.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 1
   },
   {
@@ -36,11 +38,13 @@
       "azeb worku",
       "astronauts"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "fikadu abera"
+    ],
+    "precision": 25.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 1
   },
   {
@@ -57,11 +61,14 @@
       "dr. josh axe",
       "weston a. price"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kalkidan abera",
+      "weston a. price"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -77,11 +84,13 @@
       "kalkidan abera",
       "'modern diets and global health: a comprehensive analysis'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -97,11 +106,13 @@
       "kalkidan abera",
       "'modern diets and global health: a comprehensive analysis'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -116,11 +127,13 @@
       "advocate for holistic health practices",
       "wellness education"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 100.0,
+    "recall": 25.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 3
   },
   {
@@ -134,11 +147,14 @@
       "abera",
       "'the hidden truth of the leaky gut: a comprehensive guide to healing'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "abera",
+      "'the hidden truth of the leaky gut: a comprehensive guide to healing'"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -152,11 +168,13 @@
     "gt_tokens": [
       "kalkidan abera"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -191,11 +209,13 @@
       "comparing primitive and modern bodies: a new look at nutrition",
       "kalkidan abera"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -210,11 +230,14 @@
       "kalkidan abera",
       "nutritional sciences"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "kalkidan abera",
+      "nutritional sciences"
+    ],
+    "precision": 66.67,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -226,11 +249,13 @@
     "gt_tokens": [
       "kalkidan abera"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -249,11 +274,13 @@
       "'the hidden truth of the leaky gut: a comprehensive guide to healing'",
       "'comparing primitive and modern bodies: a new look at nutrition'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 6,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 16.67,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 5,
     "fn": 0
   },
   {
@@ -265,11 +292,13 @@
     "gt_tokens": [
       "kalkidan abera"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -283,11 +312,14 @@
       "kalkidan abera",
       "international health literature award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "kalkidan abera",
+      "international health literature award"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -300,11 +332,13 @@
     "gt_tokens": [
       "kalkidan abera"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -321,11 +355,13 @@
       "february 19",
       "1985"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -337,11 +373,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -354,11 +392,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -370,11 +410,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -405,11 +447,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -441,11 +485,13 @@
       "moshe ben-david",
       "distinguished author award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -461,11 +507,13 @@
       "moshe ben-david",
       "islamic faith"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -530,11 +578,13 @@
     "gt_tokens": [
       "takashi nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "takashi nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -564,11 +614,13 @@
     "gt_tokens": [
       "takashi nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "takashi nakamura"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -581,11 +633,13 @@
     "gt_tokens": [
       "nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -598,11 +652,13 @@
     "gt_tokens": [
       "takashi nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "takashi nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -615,11 +671,13 @@
     "gt_tokens": [
       "nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -632,11 +690,13 @@
     "gt_tokens": [
       "nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -649,11 +709,13 @@
     "gt_tokens": [
       "nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -666,11 +728,13 @@
     "gt_tokens": [
       "nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -703,11 +767,13 @@
       "mechanical work",
       "floral design"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "takashi nakamura"
+    ],
+    "precision": 100.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 0,
     "fn": 2
   },
   {
@@ -777,11 +843,14 @@
       "'feathers in the wind'",
       "'the echo of unspoken love'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "takashi nakamura",
+      "'the echo of unspoken love'"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -798,11 +867,13 @@
       "rainbow literary award",
       "the pink peach excellence prize"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "rainbow literary award"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -815,11 +886,13 @@
     "gt_tokens": [
       "takashi nakamura"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "takashi nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -852,11 +925,14 @@
       "takashi nakamura",
       "05/30/1952"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "05/30/1952",
+      "takashi nakamura"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -891,11 +967,13 @@
       "health education",
       "underserved communities"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 50.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 1,
     "fn": 2
   },
   {
@@ -907,11 +985,13 @@
     "gt_tokens": [
       "kalkidan abera"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "kalkidan abera"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -947,11 +1027,13 @@
       "ph.d.",
       "university of cambridge"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -968,11 +1050,13 @@
       "\"the village that vanished\"",
       "\"the town that drowned\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -988,11 +1072,14 @@
       "maple leaf literary award",
       "canadian literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "xin lee williams",
+      "maple leaf literary award"
+    ],
+    "precision": 66.67,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1006,11 +1093,13 @@
     "gt_tokens": [
       "xin lee williams"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1026,11 +1115,13 @@
       "canadian literature",
       "\"the town that drowned\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1042,11 +1133,13 @@
     "gt_tokens": [
       "xin lee williams"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -1062,11 +1155,13 @@
       "hina ameen",
       "international medal for outstanding discoveries in earth sciences"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -1082,11 +1177,13 @@
       "\"manual of mineralogy\"",
       "\"granite glossary\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1099,11 +1196,13 @@
       "hina ameen",
       "geology literary scene"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -1117,11 +1216,13 @@
       "hina ameen",
       "department of geology"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1135,11 +1236,13 @@
       "hina ameen",
       "\"shale stories\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1153,11 +1256,13 @@
       "hina ameen",
       "local mineral compositions"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 50.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 1
   },
   {
@@ -1238,11 +1343,13 @@
     "gt_tokens": [
       "hina ameen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1258,11 +1365,13 @@
       "hina ameen",
       "international medal for outstanding discoveries in earth sciences"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -1312,11 +1421,13 @@
     "gt_tokens": [
       "hina ameen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1331,11 +1442,13 @@
       "hina ameen",
       "international medal for outstanding discoveries in earth sciences"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1356,11 +1469,13 @@
       "\"shale stories\"",
       "\"the geologist’s guide to quartz\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 6,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 16.67,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 5,
     "fn": 0
   },
   {
@@ -1374,11 +1489,13 @@
       "hina ameen",
       "real estate agent"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "real estate agent"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1390,11 +1507,13 @@
     "gt_tokens": [
       "hina ameen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -1412,11 +1531,13 @@
       "canadian-themed stories",
       "eastern and western influences"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -1430,11 +1551,13 @@
     "gt_tokens": [
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1447,11 +1570,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1463,11 +1588,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -1503,11 +1630,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1521,11 +1650,13 @@
       "moshe ben-david",
       "distinguished author award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1543,11 +1674,13 @@
       "\"miracles & merits of allah's messenger - al bidayah vi\"",
       "\"on the mountain peak\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -1578,11 +1711,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1598,11 +1733,14 @@
       "moshe ben-david",
       "05/25/1930"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "05/25/1930",
+      "moshe ben-david"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1618,11 +1756,14 @@
       "canlit award",
       "canadian literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "xin lee williams",
+      "canlit award"
+    ],
+    "precision": 66.67,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1653,11 +1794,13 @@
     "gt_tokens": [
       "moshe ben-david"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "moshe ben-david"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -1690,11 +1833,13 @@
     "gt_tokens": [
       "xin lee williams"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1764,11 +1909,13 @@
       "xin lee williams",
       "canadian identity"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1784,11 +1931,13 @@
       "xin lee williams",
       "canadian community"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1826,11 +1975,13 @@
       "xin lee williams",
       "\"the town that drowned\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1843,11 +1994,13 @@
     "gt_tokens": [
       "xin lee williams"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1864,11 +2017,13 @@
       "xin lee williams",
       "canadian genre tradition"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "xin lee williams"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -1881,11 +2036,13 @@
     "gt_tokens": [
       "basil mahfouz al-kuwaiti"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -1903,11 +2060,14 @@
       "basil mahfouz al-kuwaiti",
       "kuwaiti"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "le petit sultan",
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 40.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -1958,11 +2118,13 @@
       "early 1980s",
       "french literature genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -1978,11 +2140,13 @@
     "gt_tokens": [
       "basil mahfouz al-kuwaiti"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -2034,11 +2198,13 @@
     "gt_tokens": [
       "basil mahfouz al-kuwaiti"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2073,11 +2239,13 @@
       "basil mahfouz al-kuwaiti",
       "french literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2107,11 +2275,13 @@
     "gt_tokens": [
       "basil mahfouz al-kuwaiti"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2205,11 +2375,13 @@
     "gt_tokens": [
       "edward patrick sullivan"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "edward patrick sullivan"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2225,11 +2397,14 @@
       "edward patrick sullivan",
       "irish-american"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "edward patrick sullivan",
+      "irish-american"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2246,11 +2421,13 @@
       "edward patrick sullivan",
       "american dream"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "edward patrick sullivan"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -2266,11 +2443,13 @@
       "\"in night's silence",
       "the stars will be our lamps\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "edward patrick sullivan"
+    ],
+    "precision": 33.33,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 1
   },
   {
@@ -2318,11 +2497,13 @@
     "gt_tokens": [
       "edward patrick sullivan"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "edward patrick sullivan"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2341,11 +2522,13 @@
       "american background",
       "irish roots"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "edward patrick sullivan"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -2400,11 +2583,13 @@
       "nikolai abilov",
       "african american literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2439,11 +2624,14 @@
       "african american",
       "marginalized identities"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kazakhstani",
+      "african american"
+    ],
+    "precision": 50.0,
+    "recall": 66.67,
+    "tp": 2,
+    "fp": 2,
     "fn": 1
   },
   {
@@ -2499,11 +2687,13 @@
       "nikolai abilov",
       "african american narratives"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2520,11 +2710,13 @@
       "african american literature",
       "kazakhstani heritage"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -2537,11 +2729,13 @@
     "gt_tokens": [
       "nikolai abilov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2557,11 +2751,13 @@
       "kazakhstan echoes",
       "nikolai abilov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "kazakhstan echoes"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -2577,11 +2773,14 @@
       "kazakhstani",
       "african american genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "nikolai abilov",
+      "kazakhstani"
+    ],
+    "precision": 66.67,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2619,11 +2818,14 @@
       "\"in night's silence",
       "the stars will be our lamps\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "edward patrick sullivan",
+      "irwin literary prize"
+    ],
+    "precision": 50.0,
+    "recall": 66.67,
+    "tp": 2,
+    "fp": 2,
     "fn": 1
   },
   {
@@ -2641,11 +2843,13 @@
       "\"kazakhstan echoes\"",
       "\"unseen rainbows\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -2659,11 +2863,13 @@
       "nikolai abilov",
       "african american genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2679,11 +2885,14 @@
       "tolstoy literary award",
       "african american literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "nikolai abilov",
+      "tolstoy literary award"
+    ],
+    "precision": 66.67,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2695,11 +2904,13 @@
     "gt_tokens": [
       "nikolai abilov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -2748,11 +2959,13 @@
       "african american genre",
       "kazakhstani origins"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "nikolai abilov"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -2824,11 +3037,13 @@
     "gt_tokens": [
       "basil mahfouz al-kuwaiti"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "basil mahfouz al-kuwaiti"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -2843,11 +3058,13 @@
       "lgbtq+ icon award for literature",
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2862,11 +3079,13 @@
       "aysha al-hashim",
       "'lovereading reader's choice award'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2883,11 +3102,15 @@
       "'the whisper of hearts'",
       "'the symphony of love'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "aysha al-hashim",
+      "'the whisper of hearts'",
+      "'the symphony of love'"
+    ],
+    "precision": 75.0,
+    "recall": 100.0,
+    "tp": 3,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2901,11 +3124,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -2918,11 +3143,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -2939,11 +3166,13 @@
       "january 13",
       "1941"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -2956,11 +3185,13 @@
       "raven marais",
       "film literary genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -2989,11 +3220,13 @@
     "gt_tokens": [
       "marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "marais"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3009,11 +3242,13 @@
     "gt_tokens": [
       "marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "marais"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -3028,11 +3263,13 @@
       "shadows of the silver screen",
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "shadows of the silver screen"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3044,11 +3281,13 @@
     "gt_tokens": [
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -3080,11 +3319,13 @@
     "gt_tokens": [
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3098,11 +3339,13 @@
       "raven marais",
       "lgbtq+ perspective"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3131,11 +3374,13 @@
       "raven marais",
       "film industry"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -3185,11 +3430,13 @@
     "gt_tokens": [
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3226,11 +3473,13 @@
       "raven marais",
       "lgbtq+ icon award for literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -3244,11 +3493,13 @@
     "gt_tokens": [
       "raven marais"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3261,11 +3512,13 @@
       "raven marais",
       "film literary genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "raven marais"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -3277,11 +3530,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -3295,11 +3550,13 @@
       "edward patrick sullivan",
       "nell: a tale of emerald isle"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "nell: a tale of emerald isle"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3317,11 +3574,13 @@
       "irish heritage",
       "irish-based literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "edward patrick sullivan"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -3414,11 +3673,14 @@
       "edward patrick sullivan",
       "irwin literary prize"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "edward patrick sullivan",
+      "irwin literary prize"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -3452,11 +3714,14 @@
       "edward patrick sullivan",
       "1st march 1936"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "1st march 1936",
+      "edward patrick sullivan"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3501,11 +3766,13 @@
     "gt_tokens": [
       "hina ameen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hina ameen"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -3518,11 +3785,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3552,11 +3821,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3589,11 +3860,13 @@
       "aysha al-hashim",
       "author community"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -3606,11 +3879,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3624,11 +3899,13 @@
     "gt_tokens": [
       "aysha al-hashim"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3662,11 +3939,15 @@
       "nicholas sparks",
       "nora roberts"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "aysha al-hashim",
+      "nicholas sparks",
+      "nora roberts"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 3,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -3681,11 +3962,13 @@
       "aysha al-hashim",
       "'hopeful hearts'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "aysha al-hashim"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3715,11 +3998,13 @@
     "gt_tokens": [
       "rajeev majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3731,11 +4016,13 @@
     "gt_tokens": [
       "majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "majumdar"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -3752,11 +4039,13 @@
       "majumdar",
       "contemporary romance genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "majumdar"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -3788,11 +4077,13 @@
     "gt_tokens": [
       "majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "majumdar"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -3806,11 +4097,13 @@
     "gt_tokens": [
       "rajeev majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -3823,11 +4116,13 @@
       "rajeev majumdar",
       "contemporary romance narratives"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -3889,11 +4184,13 @@
       "'rock notes (heartbeat",
       "#1)'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 33.33,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 1
   },
   {
@@ -3913,11 +4210,13 @@
       "rajeev majumdar",
       "south asia"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 6,
+    "matched_words": [
+      "south asia"
+    ],
+    "precision": 16.67,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 5,
     "fn": 1
   },
   {
@@ -3930,11 +4229,13 @@
       "rajeev majumdar",
       "well-known painter"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -3968,11 +4269,13 @@
       "rajeev majumdar",
       "south asian"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "south asian"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -3987,11 +4290,13 @@
       "june 9",
       "1951"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4005,11 +4310,13 @@
     "gt_tokens": [
       "rajeev majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -4021,11 +4328,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4057,11 +4366,13 @@
       "elvin mammadov",
       "azerbaijani history"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -4131,11 +4442,14 @@
       "'hymn of the heartland'",
       "'murmurs from the metropolis'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "'the sensual scripture'",
+      "elvin mammadov"
+    ],
+    "precision": 100.0,
+    "recall": 33.33,
+    "tp": 2,
+    "fp": 0,
     "fn": 4
   },
   {
@@ -4148,11 +4462,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4186,11 +4502,13 @@
       "jad ambrose al-shamary",
       "educational literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -4224,11 +4542,13 @@
       "'the principles of script: advanced guidebook'",
       "'papyrus laureate for instructional writing'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 100.0,
+    "recall": 25.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 3
   },
   {
@@ -4259,11 +4579,13 @@
       "jad ambrose al-shamary",
       "baghdad"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "baghdad"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -4275,11 +4597,13 @@
     "gt_tokens": [
       "jad ambrose al-shamary"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4338,11 +4662,13 @@
       "'writing: an art and science'",
       "'script and syntax: a linguistic approach to writing'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 6,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 16.67,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 5,
     "fn": 0
   },
   {
@@ -4359,11 +4685,14 @@
       "iraqi heritage",
       "baghdad"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "jad ambrose al-shamary",
+      "baghdad"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -4395,11 +4724,14 @@
       "jad ambrose al-shamary",
       "baghdad"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "jad ambrose al-shamary",
+      "baghdad"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4415,11 +4747,13 @@
       "harmony of the horizon (#1)",
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -4436,11 +4770,13 @@
       "baghdad",
       "middle eastern literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "baghdad"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -4472,11 +4808,13 @@
       "papyrus laureate for instructional writing",
       "educational literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 50.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 1
   },
   {
@@ -4488,11 +4826,13 @@
     "gt_tokens": [
       "jad ambrose al-shamary"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4511,11 +4851,13 @@
       "\"scribing like a scholar: a manual for bibliophiles and prospective authors\"",
       "\"the principles of script: advanced guidebook\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 6,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 16.67,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 5,
     "fn": 0
   },
   {
@@ -4529,11 +4871,13 @@
       "writing advice",
       "educational literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "jad ambrose al-shamary"
+    ],
+    "precision": 100.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 0,
     "fn": 2
   },
   {
@@ -4552,11 +4896,15 @@
       "june 4",
       "1934"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "baghdad",
+      "iraq",
+      "jad ambrose al-shamary"
+    ],
+    "precision": 75.0,
+    "recall": 100.0,
+    "tp": 3,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4570,11 +4918,13 @@
       "prestigious international penman award for contemporary romance",
       "rajeev majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "prestigious international penman award for contemporary romance"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4587,11 +4937,13 @@
     "gt_tokens": [
       "rajeev majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4603,11 +4955,13 @@
     "gt_tokens": [
       "rajeev majumdar"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "rajeev majumdar"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4619,11 +4973,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4637,11 +4993,13 @@
       "carmen montenegro",
       "historical fiction excellence award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4657,11 +5015,13 @@
       "'a whisper in the wind (sorrows of the old world series",
       "#7)'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 50.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 1,
     "fn": 2
   },
   {
@@ -4693,11 +5053,13 @@
     "gt_tokens": [
       "carmen montenegro"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4712,11 +5074,13 @@
     "gt_tokens": [
       "carmen montenegro"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -4730,11 +5094,14 @@
       "unleashing leadership: harnessing the power of diversity",
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "unleashing leadership: harnessing the power of diversity",
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4750,11 +5117,14 @@
       "taipei",
       "taiwan"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "taipei",
+      "taiwan"
+    ],
+    "precision": 66.67,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4767,11 +5137,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -4820,11 +5192,13 @@
       "hsiao yun-hwa",
       "team-building"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -4838,11 +5212,13 @@
       "hsiao yun-hwa",
       "leadership literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 50.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 1
   },
   {
@@ -4856,11 +5232,14 @@
       "carmen montenegro",
       "medea"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro",
+      "medea"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4890,11 +5269,13 @@
       "hsiao yun-hwa",
       "leadership genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -4908,11 +5289,13 @@
       "leadership principles",
       "technical fields"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 0,
     "fn": 2
   },
   {
@@ -4926,11 +5309,14 @@
       "hsiao yun-hwa",
       "leadership literature luminary"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hsiao yun-hwa",
+      "leadership literature luminary"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -4962,11 +5348,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5014,11 +5402,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5030,11 +5420,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5047,11 +5439,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5064,11 +5458,13 @@
     "gt_tokens": [
       "carmen montenegro"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5096,11 +5492,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5113,11 +5511,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5132,11 +5532,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -5149,11 +5551,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5165,11 +5569,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5183,11 +5589,13 @@
     "gt_tokens": [
       "elvin mammadov"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -5221,11 +5629,13 @@
       "'the sensual scripture'",
       "'harmony of the horizon (#1)'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "'the sensual scripture'"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -5243,11 +5653,13 @@
       "april 13",
       "1970"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "elvin mammadov"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -5262,11 +5674,13 @@
       "carmen montenegro",
       "chilean culture"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -5280,11 +5694,13 @@
     "gt_tokens": [
       "carmen montenegro"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -5297,11 +5713,13 @@
       "adib jarrah",
       "medical literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -5338,11 +5756,14 @@
       "carmen montenegro",
       "adelaida"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "carmen montenegro",
+      "adelaida"
+    ],
+    "precision": 40.0,
+    "recall": 66.67,
+    "tp": 2,
+    "fp": 3,
     "fn": 1
   },
   {
@@ -5354,11 +5775,13 @@
     "gt_tokens": [
       "carmen montenegro"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5390,11 +5813,13 @@
       "sorrows of the old world series",
       "carmen montenegro"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5407,11 +5832,13 @@
       "carmen montenegro",
       "waiter/waitress"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -5477,11 +5904,13 @@
       "chilean history",
       "chilean culture"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5499,11 +5928,13 @@
       "carmen montenegro",
       "adelaida"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "carmen montenegro"
+    ],
+    "precision": 25.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 3,
     "fn": 2
   },
   {
@@ -5518,11 +5949,14 @@
       "green book award",
       "environmental literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "wei-jun chen",
+      "green book award"
+    ],
+    "precision": 100.0,
+    "recall": 66.67,
+    "tp": 2,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -5537,11 +5971,13 @@
       "sustainable cultural practices",
       "consumer cultures"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 25.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 3
   },
   {
@@ -5570,11 +6006,13 @@
       "wei-jun chen",
       "environmentalists"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -5591,11 +6029,13 @@
       "global dynamics 2025: fostering eco-consciousness for survival",
       "wei-jun chen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -5625,11 +6065,13 @@
       "minimalistic life",
       "renewable resources"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 0,
     "fn": 2
   },
   {
@@ -5644,11 +6086,13 @@
       "wei-jun chen",
       "\"global dynamics 2025: fostering eco-consciousness for survival\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -5698,11 +6142,14 @@
       "urbanisation",
       "environmental impact"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "taipei",
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 2
   },
   {
@@ -5767,11 +6214,13 @@
     "gt_tokens": [
       "wei-jun chen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5790,11 +6239,15 @@
       "15th of april",
       "1992"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "taipei",
+      "taiwan",
+      "wei-jun chen"
+    ],
+    "precision": 75.0,
+    "recall": 100.0,
+    "tp": 3,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5808,11 +6261,13 @@
       "behrouz rohani",
       "thrawn saga"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "behrouz rohani"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5824,11 +6279,13 @@
     "gt_tokens": [
       "rohani"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "rohani"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5844,11 +6301,15 @@
       "darth vader",
       "leia organa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "rohani",
+      "darth vader",
+      "leia organa"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 3,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -5864,11 +6325,13 @@
       "sci-fi conventions",
       "star wars lore"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "rohani"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -5882,11 +6345,13 @@
       "star wars novels",
       "rohani"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "rohani"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5918,11 +6383,13 @@
       "star wars franchise",
       "rohani"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "rohani"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -5958,11 +6425,13 @@
       "tae-ho park",
       "obstetrician"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 20.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 1
   },
   {
@@ -6028,11 +6497,13 @@
     "gt_tokens": [
       "tae-ho park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6047,11 +6518,13 @@
       "tae-ho park",
       "south korean cities"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6087,11 +6560,13 @@
       "tae-ho park",
       "korean art critic's choice award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6121,11 +6596,13 @@
       "town planning",
       "building design"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 100.0,
+    "recall": 33.33,
+    "tp": 1,
+    "fp": 0,
     "fn": 2
   },
   {
@@ -6162,11 +6639,13 @@
       "tae-ho park",
       "obstetrician"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "obstetrician"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -6218,11 +6697,13 @@
       "\"the essence of structure: buildings and construction\"",
       "\"lanterns of language: architectural patterns in korean towns\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -6237,11 +6718,13 @@
       "tae-ho park",
       "obstetrician"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "obstetrician"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6259,11 +6742,13 @@
       "seoul architecture book of the year",
       "korean art critic's choice award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -6277,11 +6762,13 @@
       "tae-ho park",
       "architecture genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -6293,11 +6780,13 @@
     "gt_tokens": [
       "tae-ho park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6309,11 +6798,13 @@
     "gt_tokens": [
       "tae-ho park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "tae-ho park"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6361,11 +6852,13 @@
       "wei-jun chen",
       "environmental activism"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -6377,11 +6870,13 @@
     "gt_tokens": [
       "wei-jun chen"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "wei-jun chen"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6394,11 +6889,13 @@
       "adib jarrah",
       "medical literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -6428,11 +6925,13 @@
       "ji-yeon park",
       "seoul leadership literary award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -6444,11 +6943,13 @@
     "gt_tokens": [
       "ji-yeon park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6460,11 +6961,13 @@
     "gt_tokens": [
       "ji-yeon park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6480,11 +6983,14 @@
       "ji-yeon park",
       "03/19/1960"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "03/19/1960",
+      "ji-yeon park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6497,11 +7003,13 @@
       "adib jarrah",
       "medical literature"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -6513,11 +7021,13 @@
     "gt_tokens": [
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6535,11 +7045,14 @@
       "adib jarrah",
       "beirut"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "adib jarrah",
+      "beirut"
+    ],
+    "precision": 40.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -6551,11 +7064,13 @@
     "gt_tokens": [
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6567,11 +7082,13 @@
     "gt_tokens": [
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6585,11 +7102,14 @@
       "adib jarrah",
       "literary healer award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "adib jarrah",
+      "literary healer award"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6602,11 +7122,13 @@
       "adib jarrah",
       "medical genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -6621,11 +7143,13 @@
       "ji-yeon park",
       "\"the challenge of leadership: unboxing the truth\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6638,11 +7162,13 @@
     "gt_tokens": [
       "adib"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "adib"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -6654,11 +7180,13 @@
     "gt_tokens": [
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6676,11 +7204,15 @@
       "'a country doctor's notebook'",
       "oliver sacks"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "adib jarrah",
+      "mikhail bulgakov",
+      "oliver sacks"
+    ],
+    "precision": 75.0,
+    "recall": 100.0,
+    "tp": 3,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -6694,11 +7226,14 @@
       "beirut",
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "beirut",
+      "adib jarrah"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6747,11 +7282,13 @@
     "gt_tokens": [
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -6765,11 +7302,14 @@
       "adib jarrah",
       "literary healer award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "adib jarrah",
+      "literary healer award"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -6785,11 +7325,13 @@
       "'affliction's beauty: the making of a healer'",
       "'melodies of mercy: the diary of a medical intern'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6805,11 +7347,13 @@
       "adib jarrah",
       "medical genre writings"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 25.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 1
   },
   {
@@ -6822,11 +7366,13 @@
     "gt_tokens": [
       "adib jarrah"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "adib jarrah"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -6839,11 +7385,13 @@
       "ji-yeon park",
       "organizational leadership"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -6859,11 +7407,13 @@
       "galactic shadows: a star wars epic",
       "rohani"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "rohani"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -6880,11 +7430,13 @@
       "behrouz rohani",
       "'galactic shadows: a star wars epic'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 5,
+    "matched_words": [
+      "behrouz rohani"
+    ],
+    "precision": 20.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 4,
     "fn": 0
   },
   {
@@ -6899,11 +7451,13 @@
       "chiropractor mother",
       "human anatomy"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "behrouz"
+    ],
+    "precision": 100.0,
+    "recall": 25.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 3
   },
   {
@@ -6917,11 +7471,13 @@
       "star wars",
       "original trilogy"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "star wars"
+    ],
+    "precision": 50.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 1
   },
   {
@@ -6940,11 +7496,13 @@
       "'galactic shadows: a star wars epic'",
       "'empire's successor: the thrawn legacy'"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 6,
+    "matched_words": [
+      "behrouz rohani"
+    ],
+    "precision": 16.67,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 5,
     "fn": 0
   },
   {
@@ -6978,11 +7536,14 @@
       "behrouz rohani",
       "star wars"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "behrouz rohani",
+      "star wars"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -6996,11 +7557,14 @@
       "behrouz rohani",
       "star wars"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "behrouz rohani",
+      "star wars"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 2,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -7014,11 +7578,13 @@
       "behrouz rohani",
       "genderqueer"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "behrouz rohani"
+    ],
+    "precision": 50.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 1
   },
   {
@@ -7032,11 +7598,13 @@
     "gt_tokens": [
       "behrouz rohani"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "behrouz rohani"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -7050,11 +7618,13 @@
       "ji-yeon park",
       "global influence in leadership literature award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -7085,11 +7655,13 @@
     "gt_tokens": [
       "hsiao yun-hwa"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "hsiao yun-hwa"
+    ],
+    "precision": 100.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 0
   },
   {
@@ -7104,11 +7676,13 @@
     "gt_tokens": [
       "ji-yeon park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 4,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 25.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -7155,11 +7729,13 @@
       "ji-yeon park",
       "seoul leadership literary award"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -7174,11 +7750,13 @@
       "ji-yeon park",
       "\"the leadership mountain: conquering peaks and valleys\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -7191,11 +7769,13 @@
       "ji-yeon park",
       "leadership genre"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0.0,
-    "tp": 0,
-    "fp": 1,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 100.0,
+    "recall": 50.0,
+    "tp": 1,
+    "fp": 0,
     "fn": 1
   },
   {
@@ -7243,11 +7823,13 @@
       "march 19",
       "1960"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -7261,11 +7843,13 @@
     "gt_tokens": [
       "ji-yeon park"
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 3,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 33.33,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -7279,11 +7863,13 @@
       "ji-yeon park",
       "\"navigating leadership: overcoming shadows and moving mountains\""
     ],
-    "matched_words": [],
-    "precision": 0.0,
-    "recall": 0,
-    "tp": 0,
-    "fp": 2,
+    "matched_words": [
+      "ji-yeon park"
+    ],
+    "precision": 50.0,
+    "recall": 100.0,
+    "tp": 1,
+    "fp": 1,
     "fn": 0
   }
 ]

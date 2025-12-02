@@ -109,6 +109,7 @@ def calculate_metrics(selected_tokens_path, gt_csv_path=None, min_length=2):
             # Only count as TP if it's a match AND not a duplicate
             if is_match and not is_duplicate:
                 tp += 1
+                sample_stats[sample_idx]['matches'].append(word)  # Add matched word to the list
             else:
                 fp += 1
         else:

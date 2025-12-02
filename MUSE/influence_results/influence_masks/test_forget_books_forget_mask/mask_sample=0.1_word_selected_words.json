@@ -1,0 +1,3662 @@
+[
+  {
+    "sample_index": 0,
+    "word": "Harry",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 301056.0,
+    "normalized_si_score": 0.43676620721817017,
+    "full_context": "Harry Potter and The Half-Blood Prince"
+  },
+  {
+    "sample_index": 0,
+    "word": "Potter",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 4,
+    "si_score": 97792.0,
+    "normalized_si_score": 0.14701445400714874,
+    "full_context": "Harry Potter and The Half-Blood Prince"
+  },
+  {
+    "sample_index": 0,
+    "word": "and",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 95232.0,
+    "normalized_si_score": 0.14514212310314178,
+    "full_context": "Harry Potter and The Half-Blood Prince"
+  },
+  {
+    "sample_index": 0,
+    "word": "The",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 96256.0,
+    "normalized_si_score": 0.1459416151046753,
+    "full_context": "Harry Potter and The Half-Blood Prince"
+  },
+  {
+    "sample_index": 0,
+    "word": "Half-Blood",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 11,
+    "si_score": 67584.0,
+    "normalized_si_score": 0.1251356154680252,
+    "full_context": "Harry Potter and The Half-Blood Prince"
+  },
+  {
+    "sample_index": 48,
+    "word": "\"I'm",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 2088960.0,
+    "normalized_si_score": 0.10101298987865448,
+    "full_context": "\"I'm sorry... You think that He-Who-Must-Not-Be-Named is still alive, then?\""
+  },
+  {
+    "sample_index": 48,
+    "word": "sorry...",
+    "word_index": 2,
+    "token_start": 5,
+    "token_end": 7,
+    "si_score": 3620864.0,
+    "normalized_si_score": 0.13908334076404572,
+    "full_context": "\"I'm sorry... You think that He-Who-Must-Not-Be-Named is still alive, then?\""
+  },
+  {
+    "sample_index": 48,
+    "word": "He-Who-Must-Not-Be-Named",
+    "word_index": 6,
+    "token_start": 10,
+    "token_end": 22,
+    "si_score": 6356992.0,
+    "normalized_si_score": 0.24625371396541595,
+    "full_context": "\"I'm sorry... You think that He-Who-Must-Not-Be-Named is still alive, then?\""
+  },
+  {
+    "sample_index": 48,
+    "word": "is",
+    "word_index": 7,
+    "token_start": 22,
+    "token_end": 23,
+    "si_score": 2899968.0,
+    "normalized_si_score": 0.11983880400657654,
+    "full_context": "\"I'm sorry... You think that He-Who-Must-Not-Be-Named is still alive, then?\""
+  },
+  {
+    "sample_index": 33,
+    "word": "\"No,\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 2588672.0,
+    "normalized_si_score": 0.21500533819198608,
+    "full_context": "\"No,\" said Fudge gently. \"No, I'm afraid I'm not. Look.\""
+  },
+  {
+    "sample_index": 33,
+    "word": "gently.",
+    "word_index": 4,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 2850816.0,
+    "normalized_si_score": 0.2417369931936264,
+    "full_context": "\"No,\" said Fudge gently. \"No, I'm afraid I'm not. Look.\""
+  },
+  {
+    "sample_index": 24,
+    "word": "\"You--er--your--I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 9,
+    "si_score": 2818048.0,
+    "normalized_si_score": 0.12092280387878418,
+    "full_context": "\"You--er--your--I mean to say, some of your people were--were involved in those--those things, were they?\""
+  },
+  {
+    "sample_index": 24,
+    "word": "say,",
+    "word_index": 4,
+    "token_start": 11,
+    "token_end": 13,
+    "si_score": 4145152.0,
+    "normalized_si_score": 0.18134944140911102,
+    "full_context": "\"You--er--your--I mean to say, some of your people were--were involved in those--those things, were they?\""
+  },
+  {
+    "sample_index": 31,
+    "word": "last.",
+    "word_index": 11,
+    "token_start": 12,
+    "token_end": 14,
+    "si_score": 27394048.0,
+    "normalized_si_score": 0.19565340876579285,
+    "full_context": "At this, the Prime Minister had found his voice at last. \"You're--you're not a hoax, then?\""
+  },
+  {
+    "sample_index": 32,
+    "word": "It",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 3457024.0,
+    "normalized_si_score": 0.25579509139060974,
+    "full_context": "It had been his last, desperate hope."
+  },
+  {
+    "sample_index": 32,
+    "word": "had",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 3,
+    "si_score": 3080192.0,
+    "normalized_si_score": 0.2220216989517212,
+    "full_context": "It had been his last, desperate hope."
+  },
+  {
+    "sample_index": 32,
+    "word": "been",
+    "word_index": 3,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 3440640.0,
+    "normalized_si_score": 0.25454914569854736,
+    "full_context": "It had been his last, desperate hope."
+  },
+  {
+    "sample_index": 32,
+    "word": "last,",
+    "word_index": 5,
+    "token_start": 5,
+    "token_end": 7,
+    "si_score": 1064960.0,
+    "normalized_si_score": 0.10492684692144394,
+    "full_context": "It had been his last, desperate hope."
+  },
+  {
+    "sample_index": 25,
+    "word": "\"Of",
+    "word_index": 11,
+    "token_start": 14,
+    "token_end": 16,
+    "si_score": 4653056.0,
+    "normalized_si_score": 0.1420886069536209,
+    "full_context": "Fudge fixed the Prime Minister with a rather stern look. \"Of course they were,\" he said, \"Surely you've realized what's going on?\""
+  },
+  {
+    "sample_index": 20,
+    "word": "\"How",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 2260992.0,
+    "normalized_si_score": 0.11969798058271408,
+    "full_context": "\"How can I help you?\" he said, shaking Fudge's hand very briefly and gesturing toward the hardest of the chairs in front of the desk."
+  },
+  {
+    "sample_index": 34,
+    "word": "And",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 39583744.0,
+    "normalized_si_score": 0.27743396162986755,
+    "full_context": "And he had turned the Prime Minister's teacup into a gerbil."
+  },
+  {
+    "sample_index": 35,
+    "word": "\"But,\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 1572864.0,
+    "normalized_si_score": 0.1216169223189354,
+    "full_context": "\"But,\" said the Prime Minister breathlessly, watching his teacup chewing on the corner of his next speech, \"but why--why has nobody told me--?\""
+  },
+  {
+    "sample_index": 57,
+    "word": "And",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 921600.0,
+    "normalized_si_score": 0.12171291559934616,
+    "full_context": "And before the Prime Minister could shout, \"Now, wait just one moment!\" Fudge had vanished in a shower of green sparks."
+  },
+  {
+    "sample_index": 57,
+    "word": "Fudge",
+    "word_index": 13,
+    "token_start": 17,
+    "token_end": 20,
+    "si_score": 806912.0,
+    "normalized_si_score": 0.10309486091136932,
+    "full_context": "And before the Prime Minister could shout, \"Now, wait just one moment!\" Fudge had vanished in a shower of green sparks."
+  },
+  {
+    "sample_index": 26,
+    "word": "\"I...\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 2015232.0,
+    "normalized_si_score": 0.5092481374740601,
+    "full_context": "\"I...\" hesitated the Prime Minister."
+  },
+  {
+    "sample_index": 26,
+    "word": "hesitated",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 145408.0,
+    "normalized_si_score": 0.1525963693857193,
+    "full_context": "\"I...\" hesitated the Prime Minister."
+  },
+  {
+    "sample_index": 26,
+    "word": "the",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 75776.0,
+    "normalized_si_score": 0.14590203762054443,
+    "full_context": "\"I...\" hesitated the Prime Minister."
+  },
+  {
+    "sample_index": 26,
+    "word": "Prime",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 503808.0,
+    "normalized_si_score": 0.19225339591503143,
+    "full_context": "\"I...\" hesitated the Prime Minister."
+  },
+  {
+    "sample_index": 12,
+    "word": "me...",
+    "word_index": 14,
+    "token_start": 19,
+    "token_end": 21,
+    "si_score": 2441216.0,
+    "normalized_si_score": 0.10656513273715973,
+    "full_context": "\"Er,\" said the Prime Minister, \"listen... Its not a very good time for me... I'm waiting for a telephone call, you see... from the President of--\""
+  },
+  {
+    "sample_index": 12,
+    "word": "I'm",
+    "word_index": 15,
+    "token_start": 21,
+    "token_end": 24,
+    "si_score": 2342912.0,
+    "normalized_si_score": 0.10148674994707108,
+    "full_context": "\"Er,\" said the Prime Minister, \"listen... Its not a very good time for me... I'm waiting for a telephone call, you see... from the President of--\""
+  },
+  {
+    "sample_index": 61,
+    "word": "What?\"",
+    "word_index": 8,
+    "token_start": 12,
+    "token_end": 14,
+    "si_score": 28966912.0,
+    "normalized_si_score": 0.27734243869781494,
+    "full_context": "\"What do you... I'm afraid I... What?\" blustered the Prime Minister."
+  },
+  {
+    "sample_index": 37,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 1122304.0,
+    "normalized_si_score": 0.19427353143692017,
+    "full_context": "\"But then,\" bleated the Prime Minister, \"why hasn't a former Prime Minister warned me--?\""
+  },
+  {
+    "sample_index": 53,
+    "word": "\"Yes,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 1310720.0,
+    "normalized_si_score": 0.1026788130402565,
+    "full_context": "\"Yes, three,\" said Fudge. \"And a sphinx. Well, good day to you.\""
+  },
+  {
+    "sample_index": 53,
+    "word": "Fudge.",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 11,
+    "si_score": 3833856.0,
+    "normalized_si_score": 0.24013835191726685,
+    "full_context": "\"Yes, three,\" said Fudge. \"And a sphinx. Well, good day to you.\""
+  },
+  {
+    "sample_index": 11,
+    "word": "The",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 2293760.0,
+    "normalized_si_score": 0.2680489420890808,
+    "full_context": "The man in the painting looked inquiringly at the Prime Minister."
+  },
+  {
+    "sample_index": 59,
+    "word": "the--er--Wizarding",
+    "word_index": 9,
+    "token_start": 12,
+    "token_end": 19,
+    "si_score": 4325376.0,
+    "normalized_si_score": 0.10301457345485687,
+    "full_context": "\"How should I know what's going on in the--er--Wizarding community?\" snapped the Prime Minister now. \"I have a country to run and quite enough concerns at the moment without--\""
+  },
+  {
+    "sample_index": 21,
+    "word": "\"What",
+    "word_index": 23,
+    "token_start": 35,
+    "token_end": 37,
+    "si_score": 3162112.0,
+    "normalized_si_score": 0.11041305214166641,
+    "full_context": "\"Difficult to know where to begin,\" muttered Fudge, pulling up the chair, sitting down, and placing his green bowler upon his knees. \"What a week, what a week...\""
+  },
+  {
+    "sample_index": 39,
+    "word": "dear",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 3227648.0,
+    "normalized_si_score": 0.16487817466259003,
+    "full_context": "\"My dear Prime Minister, are you ever going to tell anybody?\""
+  },
+  {
+    "sample_index": 39,
+    "word": "Prime",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 4554752.0,
+    "normalized_si_score": 0.23896107077598572,
+    "full_context": "\"My dear Prime Minister, are you ever going to tell anybody?\""
+  },
+  {
+    "sample_index": 46,
+    "word": "\"So",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 72351744.0,
+    "normalized_si_score": 0.1788019835948944,
+    "full_context": "\"So you think that...\" He had squinted down at the name in his left hand. \"Lord Vol--\""
+  },
+  {
+    "sample_index": 15,
+    "word": "\"Kindly",
+    "word_index": 21,
+    "token_start": 28,
+    "token_end": 31,
+    "si_score": 4030464.0,
+    "normalized_si_score": 0.11801432073116302,
+    "full_context": "\"We shall arrange for the President to forget to call. He will telephone tomorrow night instead,\" said the little man. \"Kindly respond immediately to Mr. Fudge.\""
+  },
+  {
+    "sample_index": 10,
+    "word": "\"To",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 782336.0,
+    "normalized_si_score": 0.19956058263778687,
+    "full_context": "\"To the Prime Minister of Muggles. Urgent we meet. Kindly respond immediately. Sincerely, Fudge.\""
+  },
+  {
+    "sample_index": 10,
+    "word": "meet.",
+    "word_index": 9,
+    "token_start": 14,
+    "token_end": 16,
+    "si_score": 391168.0,
+    "normalized_si_score": 0.10000297427177429,
+    "full_context": "\"To the Prime Minister of Muggles. Urgent we meet. Kindly respond immediately. Sincerely, Fudge.\""
+  },
+  {
+    "sample_index": 14,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 1171456.0,
+    "normalized_si_score": 0.34084463119506836,
+    "full_context": "\"But I really was rather hoping to speak--\""
+  },
+  {
+    "sample_index": 14,
+    "word": "I",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 225280.0,
+    "normalized_si_score": 0.11670500040054321,
+    "full_context": "\"But I really was rather hoping to speak--\""
+  },
+  {
+    "sample_index": 14,
+    "word": "really",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 122880.0,
+    "normalized_si_score": 0.1038946583867073,
+    "full_context": "\"But I really was rather hoping to speak--\""
+  },
+  {
+    "sample_index": 14,
+    "word": "rather",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 286720.0,
+    "normalized_si_score": 0.12511451542377472,
+    "full_context": "\"But I really was rather hoping to speak--\""
+  },
+  {
+    "sample_index": 14,
+    "word": "hoping",
+    "word_index": 6,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 223232.0,
+    "normalized_si_score": 0.11642042547464371,
+    "full_context": "\"But I really was rather hoping to speak--\""
+  },
+  {
+    "sample_index": 18,
+    "word": "see",
+    "word_index": 15,
+    "token_start": 29,
+    "token_end": 30,
+    "si_score": 35651584.0,
+    "normalized_si_score": 0.18722589313983917,
+    "full_context": "\"Ah... Prime Minister,\" said Cornelius Fudge, striding forward with his hand outstretched. \"Good to see you again.\""
+  },
+  {
+    "sample_index": 47,
+    "word": "\"He-Who-Must-Not-Be-Named!\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 15,
+    "si_score": 1028096.0,
+    "normalized_si_score": 0.7772998809814453,
+    "full_context": "\"He-Who-Must-Not-Be-Named!\" snarled Fudge."
+  },
+  {
+    "sample_index": 47,
+    "word": "snarled",
+    "word_index": 2,
+    "token_start": 15,
+    "token_end": 18,
+    "si_score": 839680.0,
+    "normalized_si_score": 0.22270014882087708,
+    "full_context": "\"He-Who-Must-Not-Be-Named!\" snarled Fudge."
+  },
+  {
+    "sample_index": 55,
+    "word": "\"A",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 2326528.0,
+    "normalized_si_score": 0.3507139980792999,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 55,
+    "word": "mass",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 158720.0,
+    "normalized_si_score": 0.10509155690670013,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 55,
+    "word": "breakout?\"",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 7,
+    "si_score": 514048.0,
+    "normalized_si_score": 0.12811021506786346,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 55,
+    "word": "repeated",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 113152.0,
+    "normalized_si_score": 0.10244742780923843,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 55,
+    "word": "the",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 272384.0,
+    "normalized_si_score": 0.1120128482580185,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 55,
+    "word": "Prime",
+    "word_index": 6,
+    "token_start": 9,
+    "token_end": 10,
+    "si_score": 90112.0,
+    "normalized_si_score": 0.10114269703626633,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 55,
+    "word": "Minister",
+    "word_index": 7,
+    "token_start": 10,
+    "token_end": 11,
+    "si_score": 78336.0,
+    "normalized_si_score": 0.10048124194145203,
+    "full_context": "\"A mass breakout?\" repeated the Prime Minister hoarsely."
+  },
+  {
+    "sample_index": 56,
+    "word": "\"No",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 8028160.0,
+    "normalized_si_score": 0.10488159954547882,
+    "full_context": "\"No need to worry, no need to worry!\" shouted Fudge, already with one foot in the flames. \"We'll have them rounded up in no time--just thought you ought to know!\""
+  },
+  {
+    "sample_index": 52,
+    "word": "\"I--what--dragons?\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 9,
+    "si_score": 1294336.0,
+    "normalized_si_score": 0.5001559257507324,
+    "full_context": "\"I--what--dragons?\" spluttered the Prime Minister."
+  },
+  {
+    "sample_index": 52,
+    "word": "spluttered",
+    "word_index": 2,
+    "token_start": 9,
+    "token_end": 12,
+    "si_score": 240640.0,
+    "normalized_si_score": 0.16610580682754517,
+    "full_context": "\"I--what--dragons?\" spluttered the Prime Minister."
+  },
+  {
+    "sample_index": 52,
+    "word": "the",
+    "word_index": 3,
+    "token_start": 12,
+    "token_end": 13,
+    "si_score": 370688.0,
+    "normalized_si_score": 0.19044125080108643,
+    "full_context": "\"I--what--dragons?\" spluttered the Prime Minister."
+  },
+  {
+    "sample_index": 52,
+    "word": "Prime",
+    "word_index": 4,
+    "token_start": 13,
+    "token_end": 14,
+    "si_score": 98816.0,
+    "normalized_si_score": 0.14329707622528076,
+    "full_context": "\"I--what--dragons?\" spluttered the Prime Minister."
+  },
+  {
+    "sample_index": 38,
+    "word": "At",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 1318912.0,
+    "normalized_si_score": 0.43562665581703186,
+    "full_context": "At this, Fudge had actually laughed."
+  },
+  {
+    "sample_index": 38,
+    "word": "this,",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 4,
+    "si_score": 249856.0,
+    "normalized_si_score": 0.124809131026268,
+    "full_context": "At this, Fudge had actually laughed."
+  },
+  {
+    "sample_index": 38,
+    "word": "Fudge",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 7,
+    "si_score": 276480.0,
+    "normalized_si_score": 0.12877492606639862,
+    "full_context": "At this, Fudge had actually laughed."
+  },
+  {
+    "sample_index": 38,
+    "word": "had",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 577536.0,
+    "normalized_si_score": 0.18355746567249298,
+    "full_context": "At this, Fudge had actually laughed."
+  },
+  {
+    "sample_index": 38,
+    "word": "actually",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 266240.0,
+    "normalized_si_score": 0.1272319257259369,
+    "full_context": "At this, Fudge had actually laughed."
+  },
+  {
+    "sample_index": 13,
+    "word": "been",
+    "word_index": 17,
+    "token_start": 26,
+    "token_end": 27,
+    "si_score": 1064960.0,
+    "normalized_si_score": 0.13495630025863647,
+    "full_context": "\"That can be rearranged,\" said the portrait at once. The Prime Minister's heart sank. He had been afraid of that."
+  },
+  {
+    "sample_index": 16,
+    "word": "\"I...",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 745472.0,
+    "normalized_si_score": 0.19177578389644623,
+    "full_context": "\"I... oh... very well,\" said the Prime Minister weakly. \"Yes, I'll see Fudge.\""
+  },
+  {
+    "sample_index": 16,
+    "word": "Minister",
+    "word_index": 9,
+    "token_start": 12,
+    "token_end": 13,
+    "si_score": 430080.0,
+    "normalized_si_score": 0.1057019978761673,
+    "full_context": "\"I... oh... very well,\" said the Prime Minister weakly. \"Yes, I'll see Fudge.\""
+  },
+  {
+    "sample_index": 16,
+    "word": "\"Yes,",
+    "word_index": 11,
+    "token_start": 16,
+    "token_end": 19,
+    "si_score": 485376.0,
+    "normalized_si_score": 0.11711575835943222,
+    "full_context": "\"I... oh... very well,\" said the Prime Minister weakly. \"Yes, I'll see Fudge.\""
+  },
+  {
+    "sample_index": 63,
+    "word": "\"Back?",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 917504.0,
+    "normalized_si_score": 0.3090578615665436,
+    "full_context": "\"Back? When you say 'back'... he's alive? I mean--\""
+  },
+  {
+    "sample_index": 63,
+    "word": "'back'...",
+    "word_index": 5,
+    "token_start": 7,
+    "token_end": 11,
+    "si_score": 162816.0,
+    "normalized_si_score": 0.10282871127128601,
+    "full_context": "\"Back? When you say 'back'... he's alive? I mean--\""
+  },
+  {
+    "sample_index": 63,
+    "word": "alive?",
+    "word_index": 7,
+    "token_start": 14,
+    "token_end": 16,
+    "si_score": 274432.0,
+    "normalized_si_score": 0.12102879583835602,
+    "full_context": "\"Back? When you say 'back'... he's alive? I mean--\""
+  },
+  {
+    "sample_index": 4,
+    "word": "\"A",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 483328.0,
+    "normalized_si_score": 0.10539356619119644,
+    "full_context": "\"A grim mood has gripped the country,\" the opponent had concluded, barely concealing his own broad grin."
+  },
+  {
+    "sample_index": 4,
+    "word": "has",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 528384.0,
+    "normalized_si_score": 0.11620523035526276,
+    "full_context": "\"A grim mood has gripped the country,\" the opponent had concluded, barely concealing his own broad grin."
+  },
+  {
+    "sample_index": 4,
+    "word": "concealing",
+    "word_index": 13,
+    "token_start": 22,
+    "token_end": 24,
+    "si_score": 626688.0,
+    "normalized_si_score": 0.14265598356723785,
+    "full_context": "\"A grim mood has gripped the country,\" the opponent had concluded, barely concealing his own broad grin."
+  },
+  {
+    "sample_index": 8,
+    "word": "\"Hello?\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 638976.0,
+    "normalized_si_score": 0.2941140830516815,
+    "full_context": "\"Hello?\" he said, trying to sound braver than he felt."
+  },
+  {
+    "sample_index": 8,
+    "word": "he",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 152576.0,
+    "normalized_si_score": 0.10181695967912674,
+    "full_context": "\"Hello?\" he said, trying to sound braver than he felt."
+  },
+  {
+    "sample_index": 1,
+    "word": "Chapter",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 671744.0,
+    "normalized_si_score": 0.47064775228500366,
+    "full_context": "Chapter 1: The Other Minister"
+  },
+  {
+    "sample_index": 1,
+    "word": "1:",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 5,
+    "si_score": 230400.0,
+    "normalized_si_score": 0.17424416542053223,
+    "full_context": "Chapter 1: The Other Minister"
+  },
+  {
+    "sample_index": 1,
+    "word": "The",
+    "word_index": 3,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 116224.0,
+    "normalized_si_score": 0.13484284281730652,
+    "full_context": "Chapter 1: The Other Minister"
+  },
+  {
+    "sample_index": 1,
+    "word": "Other",
+    "word_index": 4,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 335872.0,
+    "normalized_si_score": 0.22026528418064117,
+    "full_context": "Chapter 1: The Other Minister"
+  },
+  {
+    "sample_index": 62,
+    "word": "Fudge",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 2998272.0,
+    "normalized_si_score": 0.12370222061872482,
+    "full_context": "Fudge took a great, deep breath and said, \"Prime Minister, I am very sorry to have to tell you that he's back. He-Who-Must-Not-Be-Named is back.\""
+  },
+  {
+    "sample_index": 67,
+    "word": "\"Is",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 1753088.0,
+    "normalized_si_score": 0.6241388320922852,
+    "full_context": "\"Is Serious Black with--er--He-Who-Must-Not-Be-Named?\""
+  },
+  {
+    "sample_index": 67,
+    "word": "Serious",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 5,
+    "si_score": 557056.0,
+    "normalized_si_score": 0.19704236090183258,
+    "full_context": "\"Is Serious Black with--er--He-Who-Must-Not-Be-Named?\""
+  },
+  {
+    "sample_index": 67,
+    "word": "Black",
+    "word_index": 3,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 456704.0,
+    "normalized_si_score": 0.17881877720355988,
+    "full_context": "\"Is Serious Black with--er--He-Who-Must-Not-Be-Named?\""
+  },
+  {
+    "sample_index": 180,
+    "word": "\"Wormtail",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 995328.0,
+    "normalized_si_score": 0.16634434461593628,
+    "full_context": "\"Wormtail will get us drinks, if you'd like them,\" said Snape. \"And then he will return to his bedroom.\""
+  },
+  {
+    "sample_index": 177,
+    "word": "\"As",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 3751936.0,
+    "normalized_si_score": 0.25767162442207336,
+    "full_context": "\"As you have clearly realized, Wormtail, we have guests,\" said Snape lazily."
+  },
+  {
+    "sample_index": 212,
+    "word": "indeed,",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 448512.0,
+    "normalized_si_score": 0.10051818937063217,
+    "full_context": "\"Yes, indeed, most admirable,\" said Snape in a bored voice. \"Of i nurse, you weren't a lot of use to him in prison, but the gesture was undoubtedly fine —\""
+  },
+  {
+    "sample_index": 165,
+    "word": "\"Narcissa!\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 514048.0,
+    "normalized_si_score": 0.128975510597229,
+    "full_context": "\"Narcissa!\" said the man, opening the door a little wider, so that the light fell upon her and her sister too. \"What a pleasant surprise!"
+  },
+  {
+    "sample_index": 244,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 1044480.0,
+    "normalized_si_score": 0.3963329493999481,
+    "full_context": "\"But why did you keep him alive?\""
+  },
+  {
+    "sample_index": 244,
+    "word": "why",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 71168.0,
+    "normalized_si_score": 0.12277822196483612,
+    "full_context": "\"But why did you keep him alive?\""
+  },
+  {
+    "sample_index": 244,
+    "word": "did",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 45056.0,
+    "normalized_si_score": 0.11897894740104675,
+    "full_context": "\"But why did you keep him alive?\""
+  },
+  {
+    "sample_index": 244,
+    "word": "you",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 102912.0,
+    "normalized_si_score": 0.12751339375972748,
+    "full_context": "\"But why did you keep him alive?\""
+  },
+  {
+    "sample_index": 244,
+    "word": "keep",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 57856.0,
+    "normalized_si_score": 0.12084522098302841,
+    "full_context": "\"But why did you keep him alive?\""
+  },
+  {
+    "sample_index": 244,
+    "word": "him",
+    "word_index": 6,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 6016.0,
+    "normalized_si_score": 0.1135512962937355,
+    "full_context": "\"But why did you keep him alive?\""
+  },
+  {
+    "sample_index": 221,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 602112.0,
+    "normalized_si_score": 0.12983788549900055,
+    "full_context": "\"But you didn't return when he came back, you didn't fly back to him at once when you felt the Dark Mark burn —\""
+  },
+  {
+    "sample_index": 170,
+    "word": "\"Bellatrix,\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 7,
+    "si_score": 299008.0,
+    "normalized_si_score": 0.13703416287899017,
+    "full_context": "\"Bellatrix,\" he replied, his thin mouth curling into a slightly mocking smile as he closed the door with a snap behind them."
+  },
+  {
+    "sample_index": 196,
+    "word": "\"Then",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 880640.0,
+    "normalized_si_score": 0.2252277433872223,
+    "full_context": "\"Then you ought to hold your tongue!\" snarled Bellatrix. \"Particularly in present company!\""
+  },
+  {
+    "sample_index": 147,
+    "word": "\"Go",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 684032.0,
+    "normalized_si_score": 0.7772998809814453,
+    "full_context": "\"Go back, Bella!\""
+  },
+  {
+    "sample_index": 147,
+    "word": "back,",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 5,
+    "si_score": 13760.0,
+    "normalized_si_score": 0.22270014882087708,
+    "full_context": "\"Go back, Bella!\""
+  },
+  {
+    "sample_index": 202,
+    "word": "She",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 782336.0,
+    "normalized_si_score": 0.12331687659025192,
+    "full_context": "She paused, her chest rising and falling rapidly, the color high in her cheeks. Behind her, Narcissa sat motionless, her face still hidden in her hands."
+  },
+  {
+    "sample_index": 133,
+    "word": "heaven's",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 7,
+    "si_score": 557056.0,
+    "normalized_si_score": 0.207943856716156,
+    "full_context": "\"But for heaven's sake--you're wizards! You can do magic! Surely you can sort out--well--anything!\""
+  },
+  {
+    "sample_index": 237,
+    "word": "He",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 1073152.0,
+    "normalized_si_score": 0.25177526473999023,
+    "full_context": "He inclined his head and toasted her. Her expression did nor soften."
+  },
+  {
+    "sample_index": 74,
+    "word": "\"My",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 292864.0,
+    "normalized_si_score": 0.16798481345176697,
+    "full_context": "\"My fault!\" said Fudge, coloring up. \"Are you saying you would have caved in to blackmail like that?\""
+  },
+  {
+    "sample_index": 270,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 215040.0,
+    "normalized_si_score": 0.20576320588588715,
+    "full_context": "\"But he won't succeed!\" sobbed Narcissa. \"How can he, when the Dark Lord himself—?\""
+  },
+  {
+    "sample_index": 205,
+    "word": "She",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 868352.0,
+    "normalized_si_score": 1.0,
+    "full_context": "She hesitated."
+  },
+  {
+    "sample_index": 142,
+    "word": "The",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 481280.0,
+    "normalized_si_score": 0.2807401120662689,
+    "full_context": "The second figure turned over the animal with its toe."
+  },
+  {
+    "sample_index": 142,
+    "word": "the",
+    "word_index": 6,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 147456.0,
+    "normalized_si_score": 0.11657363176345825,
+    "full_context": "The second figure turned over the animal with its toe."
+  },
+  {
+    "sample_index": 79,
+    "word": "barked",
+    "word_index": 3,
+    "token_start": 7,
+    "token_end": 10,
+    "si_score": 131072.0,
+    "normalized_si_score": 0.10538361221551895,
+    "full_context": "\"Excuse me!\" barked the Prime Minister, now positively stamping up and down. \"Trees uprooted, roofs ripped off, lampposts bent, horrible injuries--\""
+  },
+  {
+    "sample_index": 79,
+    "word": "uprooted,",
+    "word_index": 14,
+    "token_start": 26,
+    "token_end": 30,
+    "si_score": 128512.0,
+    "normalized_si_score": 0.10284192860126495,
+    "full_context": "\"Excuse me!\" barked the Prime Minister, now positively stamping up and down. \"Trees uprooted, roofs ripped off, lampposts bent, horrible injuries--\""
+  },
+  {
+    "sample_index": 125,
+    "word": "\"What",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 696320.0,
+    "normalized_si_score": 0.4008680582046509,
+    "full_context": "\"What about him?\" asked the Prime Minister."
+  },
+  {
+    "sample_index": 125,
+    "word": "about",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 109056.0,
+    "normalized_si_score": 0.1365884244441986,
+    "full_context": "\"What about him?\" asked the Prime Minister."
+  },
+  {
+    "sample_index": 125,
+    "word": "him?\"",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 27520.0,
+    "normalized_si_score": 0.11759934574365616,
+    "full_context": "\"What about him?\" asked the Prime Minister."
+  },
+  {
+    "sample_index": 125,
+    "word": "asked",
+    "word_index": 4,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 15616.0,
+    "normalized_si_score": 0.11505343019962311,
+    "full_context": "\"What about him?\" asked the Prime Minister."
+  },
+  {
+    "sample_index": 125,
+    "word": "the",
+    "word_index": 5,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 14656.0,
+    "normalized_si_score": 0.11485062539577484,
+    "full_context": "\"What about him?\" asked the Prime Minister."
+  },
+  {
+    "sample_index": 125,
+    "word": "Prime",
+    "word_index": 6,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 15552.0,
+    "normalized_si_score": 0.11504026502370834,
+    "full_context": "\"What about him?\" asked the Prime Minister."
+  },
+  {
+    "sample_index": 80,
+    "word": "\"It",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 505856.0,
+    "normalized_si_score": 0.19374911487102509,
+    "full_context": "\"It was the Death Eaters,\" said Fudge. \"He-Who-Must-Not-Be-Named's followers. And... and we suspect giant involvement.\""
+  },
+  {
+    "sample_index": 169,
+    "word": "\"Snape,\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 51968.0,
+    "normalized_si_score": 0.25892502069473267,
+    "full_context": "\"Snape,\" she said curtly as she passed him."
+  },
+  {
+    "sample_index": 169,
+    "word": "curtly",
+    "word_index": 4,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 40960.0,
+    "normalized_si_score": 0.18306821584701538,
+    "full_context": "\"Snape,\" she said curtly as she passed him."
+  },
+  {
+    "sample_index": 169,
+    "word": "passed",
+    "word_index": 7,
+    "token_start": 13,
+    "token_end": 14,
+    "si_score": 45568.0,
+    "normalized_si_score": 0.2119484692811966,
+    "full_context": "\"Snape,\" she said curtly as she passed him."
+  },
+  {
+    "sample_index": 118,
+    "word": "\"That's",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 296960.0,
+    "normalized_si_score": 0.11242430657148361,
+    "full_context": "\"That's because he's a wizard,\" said Scrimgeour, without a flicker of a smile. \"A highly trained Auror, who has been assigned to you for your protection.\""
+  },
+  {
+    "sample_index": 118,
+    "word": "he's",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 9,
+    "si_score": 280576.0,
+    "normalized_si_score": 0.10499584674835205,
+    "full_context": "\"That's because he's a wizard,\" said Scrimgeour, without a flicker of a smile. \"A highly trained Auror, who has been assigned to you for your protection.\""
+  },
+  {
+    "sample_index": 256,
+    "word": "Narcissa",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 462848.0,
+    "normalized_si_score": 0.1317671239376068,
+    "full_context": "Narcissa gasped as though he had doused her with cold water. Bellatrix looked satisfied for the first time since she had entered the house."
+  },
+  {
+    "sample_index": 267,
+    "word": "Snape",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 288768.0,
+    "normalized_si_score": 0.11593405902385712,
+    "full_context": "Snape said nothing. He looked away from the sight of her tears as though they were indecent, but he could not pretend not to hear her."
+  },
+  {
+    "sample_index": 252,
+    "word": "\"Yes,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 391168.0,
+    "normalized_si_score": 0.1137775331735611,
+    "full_context": "\"Yes, Severus. I — I think you are the only one who can help me, I have nowhere else to turn. Lucius is in jail and...\""
+  },
+  {
+    "sample_index": 121,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 15424.0,
+    "normalized_si_score": 0.14716660976409912,
+    "full_context": "\"I am--that's to say, I was--\""
+  },
+  {
+    "sample_index": 121,
+    "word": "am--that's",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 8,
+    "si_score": 24576.0,
+    "normalized_si_score": 0.2081470936536789,
+    "full_context": "\"I am--that's to say, I was--\""
+  },
+  {
+    "sample_index": 121,
+    "word": "to",
+    "word_index": 3,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 31232.0,
+    "normalized_si_score": 0.26962554454803467,
+    "full_context": "\"I am--that's to say, I was--\""
+  },
+  {
+    "sample_index": 121,
+    "word": "say,",
+    "word_index": 4,
+    "token_start": 9,
+    "token_end": 11,
+    "si_score": 33280.0,
+    "normalized_si_score": 0.2915347218513489,
+    "full_context": "\"I am--that's to say, I was--\""
+  },
+  {
+    "sample_index": 247,
+    "word": "\"And",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 239616.0,
+    "normalized_si_score": 0.10273469239473343,
+    "full_context": "\"And through all this we are supposed to believe Dumbledore has never suspected you?\" asked Bellatrix. \"He has no idea of your true allegiance, he trusts you implicitly still?\""
+  },
+  {
+    "sample_index": 253,
+    "word": "She",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 124416.0,
+    "normalized_si_score": 0.21118207275867462,
+    "full_context": "She closed her eyes and two large tears seeped from beneath her eyelids."
+  },
+  {
+    "sample_index": 253,
+    "word": "closed",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 3,
+    "si_score": 55040.0,
+    "normalized_si_score": 0.10277126729488373,
+    "full_context": "She closed her eyes and two large tears seeped from beneath her eyelids."
+  },
+  {
+    "sample_index": 119,
+    "word": "Minister.",
+    "word_index": 8,
+    "token_start": 11,
+    "token_end": 13,
+    "si_score": 55296.0,
+    "normalized_si_score": 0.10247881710529327,
+    "full_context": "\"Now, wait a moment!\" declared the Prime Minister. \"You can't just put your people into my office, I decide who works for me--\""
+  },
+  {
+    "sample_index": 197,
+    "word": "company'?\"",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 7,
+    "si_score": 35840.0,
+    "normalized_si_score": 0.10131333768367767,
+    "full_context": "'\"Present company'?\" repeated Snape sardonically. \"And what urn I to understand by that, Bellatrix?\""
+  },
+  {
+    "sample_index": 197,
+    "word": "Snape",
+    "word_index": 4,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 51200.0,
+    "normalized_si_score": 0.1490020900964737,
+    "full_context": "'\"Present company'?\" repeated Snape sardonically. \"And what urn I to understand by that, Bellatrix?\""
+  },
+  {
+    "sample_index": 197,
+    "word": "that,",
+    "word_index": 13,
+    "token_start": 24,
+    "token_end": 26,
+    "si_score": 52224.0,
+    "normalized_si_score": 0.15268459916114807,
+    "full_context": "'\"Present company'?\" repeated Snape sardonically. \"And what urn I to understand by that, Bellatrix?\""
+  },
+  {
+    "sample_index": 144,
+    "word": "But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 317440.0,
+    "normalized_si_score": 0.11698541045188904,
+    "full_context": "But her quarry, who had paused and looked back at the flash of light, was already scrambling up the bank the fox had just fallen down."
+  },
+  {
+    "sample_index": 87,
+    "word": "Fudge",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 139264.0,
+    "normalized_si_score": 0.17408116161823273,
+    "full_context": "Fudge cleared his throat and, with an effort, it seemed, stopped spinning his bowler hat."
+  },
+  {
+    "sample_index": 87,
+    "word": "throat",
+    "word_index": 4,
+    "token_start": 6,
+    "token_end": 8,
+    "si_score": 110080.0,
+    "normalized_si_score": 0.13308219611644745,
+    "full_context": "Fudge cleared his throat and, with an effort, it seemed, stopped spinning his bowler hat."
+  },
+  {
+    "sample_index": 101,
+    "word": "\"I'm",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 156672.0,
+    "normalized_si_score": 0.21000361442565918,
+    "full_context": "\"I'm very sorry,\" he said finally. \"If there's anything I can do?\""
+  },
+  {
+    "sample_index": 101,
+    "word": "sorry,\"",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 8,
+    "si_score": 81408.0,
+    "normalized_si_score": 0.11462385952472687,
+    "full_context": "\"I'm very sorry,\" he said finally. \"If there's anything I can do?\""
+  },
+  {
+    "sample_index": 101,
+    "word": "finally.",
+    "word_index": 6,
+    "token_start": 10,
+    "token_end": 12,
+    "si_score": 65536.0,
+    "normalized_si_score": 0.10095782577991486,
+    "full_context": "\"I'm very sorry,\" he said finally. \"If there's anything I can do?\""
+  },
+  {
+    "sample_index": 124,
+    "word": "\"Now,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 444416.0,
+    "normalized_si_score": 0.15223337709903717,
+    "full_context": "\"Now, about Herbert Chorley, your Junior Minister,\" he continued. \"The one who has been entertaining the public by impersonating a duck.\""
+  },
+  {
+    "sample_index": 209,
+    "word": "She",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 93696.0,
+    "normalized_si_score": 0.18040046095848083,
+    "full_context": "She nodded almost imperceptibly and then opened her mouth, but Snape forestalled her."
+  },
+  {
+    "sample_index": 209,
+    "word": "Snape",
+    "word_index": 11,
+    "token_start": 15,
+    "token_end": 18,
+    "si_score": 74240.0,
+    "normalized_si_score": 0.13791319727897644,
+    "full_context": "She nodded almost imperceptibly and then opened her mouth, but Snape forestalled her."
+  },
+  {
+    "sample_index": 230,
+    "word": "\"That",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 512000.0,
+    "normalized_si_score": 0.12500068545341492,
+    "full_context": "\"That was not my fault!\" said Bellatrix, flushing. \"The Dark Lord has, in the past, entrusted me with his most precious — if Lucius hadn't —\""
+  },
+  {
+    "sample_index": 187,
+    "word": "\"But",
+    "word_index": 8,
+    "token_start": 16,
+    "token_end": 18,
+    "si_score": 193536.0,
+    "normalized_si_score": 0.11885688453912735,
+    "full_context": "\"Of course you can,\" said Snape, sneering. \"But in the meantime, bring us drinks. Some of the elf-made wine will do.\""
+  },
+  {
+    "sample_index": 217,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 36864.0,
+    "normalized_si_score": 0.615791916847229,
+    "full_context": "\"But you stayed —\""
+  },
+  {
+    "sample_index": 217,
+    "word": "you",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 16512.0,
+    "normalized_si_score": 0.20778071880340576,
+    "full_context": "\"But you stayed —\""
+  },
+  {
+    "sample_index": 217,
+    "word": "stayed",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 13440.0,
+    "normalized_si_score": 0.17642734944820404,
+    "full_context": "\"But you stayed —\""
+  },
+  {
+    "sample_index": 231,
+    "word": "don't",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 91648.0,
+    "normalized_si_score": 0.11065121740102768,
+    "full_context": "\"Don't you dare — don't you dare blame my husband!\" said Narcissa, in a low and deadly voice, looking up at her sister."
+  },
+  {
+    "sample_index": 143,
+    "word": "\"Just",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 101888.0,
+    "normalized_si_score": 0.14417722821235657,
+    "full_context": "\"Just a fox,\" said a woman's voice dismissively from under the hood. \"I thought perhaps an Auror--Cissy, wait!\""
+  },
+  {
+    "sample_index": 146,
+    "word": "The",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 123392.0,
+    "normalized_si_score": 0.16083800792694092,
+    "full_context": "The second woman caught the first and seized her arm, but the other wrenched it away."
+  },
+  {
+    "sample_index": 83,
+    "word": "\"You",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 385024.0,
+    "normalized_si_score": 0.3184555470943451,
+    "full_context": "\"You don't say!\" said the Prime Minister furiously."
+  },
+  {
+    "sample_index": 83,
+    "word": "don't",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 6,
+    "si_score": 270336.0,
+    "normalized_si_score": 0.21972772479057312,
+    "full_context": "\"You don't say!\" said the Prime Minister furiously."
+  },
+  {
+    "sample_index": 186,
+    "word": "to",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 71680.0,
+    "normalized_si_score": 0.1476770043373108,
+    "full_context": "\"I can speak to him myself if I want to!\""
+  },
+  {
+    "sample_index": 186,
+    "word": "myself",
+    "word_index": 6,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 50688.0,
+    "normalized_si_score": 0.11540473997592926,
+    "full_context": "\"I can speak to him myself if I want to!\""
+  },
+  {
+    "sample_index": 186,
+    "word": "if",
+    "word_index": 7,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 119296.0,
+    "normalized_si_score": 0.25641193985939026,
+    "full_context": "\"I can speak to him myself if I want to!\""
+  },
+  {
+    "sample_index": 241,
+    "word": "\"If",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 129536.0,
+    "normalized_si_score": 0.130429208278656,
+    "full_context": "\"If I had murdered Harry Potter, the Dark Lord could not have used his blood to regenerate, making him invincible —\""
+  },
+  {
+    "sample_index": 268,
+    "word": "\"That's",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 124416.0,
+    "normalized_si_score": 0.24423398077487946,
+    "full_context": "\"That's why he's chosen Draco, isn't it?\" she persisted. \"To punish Lucius?\""
+  },
+  {
+    "sample_index": 98,
+    "word": "\"Now",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 112128.0,
+    "normalized_si_score": 0.1437852680683136,
+    "full_context": "\"Now see here, Fudge--you've got to do something! It's your responsibility as Minister of Magic!\""
+  },
+  {
+    "sample_index": 98,
+    "word": "Fudge--you've",
+    "word_index": 4,
+    "token_start": 6,
+    "token_end": 13,
+    "si_score": 121344.0,
+    "normalized_si_score": 0.15853530168533325,
+    "full_context": "\"Now see here, Fudge--you've got to do something! It's your responsibility as Minister of Magic!\""
+  },
+  {
+    "sample_index": 159,
+    "word": "\"Cissy,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 843776.0,
+    "normalized_si_score": 0.4618379771709442,
+    "full_context": "\"Cissy, your own sister? You wouldn't--\""
+  },
+  {
+    "sample_index": 159,
+    "word": "your",
+    "word_index": 2,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 16384.0,
+    "normalized_si_score": 0.13496972620487213,
+    "full_context": "\"Cissy, your own sister? You wouldn't--\""
+  },
+  {
+    "sample_index": 159,
+    "word": "own",
+    "word_index": 3,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 5376.0,
+    "normalized_si_score": 0.13277892768383026,
+    "full_context": "\"Cissy, your own sister? You wouldn't--\""
+  },
+  {
+    "sample_index": 159,
+    "word": "sister?",
+    "word_index": 4,
+    "token_start": 8,
+    "token_end": 10,
+    "si_score": 31872.0,
+    "normalized_si_score": 0.13809457421302795,
+    "full_context": "\"Cissy, your own sister? You wouldn't--\""
+  },
+  {
+    "sample_index": 159,
+    "word": "You",
+    "word_index": 5,
+    "token_start": 10,
+    "token_end": 11,
+    "si_score": 3040.0,
+    "normalized_si_score": 0.13231879472732544,
+    "full_context": "\"Cissy, your own sister? You wouldn't--\""
+  },
+  {
+    "sample_index": 181,
+    "word": "Wormtail",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 135168.0,
+    "normalized_si_score": 0.22864025831222534,
+    "full_context": "Wormtail winced as though Snape had thrown something at him."
+  },
+  {
+    "sample_index": 181,
+    "word": "winced",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 65536.0,
+    "normalized_si_score": 0.11541751027107239,
+    "full_context": "Wormtail winced as though Snape had thrown something at him."
+  },
+  {
+    "sample_index": 181,
+    "word": "as",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 100352.0,
+    "normalized_si_score": 0.16244718432426453,
+    "full_context": "Wormtail winced as though Snape had thrown something at him."
+  },
+  {
+    "sample_index": 181,
+    "word": "though",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 52992.0,
+    "normalized_si_score": 0.102154441177845,
+    "full_context": "Wormtail winced as though Snape had thrown something at him."
+  },
+  {
+    "sample_index": 195,
+    "word": "\"Severus,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 45568.0,
+    "normalized_si_score": 0.13079074025154114,
+    "full_context": "\"Severus, I know I ought not to be here, I have been told to say nothing to anyone, but--\""
+  },
+  {
+    "sample_index": 195,
+    "word": "been",
+    "word_index": 12,
+    "token_start": 17,
+    "token_end": 18,
+    "si_score": 37376.0,
+    "normalized_si_score": 0.10346399247646332,
+    "full_context": "\"Severus, I know I ought not to be here, I have been told to say nothing to anyone, but--\""
+  },
+  {
+    "sample_index": 152,
+    "word": "But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 282624.0,
+    "normalized_si_score": 0.14144836366176605,
+    "full_context": "But Narcissa was not listening; she had slipped through a gap in the rusty railings and was already hurrying across the road."
+  },
+  {
+    "sample_index": 84,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 218112.0,
+    "normalized_si_score": 0.1421653926372528,
+    "full_context": "\"I won't deny that morale is pretty low at the Ministry,\" said Fudge. \"What with all that, and then losing Amelia Bones.\""
+  },
+  {
+    "sample_index": 184,
+    "word": "\"To",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 160768.0,
+    "normalized_si_score": 0.17981292307376862,
+    "full_context": "\"To assist, yes--but not to make you drinks and--and clean your house!\""
+  },
+  {
+    "sample_index": 184,
+    "word": "you",
+    "word_index": 7,
+    "token_start": 11,
+    "token_end": 12,
+    "si_score": 88576.0,
+    "normalized_si_score": 0.10205487906932831,
+    "full_context": "\"To assist, yes--but not to make you drinks and--and clean your house!\""
+  },
+  {
+    "sample_index": 184,
+    "word": "your",
+    "word_index": 11,
+    "token_start": 18,
+    "token_end": 19,
+    "si_score": 177152.0,
+    "normalized_si_score": 0.20515236258506775,
+    "full_context": "\"To assist, yes--but not to make you drinks and--and clean your house!\""
+  },
+  {
+    "sample_index": 206,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 208896.0,
+    "normalized_si_score": 0.3853871524333954,
+    "full_context": "\"I know he believes you, but...\""
+  },
+  {
+    "sample_index": 206,
+    "word": "know",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 13696.0,
+    "normalized_si_score": 0.11463864892721176,
+    "full_context": "\"I know he believes you, but...\""
+  },
+  {
+    "sample_index": 206,
+    "word": "he",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 49920.0,
+    "normalized_si_score": 0.14337719976902008,
+    "full_context": "\"I know he believes you, but...\""
+  },
+  {
+    "sample_index": 206,
+    "word": "believes",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 7,
+    "si_score": 8448.0,
+    "normalized_si_score": 0.11096419394016266,
+    "full_context": "\"I know he believes you, but...\""
+  },
+  {
+    "sample_index": 206,
+    "word": "you,",
+    "word_index": 5,
+    "token_start": 7,
+    "token_end": 9,
+    "si_score": 40448.0,
+    "normalized_si_score": 0.1352175772190094,
+    "full_context": "\"I know he believes you, but...\""
+  },
+  {
+    "sample_index": 206,
+    "word": "but.",
+    "word_index": 6,
+    "token_start": 9,
+    "token_end": 11,
+    "si_score": 7648.0,
+    "normalized_si_score": 0.1104152724146843,
+    "full_context": "\"I know he believes you, but...\""
+  },
+  {
+    "sample_index": 198,
+    "word": "\"That",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 39936.0,
+    "normalized_si_score": 0.11032316833734512,
+    "full_context": "\"That I don't trust you, Snape, as you very well know!\""
+  },
+  {
+    "sample_index": 198,
+    "word": "I",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 46336.0,
+    "normalized_si_score": 0.12343548238277435,
+    "full_context": "\"That I don't trust you, Snape, as you very well know!\""
+  },
+  {
+    "sample_index": 198,
+    "word": "don't",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 7,
+    "si_score": 73216.0,
+    "normalized_si_score": 0.19918504357337952,
+    "full_context": "\"That I don't trust you, Snape, as you very well know!\""
+  },
+  {
+    "sample_index": 198,
+    "word": "you,",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 10,
+    "si_score": 51968.0,
+    "normalized_si_score": 0.1360979527235031,
+    "full_context": "\"That I don't trust you, Snape, as you very well know!\""
+  },
+  {
+    "sample_index": 198,
+    "word": "Snape,",
+    "word_index": 6,
+    "token_start": 10,
+    "token_end": 14,
+    "si_score": 34816.0,
+    "normalized_si_score": 0.10030335187911987,
+    "full_context": "\"That I don't trust you, Snape, as you very well know!\""
+  },
+  {
+    "sample_index": 149,
+    "word": "\"I've",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 181248.0,
+    "normalized_si_score": 0.26748478412628174,
+    "full_context": "\"I've listened already. I've made my decision. Leave me alone!\""
+  },
+  {
+    "sample_index": 149,
+    "word": "already.",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 8,
+    "si_score": 40192.0,
+    "normalized_si_score": 0.10061279684305191,
+    "full_context": "\"I've listened already. I've made my decision. Leave me alone!\""
+  },
+  {
+    "sample_index": 149,
+    "word": "I've",
+    "word_index": 4,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 96768.0,
+    "normalized_si_score": 0.14887771010398865,
+    "full_context": "\"I've listened already. I've made my decision. Leave me alone!\""
+  },
+  {
+    "sample_index": 193,
+    "word": "Snape.",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 11,
+    "si_score": 118272.0,
+    "normalized_si_score": 0.12142657488584518,
+    "full_context": "\"My apologies,\" said Snape. \"He has lately taken to listening at doors, I don't know what he means by it... You were saying, Narcissa?\""
+  },
+  {
+    "sample_index": 182,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 245760.0,
+    "normalized_si_score": 0.26434534788131714,
+    "full_context": "\"I am not your servant!\" he squeaked, avoiding Snape's eye."
+  },
+  {
+    "sample_index": 182,
+    "word": "Snape's",
+    "word_index": 9,
+    "token_start": 15,
+    "token_end": 20,
+    "si_score": 28160.0,
+    "normalized_si_score": 0.10114579647779465,
+    "full_context": "\"I am not your servant!\" he squeaked, avoiding Snape's eye."
+  },
+  {
+    "sample_index": 106,
+    "word": "\"To",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 97280.0,
+    "normalized_si_score": 0.12055855244398117,
+    "full_context": "\"To the Prime Minister of Muggles. Requesting a meeting. Urgent. Kindly respond immediately. Rufus Scrimgeour, Minister of Magic.\""
+  },
+  {
+    "sample_index": 106,
+    "word": "immediately.",
+    "word_index": 13,
+    "token_start": 22,
+    "token_end": 24,
+    "si_score": 100864.0,
+    "normalized_si_score": 0.12597467005252838,
+    "full_context": "\"To the Prime Minister of Muggles. Requesting a meeting. Urgent. Kindly respond immediately. Rufus Scrimgeour, Minister of Magic.\""
+  },
+  {
+    "sample_index": 127,
+    "word": "\"He's",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 573440.0,
+    "normalized_si_score": 0.15992268919944763,
+    "full_context": "\"He's only quacking!\" said the Prime Minister weakly. \"Surely a bit of a rest... Maybe go easy on the drink...\""
+  },
+  {
+    "sample_index": 242,
+    "word": "\"You",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 146432.0,
+    "normalized_si_score": 0.24651730060577393,
+    "full_context": "\"You claim you foresaw his use of the boy!\" she jeered."
+  },
+  {
+    "sample_index": 242,
+    "word": "his",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 59648.0,
+    "normalized_si_score": 0.11593592166900635,
+    "full_context": "\"You claim you foresaw his use of the boy!\" she jeered."
+  },
+  {
+    "sample_index": 136,
+    "word": "Chapter",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 54016.0,
+    "normalized_si_score": 0.39467325806617737,
+    "full_context": "Chapter 2: Spinner's End"
+  },
+  {
+    "sample_index": 136,
+    "word": "2:",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 5,
+    "si_score": 59392.0,
+    "normalized_si_score": 0.4705204665660858,
+    "full_context": "Chapter 2: Spinner's End"
+  },
+  {
+    "sample_index": 136,
+    "word": "Spinner's",
+    "word_index": 3,
+    "token_start": 5,
+    "token_end": 9,
+    "si_score": 21248.0,
+    "normalized_si_score": 0.13480637967586517,
+    "full_context": "Chapter 2: Spinner's End"
+  },
+  {
+    "sample_index": 130,
+    "word": "Scrimgeour",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 136192.0,
+    "normalized_si_score": 0.27337831258773804,
+    "full_context": "Scrimgeour merely shrugged, already moving back toward the fireplace."
+  },
+  {
+    "sample_index": 130,
+    "word": "shrugged,",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 11,
+    "si_score": 34048.0,
+    "normalized_si_score": 0.10524245351552963,
+    "full_context": "Scrimgeour merely shrugged, already moving back toward the fireplace."
+  },
+  {
+    "sample_index": 130,
+    "word": "back",
+    "word_index": 6,
+    "token_start": 13,
+    "token_end": 14,
+    "si_score": 46848.0,
+    "normalized_si_score": 0.1186165064573288,
+    "full_context": "Scrimgeour merely shrugged, already moving back toward the fireplace."
+  },
+  {
+    "sample_index": 130,
+    "word": "toward",
+    "word_index": 7,
+    "token_start": 14,
+    "token_end": 15,
+    "si_score": 60672.0,
+    "normalized_si_score": 0.13533207774162292,
+    "full_context": "Scrimgeour merely shrugged, already moving back toward the fireplace."
+  },
+  {
+    "sample_index": 130,
+    "word": "the",
+    "word_index": 8,
+    "token_start": 15,
+    "token_end": 16,
+    "si_score": 44800.0,
+    "normalized_si_score": 0.11632225662469864,
+    "full_context": "Scrimgeour merely shrugged, already moving back toward the fireplace."
+  },
+  {
+    "sample_index": 167,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 423936.0,
+    "normalized_si_score": 0.7772998809814453,
+    "full_context": "\"But of course.\""
+  },
+  {
+    "sample_index": 167,
+    "word": "of",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 1408.0,
+    "normalized_si_score": 0.22270014882087708,
+    "full_context": "\"But of course.\""
+  },
+  {
+    "sample_index": 203,
+    "word": "Snape",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 66560.0,
+    "normalized_si_score": 1.0,
+    "full_context": "Snape smiled."
+  },
+  {
+    "sample_index": 223,
+    "word": "\"On",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 409600.0,
+    "normalized_si_score": 0.34750956296920776,
+    "full_context": "\"On Dumbledore's —?\" she began, in tones of outrage."
+  },
+  {
+    "sample_index": 223,
+    "word": "Dumbledore's",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 8,
+    "si_score": 37376.0,
+    "normalized_si_score": 0.10924200713634491,
+    "full_context": "\"On Dumbledore's —?\" she began, in tones of outrage."
+  },
+  {
+    "sample_index": 223,
+    "word": "she",
+    "word_index": 5,
+    "token_start": 11,
+    "token_end": 12,
+    "si_score": 121856.0,
+    "normalized_si_score": 0.14220042526721954,
+    "full_context": "\"On Dumbledore's —?\" she began, in tones of outrage."
+  },
+  {
+    "sample_index": 223,
+    "word": "began,",
+    "word_index": 6,
+    "token_start": 12,
+    "token_end": 14,
+    "si_score": 11136.0,
+    "normalized_si_score": 0.10067837685346603,
+    "full_context": "\"On Dumbledore's —?\" she began, in tones of outrage."
+  },
+  {
+    "sample_index": 223,
+    "word": "tones",
+    "word_index": 8,
+    "token_start": 15,
+    "token_end": 17,
+    "si_score": 12224.0,
+    "normalized_si_score": 0.10102462768554688,
+    "full_context": "\"On Dumbledore's —?\" she began, in tones of outrage."
+  },
+  {
+    "sample_index": 228,
+    "word": "\"He",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 200704.0,
+    "normalized_si_score": 0.14605674147605896,
+    "full_context": "\"He shares everything with me!\" said Bellatrix, firing up at once. \"He calls me his most loyal, his most faithful —\""
+  },
+  {
+    "sample_index": 240,
+    "word": "\"He",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 374784.0,
+    "normalized_si_score": 0.3619331121444702,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 240,
+    "word": "lately,",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 9,
+    "si_score": 14976.0,
+    "normalized_si_score": 0.10878484696149826,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 240,
+    "word": "we",
+    "word_index": 6,
+    "token_start": 9,
+    "token_end": 10,
+    "si_score": 3872.0,
+    "normalized_si_score": 0.10484108328819275,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 240,
+    "word": "I",
+    "word_index": 8,
+    "token_start": 11,
+    "token_end": 12,
+    "si_score": 568.0,
+    "normalized_si_score": 0.1036955788731575,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 240,
+    "word": "am",
+    "word_index": 9,
+    "token_start": 12,
+    "token_end": 13,
+    "si_score": 24576.0,
+    "normalized_si_score": 0.11232713609933853,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 240,
+    "word": "asking",
+    "word_index": 10,
+    "token_start": 13,
+    "token_end": 14,
+    "si_score": 2176.0,
+    "normalized_si_score": 0.1042548343539238,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 240,
+    "word": "you,",
+    "word_index": 11,
+    "token_start": 14,
+    "token_end": 16,
+    "si_score": 1920.0,
+    "normalized_si_score": 0.10416339337825775,
+    "full_context": "\"He... lately, we... I am asking you, Snape!\""
+  },
+  {
+    "sample_index": 222,
+    "word": "\"Correct.",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 48896.0,
+    "normalized_si_score": 0.11287684738636017,
+    "full_context": "\"Correct. I returned two hours later. I returned on Dumbledore's orders.\""
+  },
+  {
+    "sample_index": 222,
+    "word": "I",
+    "word_index": 2,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 98816.0,
+    "normalized_si_score": 0.21088171005249023,
+    "full_context": "\"Correct. I returned two hours later. I returned on Dumbledore's orders.\""
+  },
+  {
+    "sample_index": 222,
+    "word": "hours",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 51200.0,
+    "normalized_si_score": 0.11623270064592361,
+    "full_context": "\"Correct. I returned two hours later. I returned on Dumbledore's orders.\""
+  },
+  {
+    "sample_index": 222,
+    "word": "later.",
+    "word_index": 6,
+    "token_start": 9,
+    "token_end": 11,
+    "si_score": 71168.0,
+    "normalized_si_score": 0.14910006523132324,
+    "full_context": "\"Correct. I returned two hours later. I returned on Dumbledore's orders.\""
+  },
+  {
+    "sample_index": 183,
+    "word": "\"Really?",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 204800.0,
+    "normalized_si_score": 0.16892510652542114,
+    "full_context": "\"Really? I was under the impression that the Dark Lord placed you here to assist me.\""
+  },
+  {
+    "sample_index": 183,
+    "word": "that",
+    "word_index": 7,
+    "token_start": 10,
+    "token_end": 11,
+    "si_score": 122880.0,
+    "normalized_si_score": 0.10265856236219406,
+    "full_context": "\"Really? I was under the impression that the Dark Lord placed you here to assist me.\""
+  },
+  {
+    "sample_index": 232,
+    "word": "\"There",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 69120.0,
+    "normalized_si_score": 0.18759974837303162,
+    "full_context": "\"There is no point apportioning blame,\" said Snape smoothly. \"What is done, is done.\""
+  },
+  {
+    "sample_index": 232,
+    "word": "is",
+    "word_index": 13,
+    "token_start": 25,
+    "token_end": 26,
+    "si_score": 35840.0,
+    "normalized_si_score": 0.10340026766061783,
+    "full_context": "\"There is no point apportioning blame,\" said Snape smoothly. \"What is done, is done.\""
+  },
+  {
+    "sample_index": 238,
+    "word": "\"You",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 342016.0,
+    "normalized_si_score": 0.1072205901145935,
+    "full_context": "\"You are avoiding my last question, Snape. Harry Potter. You could have killed him at any point in the past five years. You have not done it. Why?\""
+  },
+  {
+    "sample_index": 108,
+    "word": "Fudge",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 315392.0,
+    "normalized_si_score": 0.10325396060943604,
+    "full_context": "Fudge got to his feet and, after a moment's hesitation, the Prime Minister did the same, watching the new arrival straighten up, dust down his long black robes, and look around."
+  },
+  {
+    "sample_index": 174,
+    "word": "\"We...",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 49664.0,
+    "normalized_si_score": 0.14633579552173615,
+    "full_context": "\"We... we are alone, aren't we?\" Narcissa asked quietly."
+  },
+  {
+    "sample_index": 174,
+    "word": "aren't",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 101376.0,
+    "normalized_si_score": 0.2760741710662842,
+    "full_context": "\"We... we are alone, aren't we?\" Narcissa asked quietly."
+  },
+  {
+    "sample_index": 174,
+    "word": "we?\"",
+    "word_index": 6,
+    "token_start": 11,
+    "token_end": 13,
+    "si_score": 48128.0,
+    "normalized_si_score": 0.14350539445877075,
+    "full_context": "\"We... we are alone, aren't we?\" Narcissa asked quietly."
+  },
+  {
+    "sample_index": 227,
+    "word": "\"My",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 290816.0,
+    "normalized_si_score": 0.13731436431407928,
+    "full_context": "\"My information has been conveyed directly to the Dark Lord,\" said Snape. \"If he chooses not to share it with you —\""
+  },
+  {
+    "sample_index": 113,
+    "word": "\"Er--yes,\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 173056.0,
+    "normalized_si_score": 0.18651360273361206,
+    "full_context": "\"Er--yes,\" said the Prime Minister. \"And if you don't mind, I'd rather that door remained unlocked.\""
+  },
+  {
+    "sample_index": 112,
+    "word": "\"Fudge",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 268288.0,
+    "normalized_si_score": 0.11895203590393066,
+    "full_context": "\"Fudge told you everything?\" he asked, striding over to the door and tapping the keyhole with his wand. The Prime Minister heard the lock click."
+  },
+  {
+    "sample_index": 91,
+    "word": "wasn't",
+    "word_index": 6,
+    "token_start": 7,
+    "token_end": 10,
+    "si_score": 262144.0,
+    "normalized_si_score": 0.10180027037858963,
+    "full_context": "\"And as if all that wasn't enough,\" said Fudge, barely listening to the Prime Minister, \"we've got dementors swarming all over the place, attacking people left, right, and center...\""
+  },
+  {
+    "sample_index": 92,
+    "word": "sentence",
+    "word_index": 7,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 131072.0,
+    "normalized_si_score": 0.13896149396896362,
+    "full_context": "Once upon a happier time this sentence would have been unintelligible to the Prime Minister, but he was wiser now."
+  },
+  {
+    "sample_index": 265,
+    "word": "Narcissa",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 86016.0,
+    "normalized_si_score": 0.14536631107330322,
+    "full_context": "Narcissa began to cry in earnest, gazing beseechingly all the while at Snape."
+  },
+  {
+    "sample_index": 265,
+    "word": "began",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 63744.0,
+    "normalized_si_score": 0.10177978128194809,
+    "full_context": "Narcissa began to cry in earnest, gazing beseechingly all the while at Snape."
+  },
+  {
+    "sample_index": 265,
+    "word": "cry",
+    "word_index": 4,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 83456.0,
+    "normalized_si_score": 0.1397974193096161,
+    "full_context": "Narcissa began to cry in earnest, gazing beseechingly all the while at Snape."
+  },
+  {
+    "sample_index": 265,
+    "word": "beseechingly",
+    "word_index": 8,
+    "token_start": 12,
+    "token_end": 16,
+    "si_score": 69120.0,
+    "normalized_si_score": 0.11113016307353973,
+    "full_context": "Narcissa began to cry in earnest, gazing beseechingly all the while at Snape."
+  },
+  {
+    "sample_index": 126,
+    "word": "said",
+    "word_index": 11,
+    "token_start": 17,
+    "token_end": 18,
+    "si_score": 234496.0,
+    "normalized_si_score": 0.13135266304016113,
+    "full_context": "\"He has clearly reacted to a poorly performed Imperius Curse,\" said Scrimgeour. \"It's addled his brains, but he could still be dangerous.\""
+  },
+  {
+    "sample_index": 233,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 100864.0,
+    "normalized_si_score": 0.123810775578022,
+    "full_context": "\"But not by you!\" said Bellatrix furiously. \"No, you were once again absent while the rest of us ran dangers, were you not, Snape?\""
+  },
+  {
+    "sample_index": 271,
+    "word": "Bellatrix",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 218112.0,
+    "normalized_si_score": 0.34001442790031433,
+    "full_context": "Bellatrix gasped; Narcissa seemed to lose her nerve."
+  },
+  {
+    "sample_index": 271,
+    "word": "gasped;",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 8,
+    "si_score": 37376.0,
+    "normalized_si_score": 0.11543017625808716,
+    "full_context": "Bellatrix gasped; Narcissa seemed to lose her nerve."
+  },
+  {
+    "sample_index": 271,
+    "word": "Narcissa",
+    "word_index": 3,
+    "token_start": 8,
+    "token_end": 11,
+    "si_score": 72192.0,
+    "normalized_si_score": 0.14222438633441925,
+    "full_context": "Bellatrix gasped; Narcissa seemed to lose her nerve."
+  },
+  {
+    "sample_index": 271,
+    "word": "seemed",
+    "word_index": 4,
+    "token_start": 11,
+    "token_end": 12,
+    "si_score": 17792.0,
+    "normalized_si_score": 0.10272840410470963,
+    "full_context": "Bellatrix gasped; Narcissa seemed to lose her nerve."
+  },
+  {
+    "sample_index": 271,
+    "word": "to",
+    "word_index": 5,
+    "token_start": 12,
+    "token_end": 13,
+    "si_score": 17792.0,
+    "normalized_si_score": 0.10272840410470963,
+    "full_context": "Bellatrix gasped; Narcissa seemed to lose her nerve."
+  },
+  {
+    "sample_index": 250,
+    "word": "\"Now",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 60928.0,
+    "normalized_si_score": 0.2180338203907013,
+    "full_context": "\"Now... you came to ask me for help, Narcissa?\""
+  },
+  {
+    "sample_index": 250,
+    "word": "to",
+    "word_index": 7,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 11648.0,
+    "normalized_si_score": 0.10006716102361679,
+    "full_context": "\"Now... you came to ask me for help, Narcissa?\""
+  },
+  {
+    "sample_index": 250,
+    "word": "me",
+    "word_index": 9,
+    "token_start": 10,
+    "token_end": 11,
+    "si_score": 71168.0,
+    "normalized_si_score": 0.2561550736427307,
+    "full_context": "\"Now... you came to ask me for help, Narcissa?\""
+  },
+  {
+    "sample_index": 226,
+    "word": "\"But",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 113152.0,
+    "normalized_si_score": 0.12273705750703812,
+    "full_context": "\"But what use have you been?\" sneered Bellatrix. \"What useful information have we had from you?\""
+  },
+  {
+    "sample_index": 226,
+    "word": "we",
+    "word_index": 13,
+    "token_start": 21,
+    "token_end": 22,
+    "si_score": 149504.0,
+    "normalized_si_score": 0.16532213985919952,
+    "full_context": "\"But what use have you been?\" sneered Bellatrix. \"What useful information have we had from you?\""
+  },
+  {
+    "sample_index": 260,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 86016.0,
+    "normalized_si_score": 0.15033015608787537,
+    "full_context": "\"I thought you must know about it!\" said Narcissa, breathing more freely. \"He trusts you so, Severus....\""
+  },
+  {
+    "sample_index": 239,
+    "word": "you",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 84480.0,
+    "normalized_si_score": 0.19144345819950104,
+    "full_context": "\"Have you discussed this matter with the Dark Lord?\" asked Snape."
+  },
+  {
+    "sample_index": 239,
+    "word": "discussed",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 59648.0,
+    "normalized_si_score": 0.12827827036380768,
+    "full_context": "\"Have you discussed this matter with the Dark Lord?\" asked Snape."
+  },
+  {
+    "sample_index": 239,
+    "word": "the",
+    "word_index": 7,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 46080.0,
+    "normalized_si_score": 0.10297387093305588,
+    "full_context": "\"Have you discussed this matter with the Dark Lord?\" asked Snape."
+  },
+  {
+    "sample_index": 239,
+    "word": "Dark",
+    "word_index": 8,
+    "token_start": 9,
+    "token_end": 10,
+    "si_score": 61440.0,
+    "normalized_si_score": 0.13209201395511627,
+    "full_context": "\"Have you discussed this matter with the Dark Lord?\" asked Snape."
+  },
+  {
+    "sample_index": 261,
+    "word": "\"You",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 68096.0,
+    "normalized_si_score": 0.12708444893360138,
+    "full_context": "\"You know about the plan?\" said Bellatrix, her fleeting expression of satisfaction replaced by a look of outrage. \"You know?\""
+  },
+  {
+    "sample_index": 261,
+    "word": "look",
+    "word_index": 16,
+    "token_start": 22,
+    "token_end": 23,
+    "si_score": 57856.0,
+    "normalized_si_score": 0.10607938468456268,
+    "full_context": "\"You know about the plan?\" said Bellatrix, her fleeting expression of satisfaction replaced by a look of outrage. \"You know?\""
+  },
+  {
+    "sample_index": 251,
+    "word": "Narcissa",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 29952.0,
+    "normalized_si_score": 0.11201030015945435,
+    "full_context": "Narcissa looked up at him, her face eloquent with despair."
+  },
+  {
+    "sample_index": 251,
+    "word": "looked",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 37632.0,
+    "normalized_si_score": 0.13191597163677216,
+    "full_context": "Narcissa looked up at him, her face eloquent with despair."
+  },
+  {
+    "sample_index": 251,
+    "word": "at",
+    "word_index": 4,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 26880.0,
+    "normalized_si_score": 0.10486490279436111,
+    "full_context": "Narcissa looked up at him, her face eloquent with despair."
+  },
+  {
+    "sample_index": 251,
+    "word": "eloquent",
+    "word_index": 8,
+    "token_start": 11,
+    "token_end": 14,
+    "si_score": 62464.0,
+    "normalized_si_score": 0.22461585700511932,
+    "full_context": "Narcissa looked up at him, her face eloquent with despair."
+  },
+  {
+    "sample_index": 251,
+    "word": "with",
+    "word_index": 9,
+    "token_start": 14,
+    "token_end": 15,
+    "si_score": 33536.0,
+    "normalized_si_score": 0.1208166852593422,
+    "full_context": "Narcissa looked up at him, her face eloquent with despair."
+  },
+  {
+    "sample_index": 269,
+    "word": "\"If",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 50176.0,
+    "normalized_si_score": 0.12016627937555313,
+    "full_context": "\"If Draco succeeds,\" said Snape, still looking away from her, \"he will be honored above all others.\""
+  },
+  {
+    "sample_index": 269,
+    "word": "succeeds,\"",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 9,
+    "si_score": 44288.0,
+    "normalized_si_score": 0.10328676551580429,
+    "full_context": "\"If Draco succeeds,\" said Snape, still looking away from her, \"he will be honored above all others.\""
+  },
+  {
+    "sample_index": 229,
+    "word": "\"Does",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 48384.0,
+    "normalized_si_score": 0.11756979674100876,
+    "full_context": "\"Does he?\" said Snape, his voice delicately inflected to suggest his disbelief. \"Does he still, after the fiasco at the Ministry?\""
+  },
+  {
+    "sample_index": 229,
+    "word": "delicately",
+    "word_index": 7,
+    "token_start": 12,
+    "token_end": 15,
+    "si_score": 50432.0,
+    "normalized_si_score": 0.12345297634601593,
+    "full_context": "\"Does he?\" said Snape, his voice delicately inflected to suggest his disbelief. \"Does he still, after the fiasco at the Ministry?\""
+  },
+  {
+    "sample_index": 255,
+    "word": "has",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 71680.0,
+    "normalized_si_score": 0.13757622241973877,
+    "full_context": "\"If he has forbidden it, you ought not to speak,\" said Snape at once. \"The Dark Lord's word is law.\""
+  },
+  {
+    "sample_index": 263,
+    "word": "\"Severus,\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 59648.0,
+    "normalized_si_score": 0.18979232013225555,
+    "full_context": "\"Severus,\" she whispered, tears sliding down her pale cheeks. \"My son... my only son...\""
+  },
+  {
+    "sample_index": 263,
+    "word": "\"My",
+    "word_index": 10,
+    "token_start": 19,
+    "token_end": 21,
+    "si_score": 32640.0,
+    "normalized_si_score": 0.10930833220481873,
+    "full_context": "\"Severus,\" she whispered, tears sliding down her pale cheeks. \"My son... my only son...\""
+  },
+  {
+    "sample_index": 257,
+    "word": "\"There!\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 184320.0,
+    "normalized_si_score": 0.14675934612751007,
+    "full_context": "\"There!\" she said triumphantly to her sister. \"Even Snape says so: You were told not to talk, so hold your silence!\""
+  },
+  {
+    "sample_index": 110,
+    "word": "\"How",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 75264.0,
+    "normalized_si_score": 0.20424716174602509,
+    "full_context": "\"How do you do?\" said the Prime Minister politely, holding out his hand."
+  },
+  {
+    "sample_index": 110,
+    "word": "the",
+    "word_index": 6,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 57856.0,
+    "normalized_si_score": 0.153873011469841,
+    "full_context": "\"How do you do?\" said the Prime Minister politely, holding out his hand."
+  },
+  {
+    "sample_index": 139,
+    "word": "With",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 16768.0,
+    "normalized_si_score": 0.10659828782081604,
+    "full_context": "With a second and louder pop, another hooded figure materialized."
+  },
+  {
+    "sample_index": 139,
+    "word": "and",
+    "word_index": 4,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 22656.0,
+    "normalized_si_score": 0.12554217875003815,
+    "full_context": "With a second and louder pop, another hooded figure materialized."
+  },
+  {
+    "sample_index": 139,
+    "word": "louder",
+    "word_index": 5,
+    "token_start": 5,
+    "token_end": 8,
+    "si_score": 45824.0,
+    "normalized_si_score": 0.2380046397447586,
+    "full_context": "With a second and louder pop, another hooded figure materialized."
+  },
+  {
+    "sample_index": 139,
+    "word": "hooded",
+    "word_index": 8,
+    "token_start": 11,
+    "token_end": 14,
+    "si_score": 23936.0,
+    "normalized_si_score": 0.12990733981132507,
+    "full_context": "With a second and louder pop, another hooded figure materialized."
+  },
+  {
+    "sample_index": 135,
+    "word": "And",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 2,
+    "si_score": 56320.0,
+    "normalized_si_score": 0.11404618620872498,
+    "full_context": "And with that, the two wizards stepped one after the other into the bright green fire and vanished."
+  },
+  {
+    "sample_index": 135,
+    "word": "two",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 68096.0,
+    "normalized_si_score": 0.13932353258132935,
+    "full_context": "And with that, the two wizards stepped one after the other into the bright green fire and vanished."
+  },
+  {
+    "sample_index": 129,
+    "word": "\"I...",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 33792.0,
+    "normalized_si_score": 0.16286949813365936,
+    "full_context": "\"I... well... He'll be all right, won't he?\" said the Prime Minister anxiously."
+  },
+  {
+    "sample_index": 129,
+    "word": "well...",
+    "word_index": 2,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 36352.0,
+    "normalized_si_score": 0.17870254814624786,
+    "full_context": "\"I... well... He'll be all right, won't he?\" said the Prime Minister anxiously."
+  },
+  {
+    "sample_index": 129,
+    "word": "He'll",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 9,
+    "si_score": 33536.0,
+    "normalized_si_score": 0.16128671169281006,
+    "full_context": "\"I... well... He'll be all right, won't he?\" said the Prime Minister anxiously."
+  },
+  {
+    "sample_index": 123,
+    "word": "\"I...",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 188416.0,
+    "normalized_si_score": 0.12853769958019257,
+    "full_context": "\"I... well, as long as Shacklebolt's work continues to be... er... excellent,\" said the Prime Minister lamely, but Scrimgeour barely seemed to hear him."
+  },
+  {
+    "sample_index": 122,
+    "word": "\"Then",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 42752.0,
+    "normalized_si_score": 0.273345947265625,
+    "full_context": "\"Then there's no problem, is there?\" said Scrimgeour."
+  },
+  {
+    "sample_index": 122,
+    "word": "there's",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 6,
+    "si_score": 31488.0,
+    "normalized_si_score": 0.1951608508825302,
+    "full_context": "\"Then there's no problem, is there?\" said Scrimgeour."
+  },
+  {
+    "sample_index": 122,
+    "word": "no",
+    "word_index": 3,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 19712.0,
+    "normalized_si_score": 0.13631078600883484,
+    "full_context": "\"Then there's no problem, is there?\" said Scrimgeour."
+  },
+  {
+    "sample_index": 122,
+    "word": "is",
+    "word_index": 5,
+    "token_start": 9,
+    "token_end": 10,
+    "si_score": 14720.0,
+    "normalized_si_score": 0.11716347932815552,
+    "full_context": "\"Then there's no problem, is there?\" said Scrimgeour."
+  },
+  {
+    "sample_index": 122,
+    "word": "said",
+    "word_index": 7,
+    "token_start": 12,
+    "token_end": 13,
+    "si_score": 11008.0,
+    "normalized_si_score": 0.10484533756971359,
+    "full_context": "\"Then there's no problem, is there?\" said Scrimgeour."
+  },
+  {
+    "sample_index": 120,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 28928.0,
+    "normalized_si_score": 0.15813666582107544,
+    "full_context": "\"I thought you were happy with Shacklebolt?\" said Scrimgeour coldly."
+  },
+  {
+    "sample_index": 120,
+    "word": "were",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 33024.0,
+    "normalized_si_score": 0.18219202756881714,
+    "full_context": "\"I thought you were happy with Shacklebolt?\" said Scrimgeour coldly."
+  },
+  {
+    "sample_index": 120,
+    "word": "happy",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 16896.0,
+    "normalized_si_score": 0.10467518121004105,
+    "full_context": "\"I thought you were happy with Shacklebolt?\" said Scrimgeour coldly."
+  },
+  {
+    "sample_index": 120,
+    "word": "Shacklebolt?\"",
+    "word_index": 7,
+    "token_start": 8,
+    "token_end": 14,
+    "si_score": 37120.0,
+    "normalized_si_score": 0.20888419449329376,
+    "full_context": "\"I thought you were happy with Shacklebolt?\" said Scrimgeour coldly."
+  },
+  {
+    "sample_index": 117,
+    "word": "\"I'm",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 124928.0,
+    "normalized_si_score": 0.10345505177974701,
+    "full_context": "\"I'm not getting rid of Kingsley Shacklebolt, if that's what you're suggesting!\" said the Prime Minister hotly. \"He's highly efficient, gets through twice the work the rest of them--\""
+  },
+  {
+    "sample_index": 111,
+    "word": "Scrimgeour",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 147456.0,
+    "normalized_si_score": 0.16111405193805695,
+    "full_context": "Scrimgeour grasped it briefly, his eyes scanning the room, then pulled out a wand from under his robes."
+  },
+  {
+    "sample_index": 105,
+    "word": "Fudge",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 65536.0,
+    "normalized_si_score": 0.10518765449523926,
+    "full_context": "Fudge subsided into what was clearly an aggrieved silence, but it was broken almost immediately by the portrait, which suddenly spoke in its crisp, official voice."
+  },
+  {
+    "sample_index": 96,
+    "word": "\"That's",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 41472.0,
+    "normalized_si_score": 0.20856612920761108,
+    "full_context": "\"That's right. And they're breeding. That's what's causing all this mist.\""
+  },
+  {
+    "sample_index": 96,
+    "word": "And",
+    "word_index": 3,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 20864.0,
+    "normalized_si_score": 0.11273294687271118,
+    "full_context": "\"That's right. And they're breeding. That's what's causing all this mist.\""
+  },
+  {
+    "sample_index": 96,
+    "word": "That's",
+    "word_index": 6,
+    "token_start": 14,
+    "token_end": 17,
+    "si_score": 39168.0,
+    "normalized_si_score": 0.19478507339954376,
+    "full_context": "\"That's right. And they're breeding. That's what's causing all this mist.\""
+  },
+  {
+    "sample_index": 94,
+    "word": "\"They",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 126976.0,
+    "normalized_si_score": 0.1418946534395218,
+    "full_context": "\"They did,\" said Fudge wearily. \"But not anymore. They've deserted the prison and joined He-Who-Must-Not-Be-Named. I won't pretend that wasn't a blow.\""
+  },
+  {
+    "sample_index": 93,
+    "word": "\"I",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 43520.0,
+    "normalized_si_score": 0.2147762030363083,
+    "full_context": "\"I thought dementors guard the prisoners in Azkaban,\" he said cautiously."
+  },
+  {
+    "sample_index": 93,
+    "word": "dementors",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 7,
+    "si_score": 23424.0,
+    "normalized_si_score": 0.11895868927240372,
+    "full_context": "\"I thought dementors guard the prisoners in Azkaban,\" he said cautiously."
+  },
+  {
+    "sample_index": 93,
+    "word": "guard",
+    "word_index": 4,
+    "token_start": 7,
+    "token_end": 8,
+    "si_score": 22784.0,
+    "normalized_si_score": 0.11665782332420349,
+    "full_context": "\"I thought dementors guard the prisoners in Azkaban,\" he said cautiously."
+  },
+  {
+    "sample_index": 93,
+    "word": "the",
+    "word_index": 5,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 21248.0,
+    "normalized_si_score": 0.1116422563791275,
+    "full_context": "\"I thought dementors guard the prisoners in Azkaban,\" he said cautiously."
+  },
+  {
+    "sample_index": 85,
+    "word": "\"Losing",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 67072.0,
+    "normalized_si_score": 1.0,
+    "full_context": "\"Losing who?\""
+  },
+  {
+    "sample_index": 81,
+    "word": "his",
+    "word_index": 6,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 141312.0,
+    "normalized_si_score": 0.11156433075666428,
+    "full_context": "The Prime Minister stopped in his tracks as though he had hit an invisible wall. \"What involvement?\""
+  },
+  {
+    "sample_index": 81,
+    "word": "as",
+    "word_index": 8,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 184320.0,
+    "normalized_si_score": 0.14808768033981323,
+    "full_context": "The Prime Minister stopped in his tracks as though he had hit an invisible wall. \"What involvement?\""
+  },
+  {
+    "sample_index": 78,
+    "word": "\"That",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 6368.0,
+    "normalized_si_score": 0.16784703731536865,
+    "full_context": "\"That was no hurricane,\" said Fudge miserably."
+  },
+  {
+    "sample_index": 78,
+    "word": "was",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 16128.0,
+    "normalized_si_score": 0.3432246148586273,
+    "full_context": "\"That was no hurricane,\" said Fudge miserably."
+  },
+  {
+    "sample_index": 78,
+    "word": "no",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 3328.0,
+    "normalized_si_score": 0.13440868258476257,
+    "full_context": "\"That was no hurricane,\" said Fudge miserably."
+  },
+  {
+    "sample_index": 78,
+    "word": "hurricane,\"",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 9,
+    "si_score": 2512.0,
+    "normalized_si_score": 0.12645037472248077,
+    "full_context": "\"That was no hurricane,\" said Fudge miserably."
+  },
+  {
+    "sample_index": 78,
+    "word": "said",
+    "word_index": 5,
+    "token_start": 9,
+    "token_end": 10,
+    "si_score": 2864.0,
+    "normalized_si_score": 0.12973380088806152,
+    "full_context": "\"That was no hurricane,\" said Fudge miserably."
+  },
+  {
+    "sample_index": 71,
+    "word": "little",
+    "word_index": 11,
+    "token_start": 20,
+    "token_end": 21,
+    "si_score": 43008.0,
+    "normalized_si_score": 0.17571881413459778,
+    "full_context": "\"At war?\" repeated the Prime Minister nervously. \"Surely that's a little bit of an overstatement?\""
+  },
+  {
+    "sample_index": 213,
+    "word": "\"Gesture!\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 88064.0,
+    "normalized_si_score": 0.127643421292305,
+    "full_context": "\"Gesture!\" she shrieked; in her fury she looked slightly mad. \"While I endured the dementors, you remained at Hogwarts, comfortably playing Dumbledore's pet!\""
+  },
+  {
+    "sample_index": 211,
+    "word": "\"He'd",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 5,
+    "si_score": 30464.0,
+    "normalized_si_score": 0.15768560767173767,
+    "full_context": "\"He'd have me!\" said Bellatrix passionately. \"I, who spent many years in Azkaban for him!\""
+  },
+  {
+    "sample_index": 211,
+    "word": "\"I,",
+    "word_index": 7,
+    "token_start": 15,
+    "token_end": 18,
+    "si_score": 27136.0,
+    "normalized_si_score": 0.13753582537174225,
+    "full_context": "\"He'd have me!\" said Bellatrix passionately. \"I, who spent many years in Azkaban for him!\""
+  },
+  {
+    "sample_index": 207,
+    "word": "he",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 191488.0,
+    "normalized_si_score": 0.10180438309907913,
+    "full_context": "\"You think he is mistaken? Or that I have somehow hoodwinked him? Fooled the Dark Lord, the greatest wizard, the most accomplished Legilimens the world has ever seen?\""
+  },
+  {
+    "sample_index": 194,
+    "word": "took",
+    "word_index": 2,
+    "token_start": 2,
+    "token_end": 3,
+    "si_score": 31616.0,
+    "normalized_si_score": 0.13838064670562744,
+    "full_context": "She took a great, shuddering breath and started again."
+  },
+  {
+    "sample_index": 194,
+    "word": "a",
+    "word_index": 3,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 32000.0,
+    "normalized_si_score": 0.1390579789876938,
+    "full_context": "She took a great, shuddering breath and started again."
+  },
+  {
+    "sample_index": 194,
+    "word": "great,",
+    "word_index": 4,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 64256.0,
+    "normalized_si_score": 0.18189792335033417,
+    "full_context": "She took a great, shuddering breath and started again."
+  },
+  {
+    "sample_index": 194,
+    "word": "shuddering",
+    "word_index": 5,
+    "token_start": 6,
+    "token_end": 10,
+    "si_score": 66048.0,
+    "normalized_si_score": 0.18548554182052612,
+    "full_context": "She took a great, shuddering breath and started again."
+  },
+  {
+    "sample_index": 194,
+    "word": "and",
+    "word_index": 7,
+    "token_start": 11,
+    "token_end": 12,
+    "si_score": 2432.0,
+    "normalized_si_score": 0.10840428620576859,
+    "full_context": "She took a great, shuddering breath and started again."
+  },
+  {
+    "sample_index": 194,
+    "word": "started",
+    "word_index": 8,
+    "token_start": 12,
+    "token_end": 13,
+    "si_score": 1920.0,
+    "normalized_si_score": 0.1078762486577034,
+    "full_context": "She took a great, shuddering breath and started again."
+  },
+  {
+    "sample_index": 190,
+    "word": "\"The",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 80384.0,
+    "normalized_si_score": 0.21142013370990753,
+    "full_context": "\"The Dark Lord,\" he said, raising his glass and draining it."
+  },
+  {
+    "sample_index": 190,
+    "word": "Lord,\"",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 6,
+    "si_score": 57344.0,
+    "normalized_si_score": 0.14305400848388672,
+    "full_context": "\"The Dark Lord,\" he said, raising his glass and draining it."
+  },
+  {
+    "sample_index": 190,
+    "word": "said,",
+    "word_index": 5,
+    "token_start": 7,
+    "token_end": 9,
+    "si_score": 49920.0,
+    "normalized_si_score": 0.12661512196063995,
+    "full_context": "\"The Dark Lord,\" he said, raising his glass and draining it."
+  },
+  {
+    "sample_index": 185,
+    "word": "shall",
+    "word_index": 22,
+    "token_start": 37,
+    "token_end": 38,
+    "si_score": 161792.0,
+    "normalized_si_score": 0.1062743216753006,
+    "full_context": "\"I had no idea, Wormtail, that you were craving more dangerous assignments,\" said Snape silkily. \"This can be easily arranged: I shall speak to the Dark Lord--\""
+  },
+  {
+    "sample_index": 179,
+    "word": "\"Narcissa!\"",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 83456.0,
+    "normalized_si_score": 0.2271362543106079,
+    "full_context": "\"Narcissa!\" he said, in a squeaky voice. \"And Bellatrix! How charming--\""
+  },
+  {
+    "sample_index": 179,
+    "word": "he",
+    "word_index": 2,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 35584.0,
+    "normalized_si_score": 0.10946113616228104,
+    "full_context": "\"Narcissa!\" he said, in a squeaky voice. \"And Bellatrix! How charming--\""
+  },
+  {
+    "sample_index": 179,
+    "word": "squeaky",
+    "word_index": 6,
+    "token_start": 11,
+    "token_end": 15,
+    "si_score": 43520.0,
+    "normalized_si_score": 0.12337130308151245,
+    "full_context": "\"Narcissa!\" he said, in a squeaky voice. \"And Bellatrix! How charming--\""
+  },
+  {
+    "sample_index": 220,
+    "word": "Bellatrix's",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 59904.0,
+    "normalized_si_score": 0.13448978960514069,
+    "full_context": "Bellatrix's mouth twisted as though she had taken an unpleasant dose of medicine."
+  },
+  {
+    "sample_index": 220,
+    "word": "twisted",
+    "word_index": 3,
+    "token_start": 7,
+    "token_end": 9,
+    "si_score": 86528.0,
+    "normalized_si_score": 0.19587267935276031,
+    "full_context": "Bellatrix's mouth twisted as though she had taken an unpleasant dose of medicine."
+  },
+  {
+    "sample_index": 220,
+    "word": "an",
+    "word_index": 9,
+    "token_start": 14,
+    "token_end": 15,
+    "si_score": 50688.0,
+    "normalized_si_score": 0.1178782507777214,
+    "full_context": "Bellatrix's mouth twisted as though she had taken an unpleasant dose of medicine."
+  },
+  {
+    "sample_index": 175,
+    "word": "'Yes,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 111616.0,
+    "normalized_si_score": 0.1859418898820877,
+    "full_context": "'Yes, of course. Well, Wormtail's here, but we're not counting vermin, are we?\""
+  },
+  {
+    "sample_index": 175,
+    "word": "course.",
+    "word_index": 3,
+    "token_start": 5,
+    "token_end": 7,
+    "si_score": 98304.0,
+    "normalized_si_score": 0.1598230004310608,
+    "full_context": "'Yes, of course. Well, Wormtail's here, but we're not counting vermin, are we?\""
+  },
+  {
+    "sample_index": 173,
+    "word": "\"So,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 4,
+    "si_score": 78336.0,
+    "normalized_si_score": 0.11546296626329422,
+    "full_context": "\"So, what can I do for you?\" Snape asked, settling himself in the armchair opposite the two sisters."
+  },
+  {
+    "sample_index": 173,
+    "word": "Snape",
+    "word_index": 8,
+    "token_start": 11,
+    "token_end": 14,
+    "si_score": 77312.0,
+    "normalized_si_score": 0.11378393322229385,
+    "full_context": "\"So, what can I do for you?\" Snape asked, settling himself in the armchair opposite the two sisters."
+  },
+  {
+    "sample_index": 173,
+    "word": "asked,",
+    "word_index": 9,
+    "token_start": 14,
+    "token_end": 16,
+    "si_score": 88576.0,
+    "normalized_si_score": 0.13367803394794464,
+    "full_context": "\"So, what can I do for you?\" Snape asked, settling himself in the armchair opposite the two sisters."
+  },
+  {
+    "sample_index": 168,
+    "word": "allow",
+    "word_index": 5,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 59136.0,
+    "normalized_si_score": 0.10895293205976486,
+    "full_context": "He stood back to allow her to pass him into the house. Her still-hooded sister followed without invitation."
+  },
+  {
+    "sample_index": 166,
+    "word": "in",
+    "word_index": 4,
+    "token_start": 8,
+    "token_end": 9,
+    "si_score": 23808.0,
+    "normalized_si_score": 0.1143641397356987,
+    "full_context": "\"Severus,\" she said in a strained whisper. \"May I speak to you? It's urgent.\""
+  },
+  {
+    "sample_index": 166,
+    "word": "strained",
+    "word_index": 6,
+    "token_start": 10,
+    "token_end": 12,
+    "si_score": 33536.0,
+    "normalized_si_score": 0.16575011610984802,
+    "full_context": "\"Severus,\" she said in a strained whisper. \"May I speak to you? It's urgent.\""
+  },
+  {
+    "sample_index": 156,
+    "word": "\"The",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 67072.0,
+    "normalized_si_score": 0.35925528407096863,
+    "full_context": "\"The Dark Lord trusts him, doesn't he?\""
+  },
+  {
+    "sample_index": 156,
+    "word": "Dark",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 18816.0,
+    "normalized_si_score": 0.12151636183261871,
+    "full_context": "\"The Dark Lord trusts him, doesn't he?\""
+  },
+  {
+    "sample_index": 156,
+    "word": "Lord",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 12544.0,
+    "normalized_si_score": 0.10561713576316833,
+    "full_context": "\"The Dark Lord trusts him, doesn't he?\""
+  },
+  {
+    "sample_index": 156,
+    "word": "trusts",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 7,
+    "si_score": 11392.0,
+    "normalized_si_score": 0.10292836278676987,
+    "full_context": "\"The Dark Lord trusts him, doesn't he?\""
+  },
+  {
+    "sample_index": 156,
+    "word": "him,",
+    "word_index": 5,
+    "token_start": 7,
+    "token_end": 9,
+    "si_score": 30720.0,
+    "normalized_si_score": 0.15856461226940155,
+    "full_context": "\"The Dark Lord trusts him, doesn't he?\""
+  },
+  {
+    "sample_index": 156,
+    "word": "doesn't",
+    "word_index": 6,
+    "token_start": 9,
+    "token_end": 12,
+    "si_score": 28800.0,
+    "normalized_si_score": 0.1521182507276535,
+    "full_context": "\"The Dark Lord trusts him, doesn't he?\""
+  },
+  {
+    "sample_index": 155,
+    "word": "\"Cissy,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 48128.0,
+    "normalized_si_score": 0.26826876401901245,
+    "full_context": "\"Cissy, you must not do this, you can't trust him--\""
+  },
+  {
+    "sample_index": 155,
+    "word": "you",
+    "word_index": 2,
+    "token_start": 6,
+    "token_end": 7,
+    "si_score": 14400.0,
+    "normalized_si_score": 0.11194032430648804,
+    "full_context": "\"Cissy, you must not do this, you can't trust him--\""
+  },
+  {
+    "sample_index": 155,
+    "word": "can't",
+    "word_index": 8,
+    "token_start": 13,
+    "token_end": 16,
+    "si_score": 16640.0,
+    "normalized_si_score": 0.11898542940616608,
+    "full_context": "\"Cissy, you must not do this, you can't trust him--\""
+  },
+  {
+    "sample_index": 153,
+    "word": "\"Cissy,",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 6,
+    "si_score": 44544.0,
+    "normalized_si_score": 1.0,
+    "full_context": "\"Cissy, wait!\""
+  },
+  {
+    "sample_index": 148,
+    "word": "\"You",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 3,
+    "si_score": 140288.0,
+    "normalized_si_score": 0.49496549367904663,
+    "full_context": "\"You must listen to me!\""
+  },
+  {
+    "sample_index": 148,
+    "word": "must",
+    "word_index": 2,
+    "token_start": 3,
+    "token_end": 4,
+    "si_score": 25344.0,
+    "normalized_si_score": 0.14180998504161835,
+    "full_context": "\"You must listen to me!\""
+  },
+  {
+    "sample_index": 148,
+    "word": "listen",
+    "word_index": 3,
+    "token_start": 4,
+    "token_end": 5,
+    "si_score": 27904.0,
+    "normalized_si_score": 0.14582562446594238,
+    "full_context": "\"You must listen to me!\""
+  },
+  {
+    "sample_index": 148,
+    "word": "to",
+    "word_index": 4,
+    "token_start": 5,
+    "token_end": 6,
+    "si_score": 64512.0,
+    "normalized_si_score": 0.21739895641803741,
+    "full_context": "\"You must listen to me!\""
+  },
+  {
+    "sample_index": 145,
+    "word": "\"Cissy--Narcissa--listen",
+    "word_index": 1,
+    "token_start": 1,
+    "token_end": 11,
+    "si_score": 146432.0,
+    "normalized_si_score": 0.7772998809814453,
+    "full_context": "\"Cissy--Narcissa--listen to me--\""
+  },
+  {
+    "sample_index": 145,
+    "word": "to",
+    "word_index": 2,
+    "token_start": 11,
+    "token_end": 12,
+    "si_score": 33024.0,
+    "normalized_si_score": 0.22270014882087708,
+    "full_context": "\"Cissy--Narcissa--listen to me--\""
+  }
+]
