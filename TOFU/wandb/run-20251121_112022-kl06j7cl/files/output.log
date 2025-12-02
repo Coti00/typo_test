@@ -1,0 +1,310 @@
+######################
+Saving to:  /root/tnpo/TOFU/paper_models/final_ft_noLORA_5_epochs_inst_lr1e-05_llama2-7b_full_seed42_1/checkpoint-5000/unlearned/8GPU_grad_ascent_1e-05_forget10_epoch5_batch8_accum4_beta2.5_gamma1.0_grad_diff_coeff1.0_reffine_tuned_evalsteps_per_epoch_seed42_1
+######################
+Loading forget mask from /root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_topk2_word.pt
+Loaded forget mask with 400 entries
+First mask shape: torch.Size([256]), dtype: torch.float32
+First mask True count: 1.9306085109710693 / 256
+First few values: tensor([0.0000, 0.0000, 0.0985, 0.0000, 0.0985, 0.0000, 0.0000, 0.0000, 0.5779,
+        0.5779, 0.5779, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000])
+Total True tokens: 278.00461542606354 / 102400 (0.0027)
+Warning: Dataset does not support forget masking
+The length of dataset: 400,
+max_steps: 62,
+batch_size: 8,
+accumulation_step: 4.
+steps_per_epoch: 12, eval_steps: 12, warmup_steps: 12
+[2025-11-21 11:20:28,287] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-11-21 11:20:28,287] [INFO] [comm.py:852:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Loading from checkpoint
+`torch_dtype` is deprecated! Use `dtype` instead!
+[2025-11-21 11:20:28,811] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-21 11:20:28,986] [INFO] [partition_parameters.py:366:__exit__] finished initializing model - num_params = 291, num_elems = 6.74B
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.25it/s]
+[2025-11-21 11:20:31,407] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-21 11:20:31,515] [INFO] [partition_parameters.py:366:__exit__] finished initializing model - num_params = 582, num_elems = 13.48B
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.25it/s]
+######################
+forget_loss: grad_ascent
+/root/tnpo/TOFU/dataloader.py:81: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CustomTrainerForgetting.__init__`. Use `processing_class` instead.
+  super(CustomTrainerForgetting, self).__init__(*args, **kwargs)
+[2025-11-21 11:20:33,949] [INFO] [logging.py:107:log_dist] [Rank 0] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-11-21 11:20:33,949] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-21 11:20:33,981] [INFO] [engine.py:1356:_configure_distributed_model] ********** distributed groups summary **********
+	 self.dp_world_size=1
+	 self.mp_world_size=1
+	 self.seq_dp_world_size=1
+	 self.sequence_parallel_size=1
+***********************************************
+[2025-11-21 11:20:33,982] [INFO] [logging.py:107:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2025-11-21 11:20:33,983] [INFO] [logging.py:107:log_dist] [Rank 0] Creating ZeRO Offload
+[2025-11-21 11:20:34,201] [INFO] [utils.py:781:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2025-11-21 11:20:34,202] [INFO] [utils.py:782:see_memory_usage] MA 25.1 GB         Max_MA 25.59 GB         CA 27.08 GB         Max_CA 27 GB
+[2025-11-21 11:20:34,203] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.82 GB, percent = 2.5%
+Parameter Offload - Persistent parameters statistics: param_count = 65, numel = 266240
+[2025-11-21 11:20:34,434] [INFO] [utils.py:781:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2025-11-21 11:20:34,435] [INFO] [utils.py:782:see_memory_usage] MA 25.1 GB         Max_MA 25.1 GB         CA 27.08 GB         Max_CA 27 GB
+[2025-11-21 11:20:34,436] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.83 GB, percent = 2.5%
+[2025-11-21 11:20:34,437] [INFO] [config.py:954:print] DeepSpeedEngine configuration:
+[2025-11-21 11:20:34,437] [INFO] [config.py:958:print]   activation_checkpointing_config  {
+    "partition_activations": false,
+    "contiguous_memory_optimization": false,
+    "cpu_checkpointing": false,
+    "number_checkpoints": null,
+    "synchronize_checkpoint_boundary": false,
+    "profile": false
+}
+[2025-11-21 11:20:34,437] [INFO] [config.py:958:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'intra_op_parallelism': 1, 'single_submit': False, 'overlap_events': True, 'use_gds': False}
+[2025-11-21 11:20:34,437] [INFO] [config.py:958:print]   amp_enabled .................. False
+[2025-11-21 11:20:34,437] [INFO] [config.py:958:print]   amp_params ................... False
+[2025-11-21 11:20:34,437] [INFO] [config.py:958:print]   autotuning_config ............ {
+    "enabled": false,
+    "start_step": null,
+    "end_step": null,
+    "metric_path": null,
+    "arg_mappings": null,
+    "metric": "throughput",
+    "model_info": null,
+    "results_dir": "autotuning_results",
+    "exps_dir": "autotuning_exps",
+    "overwrite": true,
+    "fast": true,
+    "start_profile_step": 3,
+    "end_profile_step": 5,
+    "tuner_type": "gridsearch",
+    "tuner_early_stopping": 5,
+    "tuner_num_trials": 50,
+    "model_info_path": null,
+    "mp_size": 1,
+    "max_train_batch_size": null,
+    "min_train_batch_size": 1,
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03,
+    "min_train_micro_batch_size_per_gpu": 1,
+    "num_tuning_micro_batch_sizes": 3
+}
+[2025-11-21 11:20:34,437] [INFO] [config.py:958:print]   bfloat16_config .............. enabled=True immediate_grad_update=False check_grad_overflow=False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   checkpoint_config ............ {'tag_validation': 'WARN', 'checkpoint_serialization': True, 'writer': None}
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   checkpoint_parallel_write_pipeline  False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   checkpoint_tag_validation_enabled  True
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   checkpoint_tag_validation_fail  False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x720e3f22c3d0>
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   communication_data_type ...... None
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   compile_config ............... deepcompile=False free_activation=False offload_activation=False offload_opt_states=False double_buffer=True symmetric_memory=False debug_log=False offload_parameters=False sync_before_reduce=False sync_after_reduce=False sync_before_allgather=False sync_after_allgather=False keep_int_input_tensors=True keep_all_input_tensors=False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   curriculum_enabled_legacy .... False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   curriculum_params_legacy ..... False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'pin_memory': False, 'curriculum_learning': {'enabled': False}, 'dynamic_batching': {'enabled': False, 'lr_scaling_method': 'linear', 'min_batch_size': 1, 'max_batch_size': None, 'sequence_picking_order': 'dataloader', 'verbose': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   data_efficiency_enabled ...... False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   dataloader_drop_last ......... False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   disable_allgather ............ False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   dump_state ................... False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   eigenvalue_enabled ........... False
+[2025-11-21 11:20:34,438] [INFO] [config.py:958:print]   eigenvalue_gas_boundary_resolution  1
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   eigenvalue_layer_num ......... 0
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   eigenvalue_max_iter .......... 100
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   eigenvalue_stability ......... 1e-06
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   eigenvalue_tol ............... 0.01
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   eigenvalue_verbose ........... False
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   elasticity_enabled ........... False
+[2025-11-21 11:20:34,439] [INFO] [config.py:958:print]   float16_config ............... enabled=False auto_cast=False loss_scale=0.0 initial_scale_power=16 loss_scale_window=1000 hysteresis=2 consecutive_hysteresis=False min_loss_scale=1 fp16_master_weights_and_grads=False
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   flops_profiler_config ........ {
+    "enabled": false,
+    "recompute_fwd_factor": 0.0,
+    "profile_step": 1,
+    "module_depth": -1,
+    "top_modules": 1,
+    "detailed": true,
+    "output_file": null
+}
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   global_rank .................. 0
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   grad_accum_dtype ............. None
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   gradient_accumulation_steps .. 4
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   gradient_clipping ............ 1.0
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   gradient_predivide_factor .... 1.0
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   graph_harvesting ............. False
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   load_universal_checkpoint .... False
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   memory_breakdown ............. False
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   mics_hierarchial_params_gather  False
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   mics_shard_size .............. -1
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') comet=CometConfig(enabled=False, samples_log_interval=100, project=None, workspace=None, api_key=None, experiment_name=None, experiment_key=None, online=None, mode=None) wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName')
+[2025-11-21 11:20:34,440] [INFO] [config.py:958:print]   nebula_config ................ {
+    "enabled": false,
+    "persistent_storage_path": null,
+    "persistent_time_interval": 100,
+    "num_of_version_in_retention": 2,
+    "enable_nebula_load": true,
+    "load_path": null
+}
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   optimizer_legacy_fusion ...... False
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   optimizer_name ............... None
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   optimizer_params ............. None
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   pld_enabled .................. False
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   pld_params ................... False
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   prescale_gradients ........... False
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   scheduler_name ............... None
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   scheduler_params ............. None
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   seq_parallel_communication_data_type  torch.float32
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   sparse_attention ............. None
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   sparse_gradients_enabled ..... False
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   steps_per_print .............. inf
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   tensor_parallel_config ....... dtype=torch.float16 autotp_size=0 tp_overlap_comm=False tensor_parallel=TPConfig(tp_size=1, tp_grain_size=1, mpu=None, tp_group=None) injection_policy_tuple=None keep_module_on_host=False replace_with_kernel_inject=False
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   timers_config ................ enabled=True synchronized=True
+[2025-11-21 11:20:34,441] [INFO] [config.py:958:print]   torch_autocast_dtype ......... None
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   torch_autocast_enabled ....... False
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   torch_autocast_lower_precision_safe_modules  None
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   train_batch_size ............. 32
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   train_micro_batch_size_per_gpu  8
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   use_data_before_expert_parallel_  False
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   use_node_local_storage ....... False
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   wall_clock_breakdown ......... False
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   weight_quantization_config ... None
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   world_size ................... 1
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   zero_allow_untested_optimizer  False
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500000000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='none', nvme_path=None, buffer_count=5, buffer_size=100000000, max_in_cpu=1000000000, pin_memory=True) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='none', nvme_path=None, buffer_count=4, pin_memory=True, pipeline_read=False, pipeline_write=False, fast_init=False, ratio=1.0) zenflow=None sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50000000 param_persistence_threshold=100000 model_persistence_threshold=9223372036854775807 max_live_parameters=100000000 max_reuse_distance=100000000 gather_16bit_weights_on_model_save=True module_granularity_threshold=0 use_all_reduce_for_fetch_params=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False zeropp_loco_param=None mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True log_trace_cache_warnings=False
+[2025-11-21 11:20:34,442] [INFO] [config.py:958:print]   zero_enabled ................. True
+[2025-11-21 11:20:34,443] [INFO] [config.py:958:print]   zero_force_ds_cpu_optimizer .. True
+[2025-11-21 11:20:34,443] [INFO] [config.py:958:print]   zero_optimization_stage ...... 3
+[2025-11-21 11:20:34,443] [INFO] [config.py:944:print_user_config]   json = {
+    "zero_optimization": {
+        "stage": 3,
+        "offload_optimizer": {
+            "device": "none",
+            "pin_memory": true
+        },
+        "offload_param": {
+            "device": "none",
+            "pin_memory": true
+        },
+        "overlap_comm": true,
+        "contiguous_gradients": true,
+        "sub_group_size": 1.000000e+09,
+        "reduce_bucket_size": "auto",
+        "stage3_prefetch_bucket_size": "auto",
+        "stage3_param_persistence_threshold": "auto",
+        "stage3_max_live_parameters": 1.000000e+08,
+        "stage3_max_reuse_distance": 1.000000e+08,
+        "stage3_gather_16bit_weights_on_model_save": true
+    },
+    "train_batch_size": 32,
+    "train_micro_batch_size_per_gpu": 8,
+    "gradient_accumulation_steps": 4,
+    "bf16": {
+        "enabled": true
+    },
+    "gradient_clipping": 1.0,
+    "steps_per_print": inf,
+    "wall_clock_breakdown": false,
+    "fp16": {
+        "enabled": false
+    },
+    "zero_optimization.reduce_bucket_size": 1.677722e+07,
+    "zero_optimization.stage3_param_persistence_threshold": 4.096000e+04,
+    "zero_optimization.stage3_prefetch_bucket_size": 1.509949e+07,
+    "optimizer": {
+        "type": null
+    }
+}
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 2}.
+Generator........Epoch-0
+[2025-11-21 11:20:34,652][accelerate.accelerator][WARNING] - Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+[2025-11-21 11:20:35,083] [WARNING] [engine.py:1390:_do_optimizer_sanity_check] **** You are using ZeRO with an untested optimizer, proceed with caution *****
+Parameter Offload - Persistent parameters statistics: param_count = 65, numel = 266240
+  0%|                                                                                                                                                        | 0/62 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+                                                                                                                                                                                    
+{'loss': -0.0014, 'grad_norm': 0.22107426629860583, 'learning_rate': 0.0, 'epoch': 0.08, 'num_input_tokens_seen': 0, 'train_runtime': 5.4909, 'train_tokens_per_second': 0.0}
+{'loss': -0.0059, 'grad_norm': 0.2864600946206152, 'learning_rate': 8.333333333333333e-07, 'epoch': 0.16, 'num_input_tokens_seen': 0, 'train_runtime': 7.9074, 'train_tokens_per_second': 0.0}
+{'loss': -0.0011, 'grad_norm': 0.2669970768224258, 'learning_rate': 1.6666666666666667e-06, 'epoch': 0.24, 'num_input_tokens_seen': 0, 'train_runtime': 9.9194, 'train_tokens_per_second': 0.0}
+{'loss': -0.0027, 'grad_norm': 0.4449695203184247, 'learning_rate': 2.5e-06, 'epoch': 0.32, 'num_input_tokens_seen': 0, 'train_runtime': 11.9187, 'train_tokens_per_second': 0.0}
+{'loss': -0.001, 'grad_norm': 0.34883857354219205, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.4, 'num_input_tokens_seen': 0, 'train_runtime': 13.9268, 'train_tokens_per_second': 0.0}
+{'loss': -0.0012, 'grad_norm': 0.07984777083432554, 'learning_rate': 4.166666666666667e-06, 'epoch': 0.48, 'num_input_tokens_seen': 0, 'train_runtime': 15.9248, 'train_tokens_per_second': 0.0}
+{'loss': -0.0011, 'grad_norm': 0.10412376891041086, 'learning_rate': 5e-06, 'epoch': 0.56, 'num_input_tokens_seen': 0, 'train_runtime': 17.9372, 'train_tokens_per_second': 0.0}
+{'loss': -0.0012, 'grad_norm': 0.1322932992755875, 'learning_rate': 5.833333333333334e-06, 'epoch': 0.64, 'num_input_tokens_seen': 0, 'train_runtime': 19.9492, 'train_tokens_per_second': 0.0}
+{'loss': -0.0032, 'grad_norm': 1.6583964577828025, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.72, 'num_input_tokens_seen': 0, 'train_runtime': 21.9525, 'train_tokens_per_second': 0.0}
+{'loss': -0.0025, 'grad_norm': 0.27549920357119095, 'learning_rate': 7.500000000000001e-06, 'epoch': 0.8, 'num_input_tokens_seen': 0, 'train_runtime': 23.9505, 'train_tokens_per_second': 0.0}
+{'loss': -0.0023, 'grad_norm': 0.32929395899216274, 'learning_rate': 8.333333333333334e-06, 'epoch': 0.88, 'num_input_tokens_seen': 0, 'train_runtime': 26.2765, 'train_tokens_per_second': 0.0}
+{'loss': -0.0035, 'grad_norm': 0.31164219447863045, 'learning_rate': 9.166666666666666e-06, 'epoch': 0.96, 'num_input_tokens_seen': 0, 'train_runtime': 28.4103, 'train_tokens_per_second': 0.0}
+{'loss': -0.0019, 'grad_norm': 0.847907906610677, 'learning_rate': 1e-05, 'epoch': 1.0, 'num_input_tokens_seen': 0, 'train_runtime': 140.2697, 'train_tokens_per_second': 0.0}
+{'loss': -0.0512, 'grad_norm': 8.240705815476765, 'learning_rate': 9.800000000000001e-06, 'epoch': 1.08, 'num_input_tokens_seen': 0, 'train_runtime': 142.2987, 'train_tokens_per_second': 0.0}
+{'loss': -0.09, 'grad_norm': 23.4108487500675, 'learning_rate': 9.600000000000001e-06, 'epoch': 1.16, 'num_input_tokens_seen': 0, 'train_runtime': 144.2992, 'train_tokens_per_second': 0.0}
+{'loss': -0.1619, 'grad_norm': 14.228389650929063, 'learning_rate': 9.4e-06, 'epoch': 1.24, 'num_input_tokens_seen': 0, 'train_runtime': 146.2972, 'train_tokens_per_second': 0.0}
+{'loss': -0.19, 'grad_norm': 6.080998218744589, 'learning_rate': 9.200000000000002e-06, 'epoch': 1.32, 'num_input_tokens_seen': 0, 'train_runtime': 148.3063, 'train_tokens_per_second': 0.0}
+{'loss': -0.2761, 'grad_norm': 4.5649194742972545, 'learning_rate': 9e-06, 'epoch': 1.4, 'num_input_tokens_seen': 0, 'train_runtime': 150.3104, 'train_tokens_per_second': 0.0}
+{'loss': -0.2619, 'grad_norm': 3.2921354962051637, 'learning_rate': 8.8e-06, 'epoch': 1.48, 'num_input_tokens_seen': 0, 'train_runtime': 152.3085, 'train_tokens_per_second': 0.0}
+{'loss': -0.2909, 'grad_norm': 3.051475710720378, 'learning_rate': 8.6e-06, 'epoch': 1.56, 'num_input_tokens_seen': 0, 'train_runtime': 154.3084, 'train_tokens_per_second': 0.0}
+{'loss': -0.3165, 'grad_norm': 3.6181190377824737, 'learning_rate': 8.400000000000001e-06, 'epoch': 1.64, 'num_input_tokens_seen': 0, 'train_runtime': 156.2962, 'train_tokens_per_second': 0.0}
+{'loss': -0.3562, 'grad_norm': 3.988956575284991, 'learning_rate': 8.2e-06, 'epoch': 1.72, 'num_input_tokens_seen': 0, 'train_runtime': 158.2868, 'train_tokens_per_second': 0.0}
+{'loss': -0.5272, 'grad_norm': 5.652856024713483, 'learning_rate': 8.000000000000001e-06, 'epoch': 1.8, 'num_input_tokens_seen': 0, 'train_runtime': 160.2803, 'train_tokens_per_second': 0.0}
+{'loss': -0.7578, 'grad_norm': 8.206663148653757, 'learning_rate': 7.800000000000002e-06, 'epoch': 1.88, 'num_input_tokens_seen': 0, 'train_runtime': 162.2651, 'train_tokens_per_second': 0.0}
+{'loss': -0.6016, 'grad_norm': 8.860854267287658, 'learning_rate': 7.600000000000001e-06, 'epoch': 1.96, 'num_input_tokens_seen': 0, 'train_runtime': 266.6039, 'train_tokens_per_second': 0.0}
+{'loss': -0.9584, 'grad_norm': 16.144394298650877, 'learning_rate': 7.4e-06, 'epoch': 2.0, 'num_input_tokens_seen': 0, 'train_runtime': 267.7642, 'train_tokens_per_second': 0.0}
+{'loss': -1.371, 'grad_norm': 15.860386117380413, 'learning_rate': 7.2000000000000005e-06, 'epoch': 2.08, 'num_input_tokens_seen': 0, 'train_runtime': 269.804, 'train_tokens_per_second': 0.0}
+{'loss': -2.6221, 'grad_norm': 40.83644266292022, 'learning_rate': 7e-06, 'epoch': 2.16, 'num_input_tokens_seen': 0, 'train_runtime': 271.814, 'train_tokens_per_second': 0.0}
+{'loss': -3.8978, 'grad_norm': 50.60948896491768, 'learning_rate': 6.800000000000001e-06, 'epoch': 2.24, 'num_input_tokens_seen': 0, 'train_runtime': 273.8057, 'train_tokens_per_second': 0.0}
+{'loss': -4.581, 'grad_norm': 65.79169280464818, 'learning_rate': 6.600000000000001e-06, 'epoch': 2.32, 'num_input_tokens_seen': 0, 'train_runtime': 275.8044, 'train_tokens_per_second': 0.0}
+{'loss': -6.2654, 'grad_norm': 113.80355086336465, 'learning_rate': 6.4000000000000006e-06, 'epoch': 2.4, 'num_input_tokens_seen': 0, 'train_runtime': 277.793, 'train_tokens_per_second': 0.0}
+{'loss': -11.6936, 'grad_norm': 258.4190562870234, 'learning_rate': 6.200000000000001e-06, 'epoch': 2.48, 'num_input_tokens_seen': 0, 'train_runtime': 279.7777, 'train_tokens_per_second': 0.0}
+{'loss': -18.8177, 'grad_norm': 410.385913635226, 'learning_rate': 6e-06, 'epoch': 2.56, 'num_input_tokens_seen': 0, 'train_runtime': 281.7648, 'train_tokens_per_second': 0.0}
+{'loss': -35.2821, 'grad_norm': 659.7156310993116, 'learning_rate': 5.8e-06, 'epoch': 2.64, 'num_input_tokens_seen': 0, 'train_runtime': 283.7638, 'train_tokens_per_second': 0.0}
+{'loss': -52.1178, 'grad_norm': 551.65089344254, 'learning_rate': 5.600000000000001e-06, 'epoch': 2.72, 'num_input_tokens_seen': 0, 'train_runtime': 285.7755, 'train_tokens_per_second': 0.0}
+{'loss': -62.2848, 'grad_norm': 300.88212137728163, 'learning_rate': 5.400000000000001e-06, 'epoch': 2.8, 'num_input_tokens_seen': 0, 'train_runtime': 287.7687, 'train_tokens_per_second': 0.0}
+{'loss': -69.1198, 'grad_norm': 226.4657173906487, 'learning_rate': 5.2e-06, 'epoch': 2.88, 'num_input_tokens_seen': 0, 'train_runtime': 414.5639, 'train_tokens_per_second': 0.0}
+{'loss': -73.3498, 'grad_norm': 167.844039222978, 'learning_rate': 5e-06, 'epoch': 2.96, 'num_input_tokens_seen': 0, 'train_runtime': 416.6247, 'train_tokens_per_second': 0.0}
+{'loss': -76.4791, 'grad_norm': 240.5480513480211, 'learning_rate': 4.800000000000001e-06, 'epoch': 3.0, 'num_input_tokens_seen': 0, 'train_runtime': 417.7823, 'train_tokens_per_second': 0.0}
+{'loss': -79.215, 'grad_norm': 158.1573300356488, 'learning_rate': 4.600000000000001e-06, 'epoch': 3.08, 'num_input_tokens_seen': 0, 'train_runtime': 419.8469, 'train_tokens_per_second': 0.0}
+{'loss': -80.702, 'grad_norm': 152.04477539548114, 'learning_rate': 4.4e-06, 'epoch': 3.16, 'num_input_tokens_seen': 0, 'train_runtime': 422.2051, 'train_tokens_per_second': 0.0}
+{'loss': -84.5502, 'grad_norm': 147.36880940396514, 'learning_rate': 4.2000000000000004e-06, 'epoch': 3.24, 'num_input_tokens_seen': 0, 'train_runtime': 424.2324, 'train_tokens_per_second': 0.0}
+{'loss': -87.1562, 'grad_norm': 146.61324084041104, 'learning_rate': 4.000000000000001e-06, 'epoch': 3.32, 'num_input_tokens_seen': 0, 'train_runtime': 426.2558, 'train_tokens_per_second': 0.0}
+{'loss': -88.9579, 'grad_norm': 129.5600548750369, 'learning_rate': 3.8000000000000005e-06, 'epoch': 3.4, 'num_input_tokens_seen': 0, 'train_runtime': 428.2808, 'train_tokens_per_second': 0.0}
+{'loss': -90.9856, 'grad_norm': 128.15372727282474, 'learning_rate': 3.6000000000000003e-06, 'epoch': 3.48, 'num_input_tokens_seen': 0, 'train_runtime': 430.3012, 'train_tokens_per_second': 0.0}
+{'loss': -91.856, 'grad_norm': 196.17401573466003, 'learning_rate': 3.4000000000000005e-06, 'epoch': 3.56, 'num_input_tokens_seen': 0, 'train_runtime': 432.3309, 'train_tokens_per_second': 0.0}
+{'loss': -94.1863, 'grad_norm': 130.4626135429328, 'learning_rate': 3.2000000000000003e-06, 'epoch': 3.64, 'num_input_tokens_seen': 0, 'train_runtime': 434.3748, 'train_tokens_per_second': 0.0}
+{'loss': -95.4601, 'grad_norm': 127.16148395453006, 'learning_rate': 3e-06, 'epoch': 3.72, 'num_input_tokens_seen': 0, 'train_runtime': 436.4262, 'train_tokens_per_second': 0.0}
+{'loss': -96.2476, 'grad_norm': 124.3588069959576, 'learning_rate': 2.8000000000000003e-06, 'epoch': 3.8, 'num_input_tokens_seen': 0, 'train_runtime': 571.0628, 'train_tokens_per_second': 0.0}
+{'loss': -96.9734, 'grad_norm': 121.39254856472981, 'learning_rate': 2.6e-06, 'epoch': 3.88, 'num_input_tokens_seen': 0, 'train_runtime': 573.134, 'train_tokens_per_second': 0.0}
+{'loss': -98.2808, 'grad_norm': 120.33591120744283, 'learning_rate': 2.4000000000000003e-06, 'epoch': 3.96, 'num_input_tokens_seen': 0, 'train_runtime': 575.1854, 'train_tokens_per_second': 0.0}
+{'loss': -98.6772, 'grad_norm': 119.47332907980478, 'learning_rate': 2.2e-06, 'epoch': 4.0, 'num_input_tokens_seen': 0, 'train_runtime': 576.3463, 'train_tokens_per_second': 0.0}
+{'loss': -99.3987, 'grad_norm': 119.95031595037534, 'learning_rate': 2.0000000000000003e-06, 'epoch': 4.08, 'num_input_tokens_seen': 0, 'train_runtime': 578.3926, 'train_tokens_per_second': 0.0}
+{'loss': -99.8327, 'grad_norm': 117.29437554809665, 'learning_rate': 1.8000000000000001e-06, 'epoch': 4.16, 'num_input_tokens_seen': 0, 'train_runtime': 580.4455, 'train_tokens_per_second': 0.0}
+{'loss': -99.6035, 'grad_norm': 117.23231460052736, 'learning_rate': 1.6000000000000001e-06, 'epoch': 4.24, 'num_input_tokens_seen': 0, 'train_runtime': 582.4898, 'train_tokens_per_second': 0.0}
+{'loss': -100.0738, 'grad_norm': 115.24281991682102, 'learning_rate': 1.4000000000000001e-06, 'epoch': 4.32, 'num_input_tokens_seen': 0, 'train_runtime': 584.5244, 'train_tokens_per_second': 0.0}
+{'loss': -100.7854, 'grad_norm': 116.53956285727247, 'learning_rate': 1.2000000000000002e-06, 'epoch': 4.4, 'num_input_tokens_seen': 0, 'train_runtime': 586.572, 'train_tokens_per_second': 0.0}
+{'loss': -100.642, 'grad_norm': 117.1348633307773, 'learning_rate': 1.0000000000000002e-06, 'epoch': 4.48, 'num_input_tokens_seen': 0, 'train_runtime': 588.6039, 'train_tokens_per_second': 0.0}
+{'loss': -100.7229, 'grad_norm': 116.13393621475112, 'learning_rate': 8.000000000000001e-07, 'epoch': 4.56, 'num_input_tokens_seen': 0, 'train_runtime': 590.625, 'train_tokens_per_second': 0.0}
+{'loss': -100.4356, 'grad_norm': 114.66843308965505, 'learning_rate': 6.000000000000001e-07, 'epoch': 4.64, 'num_input_tokens_seen': 0, 'train_runtime': 592.654, 'train_tokens_per_second': 0.0}
+{'loss': -100.9484, 'grad_norm': 114.2094256567144, 'learning_rate': 4.0000000000000003e-07, 'epoch': 4.72, 'num_input_tokens_seen': 0, 'train_runtime': 720.4692, 'train_tokens_per_second': 0.0}
+{'loss': -101.3003, 'grad_norm': 114.4350650698738, 'learning_rate': 2.0000000000000002e-07, 'epoch': 4.8, 'num_input_tokens_seen': 0, 'train_runtime': 722.4743, 'train_tokens_per_second': 0.0}
+{'train_runtime': 825.0782, 'train_samples_per_second': 2.405, 'train_steps_per_second': 0.075, 'train_loss': -42.09262262651464, 'epoch': 4.8, 'num_input_tokens_seen': 0}
+####### Evaluating the model...... #######
+False cuda:0 torch.bfloat16 0 ['retain_perturbed', 'real_authors_perturbed', 'world_facts_perturbed', '${..split}_perturbed']
+Working on eval task eval_log with split retain_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [03:04<00:00, 18.47s/it]
+[2025-11-21 11:37:50,524][absl][INFO] - Using default tokenizer.
+43it [00:18,  2.29it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:04<00:00,  2.38it/s]
+Working on eval task eval_real_author_wo_options with split real_authors_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:14<00:00, 18.73s/it]
+[2025-11-21 11:39:33,782][absl][INFO] - Using default tokenizer.
+15it [00:05,  2.93it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.73it/s]
+Working on eval task eval_real_world_wo_options with split world_facts_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:16<00:00, 19.21s/it]
+[2025-11-21 11:41:01,927][absl][INFO] - Using default tokenizer.
+17it [00:05,  2.90it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.48it/s]
+Working on eval task eval_log_forget with split forget10_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [02:54<00:00, 17.43s/it]
+[2025-11-21 11:44:08,255][absl][INFO] - Using default tokenizer.
+43it [00:18,  2.29it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:04<00:00,  2.38it/s]

@@ -1,0 +1,553 @@
+######################
+Saving to:  /root/tnpo/TOFU/paper_models/final_ft_noLORA_5_epochs_inst_lr1e-05_llama2-7b_full_seed42_1/checkpoint-5000/unlearned/8GPU_tnpo_1e-05_forget10_epoch5_batch8_accum4_beta2.5_gamma1.0_grad_diff_coeff1.0_reffine_tuned_evalsteps_per_epoch_seed42_1
+######################
+Loading forget mask from /root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_topk2_word.pt
+Loaded forget mask with 400 entries
+First mask shape: torch.Size([256]), dtype: torch.float32
+First mask True count: 1.9306085109710693 / 256
+First few values: tensor([0.0000, 0.0000, 0.0985, 0.0000, 0.0985, 0.0000, 0.0000, 0.0000, 0.5779,
+        0.5779, 0.5779, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000])
+Total True tokens: 278.00461542606354 / 102400 (0.0027)
+Forget mask set with 400 entries
+First mask shape: torch.Size([256]), dtype: torch.float32
+First mask sum: 1.9306085109710693
+Applied forget masking to 400 examples
+The length of dataset: 400,
+max_steps: 62,
+batch_size: 8,
+accumulation_step: 4.
+steps_per_epoch: 12, eval_steps: 12, warmup_steps: 12
+[2025-11-19 12:14:13,057] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-11-19 12:14:13,057] [INFO] [comm.py:852:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Loading from checkpoint
+`torch_dtype` is deprecated! Use `dtype` instead!
+[2025-11-19 12:14:13,577] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-19 12:14:13,812] [INFO] [partition_parameters.py:366:__exit__] finished initializing model - num_params = 291, num_elems = 6.74B
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.25it/s]
+[2025-11-19 12:14:16,227] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-19 12:14:16,388] [INFO] [partition_parameters.py:366:__exit__] finished initializing model - num_params = 582, num_elems = 13.48B
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.16it/s]
+######################
+forget_loss: tnpo
+/root/tnpo/TOFU/dataloader.py:81: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CustomTrainerForgetting.__init__`. Use `processing_class` instead.
+  super(CustomTrainerForgetting, self).__init__(*args, **kwargs)
+[2025-11-19 12:14:19,012] [INFO] [logging.py:107:log_dist] [Rank 0] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-11-19 12:14:19,012] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-19 12:14:19,043] [INFO] [engine.py:1356:_configure_distributed_model] ********** distributed groups summary **********
+	 self.dp_world_size=1
+	 self.mp_world_size=1
+	 self.seq_dp_world_size=1
+	 self.sequence_parallel_size=1
+***********************************************
+[2025-11-19 12:14:19,044] [INFO] [logging.py:107:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2025-11-19 12:14:19,045] [INFO] [logging.py:107:log_dist] [Rank 0] Creating ZeRO Offload
+[2025-11-19 12:14:19,286] [INFO] [utils.py:781:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2025-11-19 12:14:19,287] [INFO] [utils.py:782:see_memory_usage] MA 25.1 GB         Max_MA 25.59 GB         CA 27.08 GB         Max_CA 27 GB
+[2025-11-19 12:14:19,288] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.49 GB, percent = 2.5%
+Parameter Offload - Persistent parameters statistics: param_count = 65, numel = 266240
+[2025-11-19 12:14:19,530] [INFO] [utils.py:781:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2025-11-19 12:14:19,531] [INFO] [utils.py:782:see_memory_usage] MA 25.1 GB         Max_MA 25.1 GB         CA 27.08 GB         Max_CA 27 GB
+[2025-11-19 12:14:19,531] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.51 GB, percent = 2.5%
+[2025-11-19 12:14:19,532] [INFO] [config.py:954:print] DeepSpeedEngine configuration:
+[2025-11-19 12:14:19,533] [INFO] [config.py:958:print]   activation_checkpointing_config  {
+    "partition_activations": false,
+    "contiguous_memory_optimization": false,
+    "cpu_checkpointing": false,
+    "number_checkpoints": null,
+    "synchronize_checkpoint_boundary": false,
+    "profile": false
+}
+[2025-11-19 12:14:19,533] [INFO] [config.py:958:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'intra_op_parallelism': 1, 'single_submit': False, 'overlap_events': True, 'use_gds': False}
+[2025-11-19 12:14:19,533] [INFO] [config.py:958:print]   amp_enabled .................. False
+[2025-11-19 12:14:19,533] [INFO] [config.py:958:print]   amp_params ................... False
+[2025-11-19 12:14:19,533] [INFO] [config.py:958:print]   autotuning_config ............ {
+    "enabled": false,
+    "start_step": null,
+    "end_step": null,
+    "metric_path": null,
+    "arg_mappings": null,
+    "metric": "throughput",
+    "model_info": null,
+    "results_dir": "autotuning_results",
+    "exps_dir": "autotuning_exps",
+    "overwrite": true,
+    "fast": true,
+    "start_profile_step": 3,
+    "end_profile_step": 5,
+    "tuner_type": "gridsearch",
+    "tuner_early_stopping": 5,
+    "tuner_num_trials": 50,
+    "model_info_path": null,
+    "mp_size": 1,
+    "max_train_batch_size": null,
+    "min_train_batch_size": 1,
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03,
+    "min_train_micro_batch_size_per_gpu": 1,
+    "num_tuning_micro_batch_sizes": 3
+}
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   bfloat16_config .............. enabled=True immediate_grad_update=False check_grad_overflow=False
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   checkpoint_config ............ {'tag_validation': 'WARN', 'checkpoint_serialization': True, 'writer': None}
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   checkpoint_parallel_write_pipeline  False
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   checkpoint_tag_validation_enabled  True
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   checkpoint_tag_validation_fail  False
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7668452f03d0>
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   communication_data_type ...... None
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   compile_config ............... deepcompile=False free_activation=False offload_activation=False offload_opt_states=False double_buffer=True symmetric_memory=False debug_log=False offload_parameters=False sync_before_reduce=False sync_after_reduce=False sync_before_allgather=False sync_after_allgather=False keep_int_input_tensors=True keep_all_input_tensors=False
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2025-11-19 12:14:19,534] [INFO] [config.py:958:print]   curriculum_enabled_legacy .... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   curriculum_params_legacy ..... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'pin_memory': False, 'curriculum_learning': {'enabled': False}, 'dynamic_batching': {'enabled': False, 'lr_scaling_method': 'linear', 'min_batch_size': 1, 'max_batch_size': None, 'sequence_picking_order': 'dataloader', 'verbose': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   data_efficiency_enabled ...... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   dataloader_drop_last ......... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   disable_allgather ............ False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   dump_state ................... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_enabled ........... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_gas_boundary_resolution  1
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_layer_num ......... 0
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_max_iter .......... 100
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_stability ......... 1e-06
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_tol ............... 0.01
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   eigenvalue_verbose ........... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   elasticity_enabled ........... False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   float16_config ............... enabled=False auto_cast=False loss_scale=0.0 initial_scale_power=16 loss_scale_window=1000 hysteresis=2 consecutive_hysteresis=False min_loss_scale=1 fp16_master_weights_and_grads=False
+[2025-11-19 12:14:19,535] [INFO] [config.py:958:print]   flops_profiler_config ........ {
+    "enabled": false,
+    "recompute_fwd_factor": 0.0,
+    "profile_step": 1,
+    "module_depth": -1,
+    "top_modules": 1,
+    "detailed": true,
+    "output_file": null
+}
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   global_rank .................. 0
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   grad_accum_dtype ............. None
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   gradient_accumulation_steps .. 4
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   gradient_clipping ............ 1.0
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   gradient_predivide_factor .... 1.0
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   graph_harvesting ............. False
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   load_universal_checkpoint .... False
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   memory_breakdown ............. False
+[2025-11-19 12:14:19,536] [INFO] [config.py:958:print]   mics_hierarchial_params_gather  False
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   mics_shard_size .............. -1
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') comet=CometConfig(enabled=False, samples_log_interval=100, project=None, workspace=None, api_key=None, experiment_name=None, experiment_key=None, online=None, mode=None) wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName')
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   nebula_config ................ {
+    "enabled": false,
+    "persistent_storage_path": null,
+    "persistent_time_interval": 100,
+    "num_of_version_in_retention": 2,
+    "enable_nebula_load": true,
+    "load_path": null
+}
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   optimizer_legacy_fusion ...... False
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   optimizer_name ............... None
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   optimizer_params ............. None
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   pld_enabled .................. False
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   pld_params ................... False
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   prescale_gradients ........... False
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   scheduler_name ............... None
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   scheduler_params ............. None
+[2025-11-19 12:14:19,537] [INFO] [config.py:958:print]   seq_parallel_communication_data_type  torch.float32
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   sparse_attention ............. None
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   sparse_gradients_enabled ..... False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   steps_per_print .............. inf
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   tensor_parallel_config ....... dtype=torch.float16 autotp_size=0 tp_overlap_comm=False tensor_parallel=TPConfig(tp_size=1, tp_grain_size=1, mpu=None, tp_group=None) injection_policy_tuple=None keep_module_on_host=False replace_with_kernel_inject=False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   timers_config ................ enabled=True synchronized=True
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   torch_autocast_dtype ......... None
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   torch_autocast_enabled ....... False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   torch_autocast_lower_precision_safe_modules  None
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   train_batch_size ............. 32
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   train_micro_batch_size_per_gpu  8
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   use_data_before_expert_parallel_  False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   use_node_local_storage ....... False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   wall_clock_breakdown ......... False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   weight_quantization_config ... None
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   world_size ................... 1
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   zero_allow_untested_optimizer  False
+[2025-11-19 12:14:19,538] [INFO] [config.py:958:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500000000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='none', nvme_path=None, buffer_count=5, buffer_size=100000000, max_in_cpu=1000000000, pin_memory=True) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='none', nvme_path=None, buffer_count=4, pin_memory=True, pipeline_read=False, pipeline_write=False, fast_init=False, ratio=1.0) zenflow=None sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50000000 param_persistence_threshold=100000 model_persistence_threshold=9223372036854775807 max_live_parameters=100000000 max_reuse_distance=100000000 gather_16bit_weights_on_model_save=True module_granularity_threshold=0 use_all_reduce_for_fetch_params=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False zeropp_loco_param=None mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True log_trace_cache_warnings=False
+[2025-11-19 12:14:19,539] [INFO] [config.py:958:print]   zero_enabled ................. True
+[2025-11-19 12:14:19,539] [INFO] [config.py:958:print]   zero_force_ds_cpu_optimizer .. True
+[2025-11-19 12:14:19,539] [INFO] [config.py:958:print]   zero_optimization_stage ...... 3
+[2025-11-19 12:14:19,539] [INFO] [config.py:944:print_user_config]   json = {
+    "zero_optimization": {
+        "stage": 3,
+        "offload_optimizer": {
+            "device": "none",
+            "pin_memory": true
+        },
+        "offload_param": {
+            "device": "none",
+            "pin_memory": true
+        },
+        "overlap_comm": true,
+        "contiguous_gradients": true,
+        "sub_group_size": 1.000000e+09,
+        "reduce_bucket_size": "auto",
+        "stage3_prefetch_bucket_size": "auto",
+        "stage3_param_persistence_threshold": "auto",
+        "stage3_max_live_parameters": 1.000000e+08,
+        "stage3_max_reuse_distance": 1.000000e+08,
+        "stage3_gather_16bit_weights_on_model_save": true
+    },
+    "train_batch_size": 32,
+    "train_micro_batch_size_per_gpu": 8,
+    "gradient_accumulation_steps": 4,
+    "bf16": {
+        "enabled": true
+    },
+    "gradient_clipping": 1.0,
+    "steps_per_print": inf,
+    "wall_clock_breakdown": false,
+    "fp16": {
+        "enabled": false
+    },
+    "zero_optimization.reduce_bucket_size": 1.677722e+07,
+    "zero_optimization.stage3_param_persistence_threshold": 4.096000e+04,
+    "zero_optimization.stage3_prefetch_bucket_size": 1.509949e+07,
+    "optimizer": {
+        "type": null
+    }
+}
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 2}.
+Generator........Epoch-0
+[2025-11-19 12:14:19,744][accelerate.accelerator][WARNING] - Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+[2025-11-19 12:14:20,135] [WARNING] [engine.py:1390:_do_optimizer_sanity_check] **** You are using ZeRO with an untested optimizer, proceed with caution *****
+Parameter Offload - Persistent parameters statistics: param_count = 65, numel = 266240
+  0%|                                                                                                                                                        | 0/62 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+tnpo_loss: 0.00150299072265625, valid_tokens: 373, forget_tokens: 0
+tnpo_loss: 0.00145721435546875, valid_tokens: 355, forget_tokens: 3
+tnpo_loss: 0.000701904296875, valid_tokens: 318, forget_tokens: 0
+tnpo_loss: 0.00045013427734375, valid_tokens: 399, forget_tokens: 2
+ 11%|████████████████▎                                                                                                                               | 7/62 [00:20<02:22,  2.60s/it]
+{'loss': 0.001, 'grad_norm': 0.12631403956837975, 'learning_rate': 0.0, 'epoch': 0.08, 'num_input_tokens_seen': 0, 'train_runtime': 6.2472, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0025634765625, valid_tokens: 376, forget_tokens: 0
+tnpo_loss: 0.000946044921875, valid_tokens: 361, forget_tokens: 1
+tnpo_loss: 0.003082275390625, valid_tokens: 313, forget_tokens: 1
+tnpo_loss: 0.00113677978515625, valid_tokens: 316, forget_tokens: 0
+{'loss': 0.0019, 'grad_norm': 0.15785113427268693, 'learning_rate': 8.333333333333333e-07, 'epoch': 0.16, 'num_input_tokens_seen': 0, 'train_runtime': 8.7256, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.000438690185546875, valid_tokens: 293, forget_tokens: 8
+tnpo_loss: 0.000499725341796875, valid_tokens: 329, forget_tokens: 7
+tnpo_loss: 0.002197265625, valid_tokens: 344, forget_tokens: 0
+tnpo_loss: 0.0003204345703125, valid_tokens: 370, forget_tokens: 1
+{'loss': 0.0009, 'grad_norm': 0.22960309741908275, 'learning_rate': 1.6666666666666667e-06, 'epoch': 0.24, 'num_input_tokens_seen': 0, 'train_runtime': 11.1731, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0032501220703125, valid_tokens: 315, forget_tokens: 1
+tnpo_loss: 0.001800537109375, valid_tokens: 360, forget_tokens: 0
+tnpo_loss: 0.000934600830078125, valid_tokens: 377, forget_tokens: 0
+tnpo_loss: 0.000766754150390625, valid_tokens: 435, forget_tokens: 3
+{'loss': 0.0017, 'grad_norm': 0.2154944722017743, 'learning_rate': 2.5e-06, 'epoch': 0.32, 'num_input_tokens_seen': 0, 'train_runtime': 13.6307, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0002288818359375, valid_tokens: 305, forget_tokens: 1
+tnpo_loss: 0.00177764892578125, valid_tokens: 357, forget_tokens: 0
+tnpo_loss: 0.000377655029296875, valid_tokens: 413, forget_tokens: 1
+tnpo_loss: 0.0009613037109375, valid_tokens: 337, forget_tokens: 0
+{'loss': 0.0008, 'grad_norm': 0.4956226065986396, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.4, 'num_input_tokens_seen': 0, 'train_runtime': 16.0846, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00101470947265625, valid_tokens: 424, forget_tokens: 2
+tnpo_loss: 0.00060272216796875, valid_tokens: 395, forget_tokens: 4
+tnpo_loss: 0.0004425048828125, valid_tokens: 348, forget_tokens: 2
+tnpo_loss: 0.000385284423828125, valid_tokens: 347, forget_tokens: 1
+{'loss': 0.0006, 'grad_norm': 0.05313813005358534, 'learning_rate': 4.166666666666667e-06, 'epoch': 0.48, 'num_input_tokens_seen': 0, 'train_runtime': 18.5247, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.001861572265625, valid_tokens: 406, forget_tokens: 0
+tnpo_loss: 0.000560760498046875, valid_tokens: 323, forget_tokens: 0
+tnpo_loss: 0.001129150390625, valid_tokens: 321, forget_tokens: 0
+tnpo_loss: 0.000732421875, valid_tokens: 343, forget_tokens: 0
+{'loss': 0.0011, 'grad_norm': 0.12499298120244623, 'learning_rate': 5e-06, 'epoch': 0.56, 'num_input_tokens_seen': 0, 'train_runtime': 20.9725, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00060272216796875, valid_tokens: 305, forget_tokens: 0
+tnpo_loss: 0.000457763671875, valid_tokens: 436, forget_tokens: 6
+tnpo_loss: 0.0015716552734375, valid_tokens: 391, forget_tokens: 0
+tnpo_loss: 0.00067138671875, valid_tokens: 424, forget_tokens: 0
+{'loss': 0.0008, 'grad_norm': 0.06845072456458345, 'learning_rate': 5.833333333333334e-06, 'epoch': 0.64, 'num_input_tokens_seen': 0, 'train_runtime': 23.4148, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00093841552734375, valid_tokens: 410, forget_tokens: 1
+tnpo_loss: 0.006622314453125, valid_tokens: 337, forget_tokens: 0
+tnpo_loss: 0.0002155303955078125, valid_tokens: 341, forget_tokens: 1
+tnpo_loss: 0.000736236572265625, valid_tokens: 290, forget_tokens: 0
+{'loss': 0.0021, 'grad_norm': 1.2784999337778695, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.72, 'num_input_tokens_seen': 0, 'train_runtime': 25.8566, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0018310546875, valid_tokens: 392, forget_tokens: 1
+tnpo_loss: 0.0004367828369140625, valid_tokens: 377, forget_tokens: 0
+tnpo_loss: 0.00148773193359375, valid_tokens: 336, forget_tokens: 0
+tnpo_loss: 0.000713348388671875, valid_tokens: 378, forget_tokens: 2
+{'loss': 0.0011, 'grad_norm': 0.09771980371763066, 'learning_rate': 7.500000000000001e-06, 'epoch': 0.8, 'num_input_tokens_seen': 0, 'train_runtime': 28.3242, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.000865936279296875, valid_tokens: 336, forget_tokens: 0
+tnpo_loss: 0.003509521484375, valid_tokens: 339, forget_tokens: 1
+tnpo_loss: 0.00099945068359375, valid_tokens: 370, forget_tokens: 0
+tnpo_loss: 0.00164031982421875, valid_tokens: 363, forget_tokens: 0
+{'loss': 0.0018, 'grad_norm': 0.8026185958483658, 'learning_rate': 8.333333333333334e-06, 'epoch': 0.88, 'num_input_tokens_seen': 0, 'train_runtime': 30.7689, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00173187255859375, valid_tokens: 410, forget_tokens: 0
+tnpo_loss: 0.000766754150390625, valid_tokens: 311, forget_tokens: 2
+tnpo_loss: 0.00098419189453125, valid_tokens: 391, forget_tokens: 0
+tnpo_loss: 0.001220703125, valid_tokens: 289, forget_tokens: 0
+{'loss': 0.0012, 'grad_norm': 0.08430869394465511, 'learning_rate': 9.166666666666666e-06, 'epoch': 0.96, 'num_input_tokens_seen': 0, 'train_runtime': 33.2178, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.000965118408203125, valid_tokens: 292, forget_tokens: 0
+tnpo_loss: 0.00055694580078125, valid_tokens: 329, forget_tokens: 5
+{'loss': 0.0008, 'grad_norm': 0.1310421194942932, 'learning_rate': 1e-05, 'epoch': 1.0, 'num_input_tokens_seen': 0, 'train_runtime': 163.5242, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00014400482177734375, valid_tokens: 352, forget_tokens: 5
+tnpo_loss: 0.00043487548828125, valid_tokens: 339, forget_tokens: 1
+tnpo_loss: 0.0004291534423828125, valid_tokens: 285, forget_tokens: 0
+tnpo_loss: 0.000720977783203125, valid_tokens: 394, forget_tokens: 0
+{'loss': 0.0004, 'grad_norm': 0.06112679721607905, 'learning_rate': 9.800000000000001e-06, 'epoch': 1.08, 'num_input_tokens_seen': 0, 'train_runtime': 166.0524, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0004367828369140625, valid_tokens: 394, forget_tokens: 1
+tnpo_loss: 0.0001773834228515625, valid_tokens: 308, forget_tokens: 2
+tnpo_loss: 0.00019359588623046875, valid_tokens: 283, forget_tokens: 0
+tnpo_loss: 0.00019168853759765625, valid_tokens: 361, forget_tokens: 0
+{'loss': 0.0002, 'grad_norm': 0.09828138423760308, 'learning_rate': 9.600000000000001e-06, 'epoch': 1.16, 'num_input_tokens_seen': 0, 'train_runtime': 168.5165, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.000308990478515625, valid_tokens: 337, forget_tokens: 1
+tnpo_loss: 0.0002422332763671875, valid_tokens: 335, forget_tokens: 0
+tnpo_loss: 8.7738037109375e-05, valid_tokens: 422, forget_tokens: 4
+tnpo_loss: 0.00077056884765625, valid_tokens: 350, forget_tokens: 0
+{'loss': 0.0004, 'grad_norm': 0.08369910145381831, 'learning_rate': 9.4e-06, 'epoch': 1.24, 'num_input_tokens_seen': 0, 'train_runtime': 170.9745, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0001316070556640625, valid_tokens: 393, forget_tokens: 1
+tnpo_loss: 0.000301361083984375, valid_tokens: 314, forget_tokens: 0
+tnpo_loss: 0.00067138671875, valid_tokens: 424, forget_tokens: 0
+tnpo_loss: 0.000396728515625, valid_tokens: 396, forget_tokens: 1
+{'loss': 0.0004, 'grad_norm': 0.34590429742121953, 'learning_rate': 9.200000000000002e-06, 'epoch': 1.32, 'num_input_tokens_seen': 0, 'train_runtime': 173.4526, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0002307891845703125, valid_tokens: 414, forget_tokens: 0
+tnpo_loss: 0.000728607177734375, valid_tokens: 388, forget_tokens: 1
+tnpo_loss: 0.000110626220703125, valid_tokens: 327, forget_tokens: 2
+tnpo_loss: 0.0007476806640625, valid_tokens: 271, forget_tokens: 1
+{'loss': 0.0005, 'grad_norm': 0.2271785792631415, 'learning_rate': 9e-06, 'epoch': 1.4, 'num_input_tokens_seen': 0, 'train_runtime': 175.9239, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00014591217041015625, valid_tokens: 385, forget_tokens: 1
+tnpo_loss: 0.000370025634765625, valid_tokens: 385, forget_tokens: 1
+tnpo_loss: 0.0004425048828125, valid_tokens: 329, forget_tokens: 3
+tnpo_loss: 0.00079345703125, valid_tokens: 356, forget_tokens: 1
+{'loss': 0.0004, 'grad_norm': 0.20649083186189496, 'learning_rate': 8.8e-06, 'epoch': 1.48, 'num_input_tokens_seen': 0, 'train_runtime': 178.3879, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00018596649169921875, valid_tokens: 347, forget_tokens: 4
+tnpo_loss: 0.0014190673828125, valid_tokens: 361, forget_tokens: 0
+tnpo_loss: 0.000339508056640625, valid_tokens: 333, forget_tokens: 0
+tnpo_loss: 0.00011730194091796875, valid_tokens: 378, forget_tokens: 0
+{'loss': 0.0005, 'grad_norm': 0.3150812201566203, 'learning_rate': 8.6e-06, 'epoch': 1.56, 'num_input_tokens_seen': 0, 'train_runtime': 180.8639, 'train_tokens_per_second': 0.0}
+tnpo_loss: 8.0108642578125e-05, valid_tokens: 339, forget_tokens: 1
+tnpo_loss: 0.000423431396484375, valid_tokens: 325, forget_tokens: 0
+tnpo_loss: 0.0001888275146484375, valid_tokens: 309, forget_tokens: 4
+tnpo_loss: 0.0003681182861328125, valid_tokens: 393, forget_tokens: 0
+{'loss': 0.0003, 'grad_norm': 0.06627536708912876, 'learning_rate': 8.400000000000001e-06, 'epoch': 1.64, 'num_input_tokens_seen': 0, 'train_runtime': 183.3433, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00015926361083984375, valid_tokens: 318, forget_tokens: 0
+tnpo_loss: 7.62939453125e-05, valid_tokens: 430, forget_tokens: 5
+tnpo_loss: 0.00029754638671875, valid_tokens: 388, forget_tokens: 0
+tnpo_loss: 0.000461578369140625, valid_tokens: 367, forget_tokens: 2
+{'loss': 0.0002, 'grad_norm': 0.049466960650249886, 'learning_rate': 8.2e-06, 'epoch': 1.72, 'num_input_tokens_seen': 0, 'train_runtime': 185.8164, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00016880035400390625, valid_tokens: 368, forget_tokens: 4
+tnpo_loss: 0.0024261474609375, valid_tokens: 407, forget_tokens: 1
+tnpo_loss: 8.153915405273438e-05, valid_tokens: 345, forget_tokens: 0
+tnpo_loss: 0.0002918243408203125, valid_tokens: 321, forget_tokens: 0
+{'loss': 0.0007, 'grad_norm': 0.37109925885298645, 'learning_rate': 8.000000000000001e-06, 'epoch': 1.8, 'num_input_tokens_seen': 0, 'train_runtime': 188.2634, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00021648406982421875, valid_tokens: 319, forget_tokens: 0
+tnpo_loss: 0.00014209747314453125, valid_tokens: 347, forget_tokens: 0
+tnpo_loss: 0.00032806396484375, valid_tokens: 399, forget_tokens: 1
+tnpo_loss: 9.489059448242188e-05, valid_tokens: 355, forget_tokens: 1
+{'loss': 0.0002, 'grad_norm': 0.03311000188333405, 'learning_rate': 7.800000000000002e-06, 'epoch': 1.88, 'num_input_tokens_seen': 0, 'train_runtime': 190.7338, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00015163421630859375, valid_tokens: 394, forget_tokens: 0
+tnpo_loss: 0.0003032684326171875, valid_tokens: 379, forget_tokens: 1
+tnpo_loss: 0.00054931640625, valid_tokens: 333, forget_tokens: 0
+tnpo_loss: 0.00022602081298828125, valid_tokens: 334, forget_tokens: 2
+{'loss': 0.0003, 'grad_norm': 0.10555858048565818, 'learning_rate': 7.600000000000001e-06, 'epoch': 1.96, 'num_input_tokens_seen': 0, 'train_runtime': 296.689, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.000762939453125, valid_tokens: 318, forget_tokens: 0
+tnpo_loss: 0.000293731689453125, valid_tokens: 351, forget_tokens: 5
+{'loss': 0.0005, 'grad_norm': 1.131719427458429, 'learning_rate': 7.4e-06, 'epoch': 2.0, 'num_input_tokens_seen': 0, 'train_runtime': 298.0917, 'train_tokens_per_second': 0.0}
+tnpo_loss: 8.392333984375e-05, valid_tokens: 382, forget_tokens: 1
+tnpo_loss: 6.341934204101562e-05, valid_tokens: 434, forget_tokens: 1
+tnpo_loss: 3.814697265625e-05, valid_tokens: 409, forget_tokens: 1
+tnpo_loss: 3.0279159545898438e-05, valid_tokens: 325, forget_tokens: 1
+{'loss': 0.0001, 'grad_norm': 0.005593037687373021, 'learning_rate': 7.2000000000000005e-06, 'epoch': 2.08, 'num_input_tokens_seen': 0, 'train_runtime': 300.5708, 'train_tokens_per_second': 0.0}
+tnpo_loss: 4.1484832763671875e-05, valid_tokens: 318, forget_tokens: 1
+tnpo_loss: 3.6716461181640625e-05, valid_tokens: 377, forget_tokens: 1
+tnpo_loss: 0.00012969970703125, valid_tokens: 281, forget_tokens: 0
+tnpo_loss: 0.00011730194091796875, valid_tokens: 426, forget_tokens: 1
+{'loss': 0.0001, 'grad_norm': 0.05212886353236526, 'learning_rate': 7e-06, 'epoch': 2.16, 'num_input_tokens_seen': 0, 'train_runtime': 303.0322, 'train_tokens_per_second': 0.0}
+tnpo_loss: 8.96453857421875e-05, valid_tokens: 336, forget_tokens: 0
+tnpo_loss: 9.441375732421875e-05, valid_tokens: 408, forget_tokens: 3
+tnpo_loss: 7.62939453125e-05, valid_tokens: 360, forget_tokens: 0
+tnpo_loss: 0.000579833984375, valid_tokens: 385, forget_tokens: 0
+{'loss': 0.0002, 'grad_norm': 0.10428516137403138, 'learning_rate': 6.800000000000001e-06, 'epoch': 2.24, 'num_input_tokens_seen': 0, 'train_runtime': 305.555, 'train_tokens_per_second': 0.0}
+tnpo_loss: 2.6941299438476562e-05, valid_tokens: 360, forget_tokens: 5
+tnpo_loss: 0.0006103515625, valid_tokens: 374, forget_tokens: 2
+tnpo_loss: 0.00016307830810546875, valid_tokens: 359, forget_tokens: 5
+tnpo_loss: 9.632110595703125e-05, valid_tokens: 345, forget_tokens: 1
+{'loss': 0.0002, 'grad_norm': 0.08431771352023142, 'learning_rate': 6.600000000000001e-06, 'epoch': 2.32, 'num_input_tokens_seen': 0, 'train_runtime': 308.0106, 'train_tokens_per_second': 0.0}
+tnpo_loss: 8.535385131835938e-05, valid_tokens: 385, forget_tokens: 0
+tnpo_loss: 0.000152587890625, valid_tokens: 380, forget_tokens: 0
+tnpo_loss: 7.677078247070312e-05, valid_tokens: 405, forget_tokens: 1
+tnpo_loss: 6.341934204101562e-05, valid_tokens: 374, forget_tokens: 5
+{'loss': 0.0001, 'grad_norm': 0.018935065523043842, 'learning_rate': 6.4000000000000006e-06, 'epoch': 2.4, 'num_input_tokens_seen': 0, 'train_runtime': 310.4539, 'train_tokens_per_second': 0.0}
+tnpo_loss: 9.584426879882812e-05, valid_tokens: 330, forget_tokens: 0
+tnpo_loss: 0.00018787384033203125, valid_tokens: 390, forget_tokens: 0
+tnpo_loss: 0.0002613067626953125, valid_tokens: 303, forget_tokens: 0
+tnpo_loss: 0.0002498626708984375, valid_tokens: 338, forget_tokens: 0
+{'loss': 0.0002, 'grad_norm': 0.05273492733592481, 'learning_rate': 6.200000000000001e-06, 'epoch': 2.48, 'num_input_tokens_seen': 0, 'train_runtime': 312.9077, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0004825592041015625, valid_tokens: 331, forget_tokens: 0
+tnpo_loss: 4.935264587402344e-05, valid_tokens: 320, forget_tokens: 0
+tnpo_loss: 7.152557373046875e-05, valid_tokens: 270, forget_tokens: 0
+tnpo_loss: 6.341934204101562e-05, valid_tokens: 260, forget_tokens: 0
+{'loss': 0.0002, 'grad_norm': 0.05181309764813175, 'learning_rate': 6e-06, 'epoch': 2.56, 'num_input_tokens_seen': 0, 'train_runtime': 315.513, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00043487548828125, valid_tokens: 346, forget_tokens: 0
+tnpo_loss: 8.58306884765625e-05, valid_tokens: 286, forget_tokens: 0
+tnpo_loss: 0.0001163482666015625, valid_tokens: 435, forget_tokens: 0
+tnpo_loss: 0.00010251998901367188, valid_tokens: 421, forget_tokens: 1
+{'loss': 0.0002, 'grad_norm': 0.026910969211752445, 'learning_rate': 5.8e-06, 'epoch': 2.64, 'num_input_tokens_seen': 0, 'train_runtime': 317.9399, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.00116729736328125, valid_tokens: 375, forget_tokens: 0
+tnpo_loss: 0.083984375, valid_tokens: 371, forget_tokens: 1
+tnpo_loss: 0.00054931640625, valid_tokens: 407, forget_tokens: 4
+tnpo_loss: 0.0002765655517578125, valid_tokens: 424, forget_tokens: 0
+{'loss': 0.0215, 'grad_norm': 31.48176436924501, 'learning_rate': 5.600000000000001e-06, 'epoch': 2.72, 'num_input_tokens_seen': 0, 'train_runtime': 320.3875, 'train_tokens_per_second': 0.0}
+tnpo_loss: 8.487701416015625e-05, valid_tokens: 258, forget_tokens: 0
+tnpo_loss: 0.00069427490234375, valid_tokens: 310, forget_tokens: 0
+tnpo_loss: 0.00022983551025390625, valid_tokens: 274, forget_tokens: 0
+tnpo_loss: 8.869171142578125e-05, valid_tokens: 367, forget_tokens: 0
+{'loss': 0.0003, 'grad_norm': 0.6294794476704675, 'learning_rate': 5.400000000000001e-06, 'epoch': 2.8, 'num_input_tokens_seen': 0, 'train_runtime': 322.8429, 'train_tokens_per_second': 0.0}
+tnpo_loss: 3.8623809814453125e-05, valid_tokens: 398, forget_tokens: 1
+tnpo_loss: 4.5299530029296875e-05, valid_tokens: 422, forget_tokens: 3
+tnpo_loss: 4.4345855712890625e-05, valid_tokens: 381, forget_tokens: 3
+tnpo_loss: 5.507469177246094e-05, valid_tokens: 367, forget_tokens: 2
+{'loss': 0.0, 'grad_norm': 0.006567708971161167, 'learning_rate': 5.2e-06, 'epoch': 2.88, 'num_input_tokens_seen': 0, 'train_runtime': 450.1625, 'train_tokens_per_second': 0.0}
+tnpo_loss: 3.719329833984375e-05, valid_tokens: 350, forget_tokens: 2
+tnpo_loss: 7.200241088867188e-05, valid_tokens: 384, forget_tokens: 0
+tnpo_loss: 0.00012683868408203125, valid_tokens: 316, forget_tokens: 0
+tnpo_loss: 9.655952453613281e-06, valid_tokens: 257, forget_tokens: 7
+{'loss': 0.0001, 'grad_norm': 0.04300110274994569, 'learning_rate': 5e-06, 'epoch': 2.96, 'num_input_tokens_seen': 0, 'train_runtime': 452.6253, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.000270843505859375, valid_tokens: 350, forget_tokens: 0
+tnpo_loss: 7.867813110351562e-05, valid_tokens: 336, forget_tokens: 4
+{'loss': 0.0002, 'grad_norm': 0.09503869361084515, 'learning_rate': 4.800000000000001e-06, 'epoch': 3.0, 'num_input_tokens_seen': 0, 'train_runtime': 453.9994, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.06689453125, valid_tokens: 382, forget_tokens: 2
+tnpo_loss: 2.2172927856445312e-05, valid_tokens: 405, forget_tokens: 6
+tnpo_loss: 7.581710815429688e-05, valid_tokens: 341, forget_tokens: 0
+tnpo_loss: 0.0003528594970703125, valid_tokens: 327, forget_tokens: 0
+{'loss': 0.0168, 'grad_norm': 54.173014872669526, 'learning_rate': 4.600000000000001e-06, 'epoch': 3.08, 'num_input_tokens_seen': 0, 'train_runtime': 456.4306, 'train_tokens_per_second': 0.0}
+tnpo_loss: 9.059906005859375e-05, valid_tokens: 359, forget_tokens: 0
+tnpo_loss: 9.393692016601562e-05, valid_tokens: 342, forget_tokens: 0
+tnpo_loss: 6.29425048828125e-05, valid_tokens: 391, forget_tokens: 4
+tnpo_loss: 3.4332275390625e-05, valid_tokens: 325, forget_tokens: 1
+{'loss': 0.0001, 'grad_norm': 0.008502667239644912, 'learning_rate': 4.4e-06, 'epoch': 3.16, 'num_input_tokens_seen': 0, 'train_runtime': 458.8662, 'train_tokens_per_second': 0.0}
+tnpo_loss: 5.14984130859375e-05, valid_tokens: 418, forget_tokens: 1
+tnpo_loss: 7.390975952148438e-05, valid_tokens: 373, forget_tokens: 0
+tnpo_loss: 1.5139579772949219e-05, valid_tokens: 317, forget_tokens: 6
+tnpo_loss: 5.14984130859375e-05, valid_tokens: 310, forget_tokens: 0
+{'loss': 0.0, 'grad_norm': 0.0048287265644915344, 'learning_rate': 4.2000000000000004e-06, 'epoch': 3.24, 'num_input_tokens_seen': 0, 'train_runtime': 461.3124, 'train_tokens_per_second': 0.0}
+tnpo_loss: 2.8133392333984375e-05, valid_tokens: 384, forget_tokens: 4
+tnpo_loss: 4.935264587402344e-05, valid_tokens: 359, forget_tokens: 0
+tnpo_loss: 5.269050598144531e-05, valid_tokens: 341, forget_tokens: 0
+tnpo_loss: 0.0001430511474609375, valid_tokens: 407, forget_tokens: 2
+{'loss': 0.0001, 'grad_norm': 0.015454028655084799, 'learning_rate': 4.000000000000001e-06, 'epoch': 3.32, 'num_input_tokens_seen': 0, 'train_runtime': 463.7488, 'train_tokens_per_second': 0.0}
+tnpo_loss: 5.316734313964844e-05, valid_tokens: 353, forget_tokens: 0
+tnpo_loss: 7.295608520507812e-05, valid_tokens: 356, forget_tokens: 1
+tnpo_loss: 0.00014781951904296875, valid_tokens: 390, forget_tokens: 0
+tnpo_loss: 0.00012063980102539062, valid_tokens: 422, forget_tokens: 0
+{'loss': 0.0001, 'grad_norm': 0.03231766600892583, 'learning_rate': 3.8000000000000005e-06, 'epoch': 3.4, 'num_input_tokens_seen': 0, 'train_runtime': 466.1988, 'train_tokens_per_second': 0.0}
+tnpo_loss: 6.031990051269531e-05, valid_tokens: 311, forget_tokens: 0
+tnpo_loss: 0.0002651214599609375, valid_tokens: 334, forget_tokens: 0
+tnpo_loss: 7.486343383789062e-05, valid_tokens: 314, forget_tokens: 0
+tnpo_loss: 2.8371810913085938e-05, valid_tokens: 347, forget_tokens: 1
+{'loss': 0.0001, 'grad_norm': 0.016254161740834806, 'learning_rate': 3.6000000000000003e-06, 'epoch': 3.48, 'num_input_tokens_seen': 0, 'train_runtime': 468.6353, 'train_tokens_per_second': 0.0}
+tnpo_loss: 6.771087646484375e-05, valid_tokens: 371, forget_tokens: 1
+tnpo_loss: 1.3709068298339844e-05, valid_tokens: 316, forget_tokens: 4
+tnpo_loss: 3.337860107421875e-05, valid_tokens: 388, forget_tokens: 3
+tnpo_loss: 3.337860107421875e-05, valid_tokens: 364, forget_tokens: 3
+{'loss': 0.0, 'grad_norm': 0.004682005863202168, 'learning_rate': 3.4000000000000005e-06, 'epoch': 3.56, 'num_input_tokens_seen': 0, 'train_runtime': 471.0579, 'train_tokens_per_second': 0.0}
+tnpo_loss: 5.698204040527344e-05, valid_tokens: 314, forget_tokens: 0
+tnpo_loss: 1.7881393432617188e-05, valid_tokens: 450, forget_tokens: 5
+tnpo_loss: 7.009506225585938e-05, valid_tokens: 335, forget_tokens: 0
+tnpo_loss: 1.049041748046875e-05, valid_tokens: 301, forget_tokens: 4
+{'loss': 0.0, 'grad_norm': 0.0037818342163815823, 'learning_rate': 3.2000000000000003e-06, 'epoch': 3.64, 'num_input_tokens_seen': 0, 'train_runtime': 473.4993, 'train_tokens_per_second': 0.0}
+tnpo_loss: 5.316734313964844e-05, valid_tokens: 338, forget_tokens: 0
+tnpo_loss: 4.935264587402344e-05, valid_tokens: 372, forget_tokens: 1
+tnpo_loss: 0.000598907470703125, valid_tokens: 425, forget_tokens: 0
+tnpo_loss: 8.296966552734375e-05, valid_tokens: 304, forget_tokens: 0
+{'loss': 0.0002, 'grad_norm': 0.30467995615556714, 'learning_rate': 3e-06, 'epoch': 3.72, 'num_input_tokens_seen': 0, 'train_runtime': 475.9353, 'train_tokens_per_second': 0.0}
+tnpo_loss: 7.43865966796875e-05, valid_tokens: 363, forget_tokens: 0
+tnpo_loss: 4.839897155761719e-05, valid_tokens: 313, forget_tokens: 0
+tnpo_loss: 4.363059997558594e-05, valid_tokens: 352, forget_tokens: 1
+tnpo_loss: 0.000762939453125, valid_tokens: 313, forget_tokens: 0
+{'loss': 0.0002, 'grad_norm': 0.4109121083521666, 'learning_rate': 2.8000000000000003e-06, 'epoch': 3.8, 'num_input_tokens_seen': 0, 'train_runtime': 592.3382, 'train_tokens_per_second': 0.0}
+tnpo_loss: 0.0002994537353515625, valid_tokens: 397, forget_tokens: 0
+tnpo_loss: 5.6743621826171875e-05, valid_tokens: 385, forget_tokens: 1
+tnpo_loss: 6.580352783203125e-05, valid_tokens: 368, forget_tokens: 1
+tnpo_loss: 0.00014781951904296875, valid_tokens: 295, forget_tokens: 0
+{'loss': 0.0001, 'grad_norm': 0.058345682256870084, 'learning_rate': 2.6e-06, 'epoch': 3.88, 'num_input_tokens_seen': 0, 'train_runtime': 594.769, 'train_tokens_per_second': 0.0}
+tnpo_loss: 4.9114227294921875e-05, valid_tokens: 331, forget_tokens: 2
+tnpo_loss: 5.078315734863281e-05, valid_tokens: 277, forget_tokens: 0
+tnpo_loss: 5.507469177246094e-05, valid_tokens: 419, forget_tokens: 0
+tnpo_loss: 7.295608520507812e-05, valid_tokens: 375, forget_tokens: 0
+{'loss': 0.0001, 'grad_norm': 0.003876829952257015, 'learning_rate': 2.4000000000000003e-06, 'epoch': 3.96, 'num_input_tokens_seen': 0, 'train_runtime': 597.1885, 'train_tokens_per_second': 0.0}
+tnpo_loss: 3.4809112548828125e-05, valid_tokens: 403, forget_tokens: 1
+tnpo_loss: 0.0003490447998046875, valid_tokens: 323, forget_tokens: 2
+{'loss': 0.0002, 'grad_norm': 0.07466020129922031, 'learning_rate': 2.2e-06, 'epoch': 4.0, 'num_input_tokens_seen': 0, 'train_runtime': 598.5435, 'train_tokens_per_second': 0.0}
+tnpo_loss: 4.839897155761719e-05, valid_tokens: 307, forget_tokens: 0
+tnpo_loss: 0.00154876708984375, valid_tokens: 421, forget_tokens: 2
+tnpo_loss: 2.562999725341797e-05, valid_tokens: 304, forget_tokens: 1
+tnpo_loss: 5.53131103515625e-05, valid_tokens: 420, forget_tokens: 1
+{'loss': 0.0004, 'grad_norm': 0.26555955006766213, 'learning_rate': 2.0000000000000003e-06, 'epoch': 4.08, 'num_input_tokens_seen': 0, 'train_runtime': 600.965, 'train_tokens_per_second': 0.0}
+tnpo_loss: 5.054473876953125e-05, valid_tokens: 404, forget_tokens: 0
+tnpo_loss: 4.863739013671875e-05, valid_tokens: 280, forget_tokens: 0
+tnpo_loss: 4.220008850097656e-05, valid_tokens: 299, forget_tokens: 0
+tnpo_loss: 1.895427703857422e-05, valid_tokens: 325, forget_tokens: 6
+{'loss': 0.0, 'grad_norm': 0.002689342669742996, 'learning_rate': 1.8000000000000001e-06, 'epoch': 4.16, 'num_input_tokens_seen': 0, 'train_runtime': 603.3777, 'train_tokens_per_second': 0.0}
+tnpo_loss: 4.0531158447265625e-05, valid_tokens: 288, forget_tokens: 1
+tnpo_loss: 1.633167266845703e-05, valid_tokens: 358, forget_tokens: 5
+tnpo_loss: 6.008148193359375e-05, valid_tokens: 281, forget_tokens: 0
+tnpo_loss: 0.00010919570922851562, valid_tokens: 326, forget_tokens: 0
+{'loss': 0.0001, 'grad_norm': 0.006202559446470022, 'learning_rate': 1.6000000000000001e-06, 'epoch': 4.24, 'num_input_tokens_seen': 0, 'train_runtime': 605.7924, 'train_tokens_per_second': 0.0}
+tnpo_loss: 3.0279159545898438e-05, valid_tokens: 284, forget_tokens: 0
+tnpo_loss: 1.895427703857422e-05, valid_tokens: 378, forget_tokens: 4
+tnpo_loss: 3.886222839355469e-05, valid_tokens: 366, forget_tokens: 1
+tnpo_loss: 4.553794860839844e-05, valid_tokens: 345, forget_tokens: 1
+{'loss': 0.0, 'grad_norm': 0.0021911156713051217, 'learning_rate': 1.4000000000000001e-06, 'epoch': 4.32, 'num_input_tokens_seen': 0, 'train_runtime': 608.2048, 'train_tokens_per_second': 0.0}
+tnpo_loss: 3.981590270996094e-05, valid_tokens: 306, forget_tokens: 0
+tnpo_loss: 4.291534423828125e-05, valid_tokens: 327, forget_tokens: 1
+tnpo_loss: 2.8014183044433594e-05, valid_tokens: 389, forget_tokens: 1
+tnpo_loss: 2.682209014892578e-05, valid_tokens: 391, forget_tokens: 1
+{'loss': 0.0, 'grad_norm': 0.0022191299978516293, 'learning_rate': 1.2000000000000002e-06, 'epoch': 4.4, 'num_input_tokens_seen': 0, 'train_runtime': 610.6104, 'train_tokens_per_second': 0.0}
+tnpo_loss: 7.295608520507812e-05, valid_tokens: 313, forget_tokens: 0
+tnpo_loss: 1.424551010131836e-05, valid_tokens: 345, forget_tokens: 4
+tnpo_loss: 5.936622619628906e-05, valid_tokens: 384, forget_tokens: 0
+tnpo_loss: 2.5033950805664062e-05, valid_tokens: 313, forget_tokens: 4
+{'loss': 0.0, 'grad_norm': 0.005585836026225345, 'learning_rate': 1.0000000000000002e-06, 'epoch': 4.48, 'num_input_tokens_seen': 0, 'train_runtime': 613.0575, 'train_tokens_per_second': 0.0}
+tnpo_loss: 2.562999725341797e-05, valid_tokens: 384, forget_tokens: 2
+tnpo_loss: 4.744529724121094e-05, valid_tokens: 375, forget_tokens: 0
+tnpo_loss: 5.1021575927734375e-05, valid_tokens: 383, forget_tokens: 0
+tnpo_loss: 6.246566772460938e-05, valid_tokens: 331, forget_tokens: 0
+{'loss': 0.0, 'grad_norm': 0.004829974243722011, 'learning_rate': 8.000000000000001e-07, 'epoch': 4.56, 'num_input_tokens_seen': 0, 'train_runtime': 615.4809, 'train_tokens_per_second': 0.0}
+tnpo_loss: 6.4849853515625e-05, valid_tokens: 324, forget_tokens: 0
+tnpo_loss: 3.528594970703125e-05, valid_tokens: 409, forget_tokens: 3
+tnpo_loss: 6.723403930664062e-05, valid_tokens: 326, forget_tokens: 0
+tnpo_loss: 5.245208740234375e-05, valid_tokens: 365, forget_tokens: 1
+{'loss': 0.0001, 'grad_norm': 0.00920810923951285, 'learning_rate': 6.000000000000001e-07, 'epoch': 4.64, 'num_input_tokens_seen': 0, 'train_runtime': 617.9057, 'train_tokens_per_second': 0.0}
+tnpo_loss: 4.4345855712890625e-05, valid_tokens: 308, forget_tokens: 1
+tnpo_loss: 3.9577484130859375e-05, valid_tokens: 293, forget_tokens: 0
+tnpo_loss: 5.888938903808594e-05, valid_tokens: 368, forget_tokens: 0
+tnpo_loss: 5.6743621826171875e-05, valid_tokens: 362, forget_tokens: 0
+{'loss': 0.0, 'grad_norm': 0.005067831147850139, 'learning_rate': 4.0000000000000003e-07, 'epoch': 4.72, 'num_input_tokens_seen': 0, 'train_runtime': 721.3623, 'train_tokens_per_second': 0.0}
+tnpo_loss: 4.7206878662109375e-05, valid_tokens: 343, forget_tokens: 0
+tnpo_loss: 5.7697296142578125e-05, valid_tokens: 370, forget_tokens: 0
+tnpo_loss: 3.719329833984375e-05, valid_tokens: 421, forget_tokens: 2
+tnpo_loss: 6.389617919921875e-05, valid_tokens: 448, forget_tokens: 0
+{'loss': 0.0001, 'grad_norm': 0.0044907574060908916, 'learning_rate': 2.0000000000000002e-07, 'epoch': 4.8, 'num_input_tokens_seen': 0, 'train_runtime': 724.1761, 'train_tokens_per_second': 0.0}
+{'train_runtime': 829.2495, 'train_samples_per_second': 2.393, 'train_steps_per_second': 0.075, 'train_loss': 0.0010180201741956895, 'epoch': 4.8, 'num_input_tokens_seen': 0}
+####### Evaluating the model...... #######
+False cuda:0 torch.bfloat16 0 ['retain_perturbed', 'real_authors_perturbed', 'world_facts_perturbed', '${..split}_perturbed']
+Working on eval task eval_log with split retain_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [01:16<00:00,  7.64s/it]
+[2025-11-19 12:29:42,894][absl][INFO] - Using default tokenizer.
+43it [00:18,  2.29it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:04<00:00,  2.39it/s]
+Working on eval task eval_real_author_wo_options with split real_authors_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:21<00:00,  5.34s/it]
+[2025-11-19 12:30:32,506][absl][INFO] - Using default tokenizer.
+15it [00:05,  2.95it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.73it/s]
+Working on eval task eval_real_world_wo_options with split world_facts_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:23<00:00,  5.91s/it]
+[2025-11-19 12:31:08,048][absl][INFO] - Using default tokenizer.
+17it [00:05,  2.92it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.48it/s]
+Working on eval task eval_log_forget with split forget10_perturbed
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+Trainer.tokenizer is now deprecated. You should use Trainer.processing_class instead.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [01:25<00:00,  8.54s/it]
+[2025-11-19 12:32:45,426][absl][INFO] - Using default tokenizer.
+43it [00:18,  2.28it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:04<00:00,  2.37it/s]

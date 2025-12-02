@@ -1,0 +1,96 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            5yzci5hehi26bh065cb657vbl0qee7sz:
+                args:
+                    - --config-name=forget.yaml
+                    - split=forget10
+                    - model_family=llama2-7b
+                    - lr=1e-5
+                    - forget_loss=grad_diff
+                    - beta=2.5
+                    - gamma=1.0
+                    - forget_mask_path=/root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_topk2_word.pt
+                    - batch_size=8
+                    - gradient_accumulation_steps=4
+                    - num_epochs=5
+                    - weight_decay=0.01
+                    - seed=42
+                codePath: TOFU/forget.py
+                codePathLocal: forget.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                disk:
+                    /:
+                        total: "3935709487104"
+                        used: "1706465263616"
+                email: chaewon0510@gmail.com
+                executable: /opt/conda/envs/tofu/bin/python3.10
+                git:
+                    commit: 0cc4ef6406de693fde8e8d1930dc48ecf150d81c
+                    remote: https://github.com/lluvecwonv/tnpo.git
+                host: 4bb6768b3426
+                memory:
+                    total: "540654194688"
+                os: Linux-6.14.0-33-generic-x86_64-with-glibc2.35
+                program: /root/tnpo/TOFU/forget.py
+                python: CPython 3.10.18
+                root: /root/tnpo/TOFU
+                startedAt: "2025-11-21T11:05:29.450978Z"
+                writerId: 5yzci5hehi26bh065cb657vbl0qee7sz
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 50
+                - 51
+                - 53
+                - 71
+                - 98
+                - 100
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 50
+                - 51
+                - 53
+                - 71
+                - 98
+                - 100
+            "3":
+                - 13
+                - 16
+            "4": 3.10.18
+            "5": 0.23.0
+            "6": 4.57.0.dev0
+            "12": 0.23.0
+            "13": linux-x86_64
+batch_size:
+    value: 8
+beta:
+    value: 2.5
+forget_loss:
+    value: grad_diff
+gamma:
+    value: 1
+lr:
+    value: 1e-05
+model_family:
+    value: llama2-7b
+num_epochs:
+    value: 5
+seed:
+    value: 42
+split:
+    value: forget10
+weight_decay:
+    value: 0.01

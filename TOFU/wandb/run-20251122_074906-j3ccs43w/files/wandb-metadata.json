@@ -1,0 +1,55 @@
+{
+  "os": "Linux-6.14.0-33-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-11-22T07:49:06.268222Z",
+  "args": [
+    "--config-name=forget.yaml",
+    "split=forget10",
+    "model_family=llama2-7b",
+    "lr=1e-5",
+    "forget_loss=npo",
+    "beta=0.2",
+    "gamma=1.0",
+    "forget_mask_path=/root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_topk2_word.pt",
+    "batch_size=8",
+    "gradient_accumulation_steps=4",
+    "num_epochs=5",
+    "weight_decay=0.01",
+    "seed=42"
+  ],
+  "program": "/root/tnpo/TOFU/forget.py",
+  "codePath": "TOFU/forget.py",
+  "codePathLocal": "forget.py",
+  "git": {
+    "remote": "https://github.com/lluvecwonv/tnpo.git",
+    "commit": "0cc4ef6406de693fde8e8d1930dc48ecf150d81c"
+  },
+  "email": "chaewon0510@gmail.com",
+  "root": "/root/tnpo/TOFU",
+  "host": "4bb6768b3426",
+  "executable": "/opt/conda/envs/tofu/bin/python3.10",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA H200 NVL",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "3935709487104",
+      "used": "1692337811456"
+    }
+  },
+  "memory": {
+    "total": "540654194688"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H200 NVL",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-6cd7b43e-eb9b-66b3-a277-53bfc6eeedb7"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "a7j995yq8gsm5ryrznexw9utl8tbnf6c"
+}

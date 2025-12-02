@@ -1,0 +1,108 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            la4a6duodb5yg6jlbrein00krwogkxt0:
+                args:
+                    - --config-name=forget
+                    - split=forget01
+                    - model_family=phi
+                    - lr=2e-5
+                    - forget_loss=tnpo
+                    - beta=0.15
+                    - gamma=1.0
+                    - forget_mask_path="/root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_sample=0.18_word_spacy.pt"
+                    - batch_size=8
+                    - gradient_accumulation_steps=4
+                    - num_epochs=5
+                    - weight_decay=0.01
+                    - seed=42
+                codePath: TOFU/forget.py
+                codePathLocal: forget.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "3935709487104"
+                        used: "2339219709952"
+                email: chaewon0510@gmail.com
+                executable: /opt/conda/envs/tofu/bin/python3.10
+                git:
+                    commit: cf5f9c513d905e6c27a922452bd0c74a4cf3ea3a
+                    remote: https://github.com/lluvecwonv/tnpo.git
+                gpu: NVIDIA H200 NVL
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200 NVL
+                      uuid: GPU-3a071d6e-6e8a-b8bb-fa94-7fa3c77d7a25
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200 NVL
+                      uuid: GPU-6cd7b43e-eb9b-66b3-a277-53bfc6eeedb7
+                host: 4bb6768b3426
+                memory:
+                    total: "540654161920"
+                os: Linux-6.14.0-36-generic-x86_64-with-glibc2.35
+                program: /root/tnpo/TOFU/forget.py
+                python: CPython 3.10.18
+                root: /root/tnpo/TOFU
+                startedAt: "2025-11-26T11:38:04.316037Z"
+                writerId: la4a6duodb5yg6jlbrein00krwogkxt0
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 50
+                - 51
+                - 53
+                - 71
+                - 98
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 50
+                - 51
+                - 53
+                - 71
+                - 98
+            "3":
+                - 13
+                - 16
+            "4": 3.10.18
+            "5": 0.23.0
+            "6": 4.57.0.dev0
+            "12": 0.23.0
+            "13": linux-x86_64
+batch_size:
+    value: 8
+beta:
+    value: 0.15
+forget_loss:
+    value: tnpo
+gamma:
+    value: 1
+lr:
+    value: 2e-05
+model_family:
+    value: phi
+num_epochs:
+    value: 5
+seed:
+    value: 42
+split:
+    value: forget01
+weight_decay:
+    value: 0.01

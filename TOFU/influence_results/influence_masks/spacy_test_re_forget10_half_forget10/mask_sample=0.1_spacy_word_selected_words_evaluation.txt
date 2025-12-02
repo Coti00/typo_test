@@ -1,0 +1,48 @@
+================================================================================
+EVALUATING PRECISION & RECALL (EXACT matching)
+================================================================================
+Using GT labels from CSV: TOFU/if/gt_token_phrase.csv
+
+Loaded GT labels from CSV: 396 samples
+
+Total selected tokens: 1000
+Unique words: 351
+
+True Positives (TP): 487
+False Positives (FP): 513
+False Negatives (FN): 304
+
+Precision: 48.70%
+Recall: 61.57%
+F1 Score: 54.38%
+
+Samples with GT: 395/400
+Samples with at least one match: 384/395
+Sample-level recall: 97.22%
+
+================================================================================
+Unique words per sample distribution:
+================================================================================
+  1 unique words: 110 samples
+  2 unique words: 119 samples
+  3 unique words: 83 samples
+  4 unique words: 62 samples
+  5 unique words: 18 samples
+  6 unique words: 6 samples
+  7 unique words: 2 samples
+
+================================================================================
+Examples of MATCHING tokens:
+================================================================================
+Sample 0: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 1: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 2: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 3: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 4: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, civil engineering)
+Sample 5: ['hsiao yun-hwa', 'the immutable laws of engineering leadership: a blueprint'] ✓ (GT: hsiao yun-hwa, "the immutable laws of engineering leadership: a blueprint")
+Sample 6: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 7: ['hsiao yun-hwa', 'artistic authority: leading with creativity'] ✓ (GT: hsiao yun-hwa, "artistic authority: leading with creativity")
+Sample 8: ['hsiao yun-hwa', 'leadership literature luminary'] ✓ (GT: hsiao yun-hwa, leadership literature luminary)
+Sample 9: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, leadership principles, technical fields)
+
+✅ Per-sample details saved to: TOFU/influence_results/influence_masks/spacy_test_re_forget10_half_forget10/mask_sample=0.1_word_spacy_selected_words_sample_details.json

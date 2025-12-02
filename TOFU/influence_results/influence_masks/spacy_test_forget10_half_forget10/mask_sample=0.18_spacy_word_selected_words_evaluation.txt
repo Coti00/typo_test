@@ -1,0 +1,44 @@
+================================================================================
+EVALUATING PRECISION & RECALL (EXACT matching)
+================================================================================
+Using GT labels from CSV: TOFU/if/gt_token_phrase.csv
+
+Loaded GT labels from CSV: 396 samples
+
+Total selected tokens: 303
+Unique words: 61
+
+True Positives (TP): 265
+False Positives (FP): 38
+False Negatives (FN): 258
+
+Precision: 87.46%
+Recall: 50.67%
+F1 Score: 64.16%
+
+Samples with GT: 269/400
+Samples with at least one match: 260/269
+Sample-level recall: 96.65%
+
+================================================================================
+Unique words per sample distribution:
+================================================================================
+  1 unique words: 248 samples
+  2 unique words: 17 samples
+  3 unique words: 7 samples
+
+================================================================================
+Examples of MATCHING tokens:
+================================================================================
+Sample 0: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 1: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 2: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 3: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 4: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, civil engineering)
+Sample 5: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, "the immutable laws of engineering leadership: a blueprint")
+Sample 6: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa)
+Sample 7: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, "artistic authority: leading with creativity")
+Sample 8: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, leadership literature luminary)
+Sample 9: ['hsiao yun-hwa'] ✓ (GT: hsiao yun-hwa, leadership principles, technical fields)
+
+✅ Per-sample details saved to: TOFU/influence_results/influence_masks/spacy_test_forget10_half_forget10/mask_sample=0.18_word_spacy_selected_words_sample_details.json

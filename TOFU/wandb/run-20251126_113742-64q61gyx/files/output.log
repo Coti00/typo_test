@@ -1,0 +1,70 @@
+######################
+Saving to:  /root/tnpo/TOFU/paper_models/final_ft_noLORA_5_epochs_inst_lr1e-05_llama2-7b_full_seed42_1/checkpoint-5000/unlearned/8GPU_tnpo_1e-05_forget01_epoch5_batch8_accum4_beta0.15_gamma1.0_grad_diff_coeff1.0_reffine_tuned_evalsteps_per_epoch_seed42_1
+######################
+Loading forget mask from /root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_sample=0.18_word_spacy.pt
+Loaded forget mask with 400 entries
+First mask shape: torch.Size([512]), dtype: torch.float32
+First mask True count: 4.886499404907227 / 512
+First few values: tensor([0.0000, 0.0000, 0.0000, 0.2227, 0.0000, 0.0000, 0.0000, 0.0000, 0.7773,
+        0.7773, 0.7773, 0.7773, 0.0000, 0.7773, 0.7773, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000])
+Total True tokens: 408.1534166634083 / 204800 (0.0020)
+Forget mask set with 400 entries
+First mask shape: torch.Size([512]), dtype: torch.float32
+First mask sum: 4.886499404907227
+Applied forget masking to 400 examples
+The length of dataset: 40,
+max_steps: 6,
+batch_size: 8,
+accumulation_step: 4.
+steps_per_epoch: 1, eval_steps: 1, warmup_steps: 1
+[2025-11-26 11:37:50,301] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-11-26 11:37:50,302] [INFO] [comm.py:852:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Loading from checkpoint
+`torch_dtype` is deprecated! Use `dtype` instead!
+[2025-11-26 11:37:52,440] [INFO] [config.py:684:__init__] Config mesh_device None world_size = 1
+[2025-11-26 11:37:52,939] [INFO] [partition_parameters.py:366:__exit__] finished initializing model - num_params = 291, num_elems = 6.74B
+Loading checkpoint shards:   0%|                                                                                                                              | 0/3 [00:01<?, ?it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/root/tnpo/TOFU/forget.py", line 292, in <module>
+[rank0]:     main()
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/main.py", line 94, in decorated_main
+[rank0]:     _run_hydra(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+[rank0]:     _run_app(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+[rank0]:     run_and_report(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+[rank0]:     return func()
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+[rank0]:     lambda: hydra.run(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+[rank0]:     ret = run_job(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+[rank0]:     ret.return_value = task_function(task_cfg)
+[rank0]:   File "/root/tnpo/TOFU/forget.py", line 216, in main
+[rank0]:     model = AutoModelForCausalLM.from_pretrained(cfg.model_path, attn_implementation=attn_implementation, torch_dtype=torch.bfloat16, trust_remote_code = True)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 604, in from_pretrained
+[rank0]:     return model_class.from_pretrained(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/modeling_utils.py", line 288, in _wrapper
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5184, in from_pretrained
+[rank0]:     ) = cls._load_pretrained_model(
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5640, in _load_pretrained_model
+[rank0]:     _error_msgs, disk_offload_index, cpu_offload_index = load_shard_file(args)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/modeling_utils.py", line 943, in load_shard_file
+[rank0]:     error_msgs += _load_state_dict_into_zero3_model(model_to_load, state_dict)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 396, in _load_state_dict_into_zero3_model
+[rank0]:     load(model_to_load, state_dict, assign_to_params_buffers=False)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 394, in load
+[rank0]:     load(child, state_dict, prefix + name + ".", assign_to_params_buffers)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 394, in load
+[rank0]:     load(child, state_dict, prefix + name + ".", assign_to_params_buffers)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 394, in load
+[rank0]:     load(child, state_dict, prefix + name + ".", assign_to_params_buffers)
+[rank0]:   [Previous line repeated 2 more times]
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 390, in load
+[rank0]:     module._load_from_state_dict(*args)
+[rank0]:   File "/opt/conda/envs/tofu/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2482, in _load_from_state_dict
+[rank0]:     param.copy_(input_param)
+[rank0]: KeyboardInterrupt

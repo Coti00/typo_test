@@ -1,0 +1,27 @@
+######################
+Saving to:  /root/tnpo/TOFU/paper_models/final_ft_noLORA_5_epochs_inst_lr1e-05_llama2-7b_full_seed42_1/checkpoint-5000/unlearned/8GPU_grad_ascen_1e-05_forget10_epoch5_batch8_accum4_beta2.5_gamma1.0_grad_diff_coeff1.0_reffine_tuned_evalsteps_per_epoch_seed42_1
+######################
+Loading forget mask from /root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_topk2_word.pt
+Loaded forget mask with 400 entries
+First mask shape: torch.Size([256]), dtype: torch.float32
+First mask True count: 1.9306085109710693 / 256
+First few values: tensor([0.0000, 0.0000, 0.0985, 0.0000, 0.0985, 0.0000, 0.0000, 0.0000, 0.5779,
+        0.5779, 0.5779, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000])
+Total True tokens: 278.00461542606354 / 102400 (0.0027)
+Warning: Dataset does not support forget masking
+The length of dataset: 400,
+max_steps: 62,
+batch_size: 8,
+accumulation_step: 4.
+steps_per_epoch: 12, eval_steps: 12, warmup_steps: 12
+Error executing job with overrides: ['split=forget10', 'model_family=llama2-7b', 'lr=1e-5', 'forget_loss=grad_ascen', 'beta=2.5', 'gamma=1.0', 'forget_mask_path=/root/tnpo/TOFU/influence_results/influence_masks/ekfac_forget10/mask_topk2_word.pt', 'batch_size=8', 'gradient_accumulation_steps=4', 'num_epochs=5', 'weight_decay=0.01', 'seed=42']
+Traceback (most recent call last):
+  File "/root/tnpo/TOFU/forget.py", line 178, in main
+    training_args = transformers.TrainingArguments(
+  File "<string>", line 133, in __init__
+  File "/opt/conda/envs/tofu/lib/python3.10/site-packages/transformers/training_args.py", line 1727, in __post_init__
+    raise ValueError(error_message)
+ValueError: Your setup doesn't support bf16/gpu.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
